@@ -1,0 +1,16 @@
+/target/
+/explorer/target/
+/output/
+/output
+/*.rpf
+/bus
+
+/site/
+/.venv-docs/
+/.venv/
+__pycache__/
+*.pyc
+/cache/
+
+# NDA/GDK material: local only, never committed
+/private/

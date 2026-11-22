@@ -1,0 +1,1936 @@
+root_id	root_name	key_hash	key_name	subtree_records	rotation_leaves	same_root_name_hash	named_part_present
+0x8316534f	216cstreamer	0xfbdba1a6		47	4	False	False
+0x8316534f	216cstreamer	0xeaeecb7b		47	4	False	False
+0x8316534f	216cstreamer	0x8bb5d91e		47	4	False	False
+0x8316534f	216cstreamer	0x0552ea55		47	4	False	False
+0x4c80eb0e	airbus	0xfbdba1a6		59	6	False	False
+0x4c80eb0e	airbus	0xeaeecb7b		59	6	False	False
+0x4c80eb0e	airbus	0x8bb5d91e		59	6	False	False
+0x4c80eb0e	airbus	0x0552ea55		59	6	False	False
+0x32e37f93	airgator	0x2e4ed02f		17	1	False	False
+0x6bddd83c	airmule	0xfbdba1a6		23	0	False	False
+0x6bddd83c	airmule	0xeaeecb7b		23	0	False	False
+0x6bddd83c	airmule	0x87d29d26		23	0	False	False
+0x6bddd83c	airmule	0x8f951f70		23	0	False	False
+0x8777ee43	akane	0x6ec686bf	window_lr_mover	89	5	False	False
+0x8777ee43	akane	0x6ec686bf	window_lr_mover	89	5	False	False
+0x8777ee43	akane	0x86d36840	window_lf_mover	89	5	False	False
+0x8777ee43	akane	0x86d36840	window_lf_mover	89	5	False	False
+0x8777ee43	akane	0x87d29d26		89	5	False	False
+0x8777ee43	akane	0x8f951f70		89	5	False	False
+0x8777ee43	akane	0xfbdba1a6		89	5	False	False
+0x8777ee43	akane	0x8bb5d91e		89	5	False	False
+0x8777ee43	akane	0xfc0ce3f6	window_rr_mover	89	5	False	False
+0x8777ee43	akane	0xfc0ce3f6	window_rr_mover	89	5	False	False
+0x8777ee43	akane	0x031fd5fc	window_rf_mover	89	5	False	False
+0x8777ee43	akane	0x031fd5fc	window_rf_mover	89	5	False	False
+0xfdaebf27	aleutian	0x6ec686bf	window_lr_mover	135	8	False	False
+0xfdaebf27	aleutian	0x6ec686bf	window_lr_mover	135	8	False	False
+0xfdaebf27	aleutian	0x86d36840	window_lf_mover	135	8	False	False
+0xfdaebf27	aleutian	0x86d36840	window_lf_mover	135	8	False	False
+0xfdaebf27	aleutian	0x87d29d26		135	8	False	False
+0xfdaebf27	aleutian	0x8f951f70		135	8	False	False
+0xfdaebf27	aleutian	0xfbdba1a6		135	8	False	False
+0xfdaebf27	aleutian	0xeaeecb7b		135	8	False	False
+0xfdaebf27	aleutian	0x8bb5d91e		135	8	False	False
+0xfdaebf27	aleutian	0x0552ea55		135	8	False	False
+0xfdaebf27	aleutian	0xfc0ce3f6	window_rr_mover	135	8	False	False
+0xfdaebf27	aleutian	0xfc0ce3f6	window_rr_mover	135	8	False	False
+0xfdaebf27	aleutian	0x031fd5fc	window_rf_mover	135	8	False	False
+0xfdaebf27	aleutian	0x031fd5fc	window_rf_mover	135	8	False	False
+0xfdaebf27	aleutian	0x66ec13b0		135	8	False	False
+0xfdaebf27	aleutian	0x66ec13b0		135	8	False	False
+0xe8ee6ce3	allander	0x87d29d26		103	2	False	False
+0xe8ee6ce3	allander	0x8f951f70		103	2	False	False
+0xe8ee6ce3	allander	0xfbdba1a6		103	2	False	False
+0xe8ee6ce3	allander	0xeaeecb7b		103	2	False	False
+0xe8ee6ce3	allander	0x8bb5d91e		103	2	False	False
+0xe8ee6ce3	allander	0x0552ea55		103	2	False	False
+0xe8ee6ce3	allander	0x6ec686bf	window_lr_mover	103	2	False	False
+0xe8ee6ce3	allander	0x6ec686bf	window_lr_mover	103	2	False	False
+0xe8ee6ce3	allander	0x86d36840	window_lf_mover	103	2	False	False
+0xe8ee6ce3	allander	0x86d36840	window_lf_mover	103	2	False	False
+0xe8ee6ce3	allander	0xfc0ce3f6	window_rr_mover	103	2	False	False
+0xe8ee6ce3	allander	0xfc0ce3f6	window_rr_mover	103	2	False	False
+0xe8ee6ce3	allander	0x031fd5fc	window_rf_mover	103	2	False	False
+0xe8ee6ce3	allander	0x031fd5fc	window_rf_mover	103	2	False	False
+0xe8ee6ce3	allander	0x66ec13b0		103	2	False	False
+0xe8ee6ce3	allander	0x66ec13b0		103	2	False	False
+0x58949d00	alvaro	0x86d36840	window_lf_mover	71	0	False	False
+0x58949d00	alvaro	0x86d36840	window_lf_mover	71	0	False	False
+0x58949d00	alvaro	0x6ec686bf	window_lr_mover	71	0	False	False
+0x58949d00	alvaro	0x6ec686bf	window_lr_mover	71	0	False	False
+0x58949d00	alvaro	0xfbdba1a6		71	0	False	False
+0x58949d00	alvaro	0xeaeecb7b		71	0	False	False
+0x58949d00	alvaro	0x8bb5d91e		71	0	False	False
+0x58949d00	alvaro	0x0552ea55		71	0	False	False
+0x58949d00	alvaro	0x031fd5fc	window_rf_mover	71	0	False	False
+0x58949d00	alvaro	0x031fd5fc	window_rf_mover	71	0	False	False
+0x58949d00	alvaro	0xfc0ce3f6	window_rr_mover	71	0	False	False
+0x58949d00	alvaro	0xfc0ce3f6	window_rr_mover	71	0	False	False
+0x45d56ada	ambulance	0xfbdba1a6		75	6	False	False
+0x45d56ada	ambulance	0xeaeecb7b		75	6	False	False
+0x45d56ada	ambulance	0x8bb5d91e		75	6	False	False
+0x45d56ada	ambulance	0x0552ea55		75	6	False	False
+0x45d56ada	ambulance	0x86d36840	window_lf_mover	75	6	False	False
+0x45d56ada	ambulance	0x86d36840	window_lf_mover	75	6	False	False
+0x45d56ada	ambulance	0x031fd5fc	window_rf_mover	75	6	False	False
+0x45d56ada	ambulance	0x031fd5fc	window_rf_mover	75	6	False	False
+0xd09e6bcd	ambulance2	0xfbdba1a6		77	9	False	False
+0xd09e6bcd	ambulance2	0xeaeecb7b		77	9	False	False
+0xd09e6bcd	ambulance2	0x8bb5d91e		77	9	False	False
+0xd09e6bcd	ambulance2	0x0552ea55		77	9	False	False
+0xd09e6bcd	ambulance2	0x86d36840	window_lf_mover	77	9	False	False
+0xd09e6bcd	ambulance2	0x031fd5fc	window_rf_mover	77	9	False	False
+0xb98738f8	animus	0xfbdba1a6		79	6	False	False
+0xb98738f8	animus	0x8bb5d91e		79	6	False	False
+0xb98738f8	animus	0x0552ea55		79	6	False	False
+0xb98738f8	animus	0x6ec686bf	window_lr_mover	79	6	False	False
+0xb98738f8	animus	0x86d36840	window_lf_mover	79	6	False	False
+0xb98738f8	animus	0x86d36840	window_lf_mover	79	6	False	False
+0xb98738f8	animus	0xfc0ce3f6	window_rr_mover	79	6	False	False
+0xb98738f8	animus	0x031fd5fc	window_rf_mover	79	6	False	False
+0xb98738f8	animus	0x031fd5fc	window_rf_mover	79	6	False	False
+0x32f45821	arcturus	0x8bb5d91e		59	2	False	False
+0x32f45821	arcturus	0x0552ea55		59	2	False	False
+0x32f45821	arcturus	0xfbdba1a6		59	2	False	False
+0x32f45821	arcturus	0xeaeecb7b		59	2	False	False
+0x32f45821	arcturus	0x86d36840	window_lf_mover	59	2	False	False
+0x32f45821	arcturus	0x86d36840	window_lf_mover	59	2	False	False
+0x32f45821	arcturus	0x031fd5fc	window_rf_mover	59	2	False	False
+0x32f45821	arcturus	0x031fd5fc	window_rf_mover	59	2	False	False
+0xd3d366b1	asterope2	0x86d36840	window_lf_mover	77	1	False	False
+0xd3d366b1	asterope2	0x86d36840	window_lf_mover	77	1	False	False
+0xd3d366b1	asterope2	0xfbdba1a6		77	1	False	False
+0xd3d366b1	asterope2	0xeaeecb7b		77	1	False	False
+0xd3d366b1	asterope2	0x8bb5d91e		77	1	False	False
+0xd3d366b1	asterope2	0x0552ea55		77	1	False	False
+0xd3d366b1	asterope2	0x6ec686bf	window_lr_mover	77	1	False	False
+0xd3d366b1	asterope2	0x6ec686bf	window_lr_mover	77	1	False	False
+0xd3d366b1	asterope2	0x031fd5fc	window_rf_mover	77	1	False	False
+0xd3d366b1	asterope2	0x031fd5fc	window_rf_mover	77	1	False	False
+0xd3d366b1	asterope2	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0xd3d366b1	asterope2	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0x258c9364	astron	0x86d36840	window_lf_mover	119	6	False	False
+0x258c9364	astron	0x86d36840	window_lf_mover	119	6	False	False
+0x258c9364	astron	0x6ec686bf	window_lr_mover	119	6	False	False
+0x258c9364	astron	0x6ec686bf	window_lr_mover	119	6	False	False
+0x258c9364	astron	0x031fd5fc	window_rf_mover	119	6	False	False
+0x258c9364	astron	0x031fd5fc	window_rf_mover	119	6	False	False
+0x258c9364	astron	0xfc0ce3f6	window_rr_mover	119	6	False	False
+0x258c9364	astron	0xfc0ce3f6	window_rr_mover	119	6	False	False
+0x258c9364	astron	0xfbdba1a6		119	6	False	False
+0x258c9364	astron	0xeaeecb7b		119	6	False	False
+0x258c9364	astron	0x8bb5d91e		119	6	False	False
+0x258c9364	astron	0x0552ea55		119	6	False	False
+0x258c9364	astron	0x87d29d26		119	6	False	False
+0x258c9364	astron	0x8f951f70		119	6	False	False
+0x258c9364	astron	0x66ec13b0		119	6	False	False
+0x08852855	baller2	0x86d36840	window_lf_mover	109	5	False	False
+0x08852855	baller2	0x86d36840	window_lf_mover	109	5	False	False
+0x08852855	baller2	0x031fd5fc	window_rf_mover	109	5	False	False
+0x08852855	baller2	0x031fd5fc	window_rf_mover	109	5	False	False
+0x08852855	baller2	0x6ec686bf	window_lr_mover	109	5	False	False
+0x08852855	baller2	0x6ec686bf	window_lr_mover	109	5	False	False
+0x08852855	baller2	0xfc0ce3f6	window_rr_mover	109	5	False	False
+0x08852855	baller2	0xfc0ce3f6	window_rr_mover	109	5	False	False
+0x08852855	baller2	0x87d29d26		109	5	False	False
+0x08852855	baller2	0x8f951f70		109	5	False	False
+0x08852855	baller2	0xfbdba1a6		109	5	False	False
+0x08852855	baller2	0xeaeecb7b		109	5	False	False
+0x08852855	baller2	0x8bb5d91e		109	5	False	False
+0x08852855	baller2	0x0552ea55		109	5	False	False
+0x08852855	baller2	0x66ec13b0		109	5	False	False
+0xcc8a305c	baller8	0x86d36840	window_lf_mover	131	8	False	False
+0xcc8a305c	baller8	0x86d36840	window_lf_mover	131	8	False	False
+0xcc8a305c	baller8	0x6ec686bf	window_lr_mover	131	8	False	False
+0xcc8a305c	baller8	0x6ec686bf	window_lr_mover	131	8	False	False
+0xcc8a305c	baller8	0x031fd5fc	window_rf_mover	131	8	False	False
+0xcc8a305c	baller8	0x031fd5fc	window_rf_mover	131	8	False	False
+0xcc8a305c	baller8	0xfc0ce3f6	window_rr_mover	131	8	False	False
+0xcc8a305c	baller8	0xfc0ce3f6	window_rr_mover	131	8	False	False
+0xcc8a305c	baller8	0x87d29d26		131	8	False	False
+0xcc8a305c	baller8	0x8f951f70		131	8	False	False
+0xcc8a305c	baller8	0xfbdba1a6		131	8	False	False
+0xcc8a305c	baller8	0xeaeecb7b		131	8	False	False
+0xcc8a305c	baller8	0x8bb5d91e		131	8	False	False
+0xcc8a305c	baller8	0x0552ea55		131	8	False	False
+0xcc8a305c	baller8	0x66ec13b0		131	8	False	False
+0xcc8a305c	baller8	0x93749525		131	8	False	False
+0xc1e908d2	banshee	0x86d36840	window_lf_mover	55	4	False	False
+0xc1e908d2	banshee	0xfbdba1a6		55	4	False	False
+0xc1e908d2	banshee	0xeaeecb7b		55	4	False	False
+0xc1e908d2	banshee	0x8bb5d91e		55	4	False	False
+0xc1e908d2	banshee	0x0552ea55		55	4	False	False
+0xc1e908d2	banshee	0x031fd5fc	window_rf_mover	55	4	False	False
+0x7a61b330	benson	0xfbdba1a6		45	5	False	False
+0x7a61b330	benson	0xeaeecb7b		45	5	False	False
+0x7a61b330	benson	0x8bb5d91e		45	5	False	False
+0x7a61b330	benson	0x0552ea55		45	5	False	False
+0x44546439	bfinjection4	0xfbdba1a6		63	4	False	False
+0x44546439	bfinjection4	0xeaeecb7b		63	4	False	False
+0x44546439	bfinjection4	0x8bb5d91e		63	4	False	False
+0x44546439	bfinjection4	0x0552ea55		63	4	False	False
+0x44546439	bfinjection4	0x86d36840	window_lf_mover	63	4	False	False
+0x44546439	bfinjection4	0x86d36840	window_lf_mover	63	4	False	False
+0x44546439	bfinjection4	0x031fd5fc	window_rf_mover	63	4	False	False
+0x44546439	bfinjection4	0x031fd5fc	window_rf_mover	63	4	False	False
+0x32b91ae8	biff	0xfbdba1a6		41	3	False	False
+0x32b91ae8	biff	0xeaeecb7b		41	3	False	False
+0x32b91ae8	biff	0x8bb5d91e		41	3	False	False
+0x32b91ae8	biff	0x0552ea55		41	3	False	False
+0xfefd644f	bison	0xfbdba1a6		79	2	False	False
+0xfefd644f	bison	0xeaeecb7b		79	2	False	False
+0xfefd644f	bison	0x8bb5d91e		79	2	False	False
+0xfefd644f	bison	0x0552ea55		79	2	False	False
+0xfefd644f	bison	0x6ec686bf	window_lr_mover	79	2	False	False
+0xfefd644f	bison	0x6ec686bf	window_lr_mover	79	2	False	False
+0xfefd644f	bison	0x86d36840	window_lf_mover	79	2	False	False
+0xfefd644f	bison	0x86d36840	window_lf_mover	79	2	False	False
+0xfefd644f	bison	0xfc0ce3f6	window_rr_mover	79	2	False	False
+0xfefd644f	bison	0xfc0ce3f6	window_rr_mover	79	2	False	False
+0xfefd644f	bison	0x031fd5fc	window_rf_mover	79	2	False	False
+0xfefd644f	bison	0x031fd5fc	window_rf_mover	79	2	False	False
+0xa5be6c3c	bison4	0xfbdba1a6		77	1	False	False
+0xa5be6c3c	bison4	0xeaeecb7b		77	1	False	False
+0xa5be6c3c	bison4	0x8bb5d91e		77	1	False	False
+0xa5be6c3c	bison4	0x0552ea55		77	1	False	False
+0xa5be6c3c	bison4	0x86d36840	window_lf_mover	77	1	False	False
+0xa5be6c3c	bison4	0x86d36840	window_lf_mover	77	1	False	False
+0xa5be6c3c	bison4	0x6ec686bf	window_lr_mover	77	1	False	False
+0xa5be6c3c	bison4	0x6ec686bf	window_lr_mover	77	1	False	False
+0xa5be6c3c	bison4	0x031fd5fc	window_rf_mover	77	1	False	False
+0xa5be6c3c	bison4	0x031fd5fc	window_rf_mover	77	1	False	False
+0xa5be6c3c	bison4	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0xa5be6c3c	bison4	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0xab092c04	bison900	0x86d36840	window_lf_mover	53	1	False	False
+0xab092c04	bison900	0x86d36840	window_lf_mover	53	1	False	False
+0xab092c04	bison900	0x031fd5fc	window_rf_mover	53	1	False	False
+0xab092c04	bison900	0x031fd5fc	window_rf_mover	53	1	False	False
+0xab092c04	bison900	0xfbdba1a6		53	1	False	False
+0xab092c04	bison900	0xeaeecb7b		53	1	False	False
+0xab092c04	bison900	0x8bb5d91e		53	1	False	False
+0xab092c04	bison900	0x0552ea55		53	1	False	False
+0x17b17bf8	bison1800	0x6ec686bf	window_lr_mover	87	6	False	False
+0x17b17bf8	bison1800	0x6ec686bf	window_lr_mover	87	6	False	False
+0x17b17bf8	bison1800	0x86d36840	window_lf_mover	87	6	False	False
+0x17b17bf8	bison1800	0xfbdba1a6		87	6	False	False
+0x17b17bf8	bison1800	0xeaeecb7b		87	6	False	False
+0x17b17bf8	bison1800	0x8bb5d91e		87	6	False	False
+0x17b17bf8	bison1800	0x0552ea55		87	6	False	False
+0x17b17bf8	bison1800	0xfc0ce3f6	window_rr_mover	87	6	False	False
+0x17b17bf8	bison1800	0xfc0ce3f6	window_rr_mover	87	6	False	False
+0x17b17bf8	bison1800	0x031fd5fc	window_rf_mover	87	6	False	False
+0x50a8bee2	bison3800	0xfbdba1a6		101	5	False	False
+0x50a8bee2	bison3800	0xeaeecb7b		101	5	False	False
+0x50a8bee2	bison3800	0x8bb5d91e		101	5	False	False
+0x50a8bee2	bison3800	0x0552ea55		101	5	False	False
+0x50a8bee2	bison3800	0x6ec686bf	window_lr_mover	101	5	False	False
+0x50a8bee2	bison3800	0x6ec686bf	window_lr_mover	101	5	False	False
+0x50a8bee2	bison3800	0x86d36840	window_lf_mover	101	5	False	False
+0x50a8bee2	bison3800	0x86d36840	window_lf_mover	101	5	False	False
+0x50a8bee2	bison3800	0xfc0ce3f6	window_rr_mover	101	5	False	False
+0x50a8bee2	bison3800	0xfc0ce3f6	window_rr_mover	101	5	False	False
+0x50a8bee2	bison3800	0x031fd5fc	window_rf_mover	101	5	False	False
+0x50a8bee2	bison3800	0x031fd5fc	window_rf_mover	101	5	False	False
+0x50a8bee2	bison3800	0x66ec13b0		101	5	False	False
+0x3dee5eda	blista2	0x87d29d26		85	1	False	False
+0x3dee5eda	blista2	0x8f951f70		85	1	False	False
+0x3dee5eda	blista2	0x8bb5d91e		85	1	False	False
+0x3dee5eda	blista2	0x0552ea55		85	1	False	False
+0x3dee5eda	blista2	0xfbdba1a6		85	1	False	False
+0x3dee5eda	blista2	0xeaeecb7b		85	1	False	False
+0x3dee5eda	blista2	0x86d36840	window_lf_mover	85	1	False	False
+0x3dee5eda	blista2	0x86d36840	window_lf_mover	85	1	False	False
+0x3dee5eda	blista2	0x031fd5fc	window_rf_mover	85	1	False	False
+0x3dee5eda	blista2	0x031fd5fc	window_rf_mover	85	1	False	False
+0x3dee5eda	blista2	0x5a323121		85	1	False	False
+0x3dee5eda	blista2	0x70e8de62		85	1	False	False
+0x3dee5eda	blista2	0x66ec13b0		85	1	False	False
+0x3dee5eda	blista2	0x66ec13b0		85	1	False	False
+0x3fc5d440	bobcatxl	0xfbdba1a6		63	4	False	False
+0x3fc5d440	bobcatxl	0xeaeecb7b		63	4	False	False
+0x3fc5d440	bobcatxl	0x8bb5d91e		63	4	False	False
+0x3fc5d440	bobcatxl	0x0552ea55		63	4	False	False
+0x3fc5d440	bobcatxl	0x86d36840	window_lf_mover	63	4	False	False
+0x3fc5d440	bobcatxl	0x86d36840	window_lf_mover	63	4	False	False
+0x3fc5d440	bobcatxl	0x031fd5fc	window_rf_mover	63	4	False	False
+0x3fc5d440	bobcatxl	0x031fd5fc	window_rf_mover	63	4	False	False
+0xff2cd77b	bogan	0x8bb5d91e		85	3	False	False
+0xff2cd77b	bogan	0x0552ea55		85	3	False	False
+0xff2cd77b	bogan	0xfbdba1a6		85	3	False	False
+0xff2cd77b	bogan	0xeaeecb7b		85	3	False	False
+0xff2cd77b	bogan	0x86d36840	window_lf_mover	85	3	False	False
+0xff2cd77b	bogan	0x86d36840	window_lf_mover	85	3	False	False
+0xff2cd77b	bogan	0x6ec686bf	window_lr_mover	85	3	False	False
+0xff2cd77b	bogan	0x6ec686bf	window_lr_mover	85	3	False	False
+0xff2cd77b	bogan	0x031fd5fc	window_rf_mover	85	3	False	False
+0xff2cd77b	bogan	0x031fd5fc	window_rf_mover	85	3	False	False
+0xff2cd77b	bogan	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xff2cd77b	bogan	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x898eccea	boxville	0x8bb5d91e		65	7	False	False
+0x898eccea	boxville	0x0552ea55		65	7	False	False
+0x898eccea	boxville	0xfbdba1a6		65	7	False	False
+0x898eccea	boxville	0xeaeecb7b		65	7	False	False
+0x5a9ec131	brigade	0x8bb5d91e		59	6	False	False
+0x5a9ec131	brigade	0x0552ea55		59	6	False	False
+0x5a9ec131	brigade	0xfbdba1a6		59	6	False	False
+0x5a9ec131	brigade	0xeaeecb7b		59	6	False	False
+0xd756460c	buccaneer	0xfbdba1a6		61	7	False	False
+0xd756460c	buccaneer	0xeaeecb7b		61	7	False	False
+0xd756460c	buccaneer	0x8bb5d91e		61	7	False	False
+0xd756460c	buccaneer	0x0552ea55		61	7	False	False
+0xd756460c	buccaneer	0x86d36840	window_lf_mover	61	7	False	False
+0xd756460c	buccaneer	0x031fd5fc	window_rf_mover	61	7	False	False
+0xedd516c6	buffalo	0x86d36840	window_lf_mover	85	3	False	False
+0xedd516c6	buffalo	0x86d36840	window_lf_mover	85	3	False	False
+0xedd516c6	buffalo	0x6ec686bf	window_lr_mover	85	3	False	False
+0xedd516c6	buffalo	0x6ec686bf	window_lr_mover	85	3	False	False
+0xedd516c6	buffalo	0xfbdba1a6		85	3	False	False
+0xedd516c6	buffalo	0xeaeecb7b		85	3	False	False
+0xedd516c6	buffalo	0x8bb5d91e		85	3	False	False
+0xedd516c6	buffalo	0x0552ea55		85	3	False	False
+0xedd516c6	buffalo	0x031fd5fc	window_rf_mover	85	3	False	False
+0xedd516c6	buffalo	0x031fd5fc	window_rf_mover	85	3	False	False
+0xedd516c6	buffalo	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xedd516c6	buffalo	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x36f2d2cf	buffalo6	0x86d36840	window_lf_mover	83	2	False	False
+0x36f2d2cf	buffalo6	0x86d36840	window_lf_mover	83	2	False	False
+0x36f2d2cf	buffalo6	0x6ec686bf	window_lr_mover	83	2	False	False
+0x36f2d2cf	buffalo6	0x6ec686bf	window_lr_mover	83	2	False	False
+0x36f2d2cf	buffalo6	0xfc0ce3f6	window_rr_mover	83	2	False	False
+0x36f2d2cf	buffalo6	0xfc0ce3f6	window_rr_mover	83	2	False	False
+0x36f2d2cf	buffalo6	0x031fd5fc	window_rf_mover	83	2	False	False
+0x36f2d2cf	buffalo6	0x031fd5fc	window_rf_mover	83	2	False	False
+0x36f2d2cf	buffalo6	0xfbdba1a6		83	2	False	False
+0x36f2d2cf	buffalo6	0xeaeecb7b		83	2	False	False
+0x36f2d2cf	buffalo6	0x8bb5d91e		83	2	False	False
+0x36f2d2cf	buffalo6	0x0552ea55		83	2	False	False
+0x7074f39d	bulldozer	0xfbdba1a6		67	8	False	False
+0x7074f39d	bulldozer	0xeaeecb7b		67	8	False	False
+0x7074f39d	bulldozer	0x90a8e326		67	8	False	False
+0x7074f39d	bulldozer	0xea82ac04		67	8	False	False
+0xafbb2ca4	burrito	0x86d36840	window_lf_mover	63	4	False	False
+0xafbb2ca4	burrito	0x86d36840	window_lf_mover	63	4	False	False
+0xafbb2ca4	burrito	0x8bb5d91e		63	4	False	False
+0xafbb2ca4	burrito	0x0552ea55		63	4	False	False
+0xafbb2ca4	burrito	0xfbdba1a6		63	4	False	False
+0xafbb2ca4	burrito	0xeaeecb7b		63	4	False	False
+0xafbb2ca4	burrito	0x031fd5fc	window_rf_mover	63	4	False	False
+0xafbb2ca4	burrito	0x031fd5fc	window_rf_mover	63	4	False	False
+0xf57463bb	bus2	0xfbdba1a6		65	7	False	False
+0xf57463bb	bus2	0xeaeecb7b		65	7	False	False
+0xf57463bb	bus2	0x8bb5d91e		65	7	False	False
+0xf57463bb	bus2	0x0552ea55		65	7	False	False
+0xd7855a4d	bus2_dmg	0xfbdba1a6		65	7	False	False
+0xd7855a4d	bus2_dmg	0xeaeecb7b		65	7	False	False
+0xd7855a4d	bus2_dmg	0x8bb5d91e		65	7	False	False
+0xd7855a4d	bus2_dmg	0x0552ea55		65	7	False	False
+0xac0ebe9c	bus2_frag	0xfbdba1a6		59	6	False	False
+0xac0ebe9c	bus2_frag	0xeaeecb7b		59	6	False	False
+0xac0ebe9c	bus2_frag	0x8bb5d91e		59	6	False	False
+0xac0ebe9c	bus2_frag	0x0552ea55		59	6	False	False
+0xeb48b5ca	cadence	0xfbdba1a6		69	1	False	False
+0xeb48b5ca	cadence	0xeaeecb7b		69	1	False	False
+0xeb48b5ca	cadence	0x8bb5d91e		69	1	False	False
+0xeb48b5ca	cadence	0x6ec686bf	window_lr_mover	69	1	False	False
+0xeb48b5ca	cadence	0x6ec686bf	window_lr_mover	69	1	False	False
+0xeb48b5ca	cadence	0x86d36840	window_lf_mover	69	1	False	False
+0xeb48b5ca	cadence	0x86d36840	window_lf_mover	69	1	False	False
+0xeb48b5ca	cadence	0xfc0ce3f6	window_rr_mover	69	1	False	False
+0xeb48b5ca	cadence	0xfc0ce3f6	window_rr_mover	69	1	False	False
+0xeb48b5ca	cadence	0x031fd5fc	window_rf_mover	69	1	False	False
+0xeb48b5ca	cadence	0x031fd5fc	window_rf_mover	69	1	False	False
+0x6c2bb75f	calder	0xeaeecb7b		31	2	False	False
+0x6c2bb75f	calder	0x8bb5d91e		31	2	False	False
+0x6c2bb75f	calder	0x0552ea55		31	2	False	False
+0x6c2bb75f	calder	0x03a85156		31	2	False	False
+0x6c2bb75f	calder	0x96cde9ee		31	2	False	False
+0xf3a5f200	caracara4x4	0xfbdba1a6		85	3	False	False
+0xf3a5f200	caracara4x4	0xeaeecb7b		85	3	False	False
+0xf3a5f200	caracara4x4	0x8bb5d91e		85	3	False	False
+0xf3a5f200	caracara4x4	0x0552ea55		85	3	False	False
+0xf3a5f200	caracara4x4	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xf3a5f200	caracara4x4	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xf3a5f200	caracara4x4	0x86d36840	window_lf_mover	85	3	False	False
+0xf3a5f200	caracara4x4	0x86d36840	window_lf_mover	85	3	False	False
+0xf3a5f200	caracara4x4	0x6ec686bf	window_lr_mover	85	3	False	False
+0xf3a5f200	caracara4x4	0x6ec686bf	window_lr_mover	85	3	False	False
+0xf3a5f200	caracara4x4	0x031fd5fc	window_rf_mover	85	3	False	False
+0xf3a5f200	caracara4x4	0x031fd5fc	window_rf_mover	85	3	False	False
+0x7b8ab45f	carbonizzare	0x86d36840	window_lf_mover	97	5	False	False
+0x7b8ab45f	carbonizzare	0x86d36840	window_lf_mover	97	5	False	False
+0x7b8ab45f	carbonizzare	0x031fd5fc	window_rf_mover	97	5	False	False
+0x7b8ab45f	carbonizzare	0x031fd5fc	window_rf_mover	97	5	False	False
+0x7b8ab45f	carbonizzare	0x6ec686bf	window_lr_mover	97	5	False	False
+0x7b8ab45f	carbonizzare	0x6ec686bf	window_lr_mover	97	5	False	False
+0x7b8ab45f	carbonizzare	0xfc0ce3f6	window_rr_mover	97	5	False	False
+0x7b8ab45f	carbonizzare	0xfc0ce3f6	window_rr_mover	97	5	False	False
+0x7b8ab45f	carbonizzare	0xfbdba1a6		97	5	False	False
+0x7b8ab45f	carbonizzare	0xeaeecb7b		97	5	False	False
+0x7b8ab45f	carbonizzare	0x8bb5d91e		97	5	False	False
+0x7b8ab45f	carbonizzare	0x0552ea55		97	5	False	False
+0xfcfcb68b	cargobob	0xfbdba1a6		47	4	False	False
+0xfcfcb68b	cargobob	0xeaeecb7b		47	4	False	False
+0xfcfcb68b	cargobob	0x8bb5d91e		47	4	False	False
+0xfcfcb68b	cargobob	0x0552ea55		47	4	False	False
+0xc29f8f4e	cavalcade3	0x6ec686bf	window_lr_mover	95	2	False	False
+0xc29f8f4e	cavalcade3	0x6ec686bf	window_lr_mover	95	2	False	False
+0xc29f8f4e	cavalcade3	0x86d36840	window_lf_mover	95	2	False	False
+0xc29f8f4e	cavalcade3	0x86d36840	window_lf_mover	95	2	False	False
+0xc29f8f4e	cavalcade3	0x87d29d26		95	2	False	False
+0xc29f8f4e	cavalcade3	0x8f951f70		95	2	False	False
+0xc29f8f4e	cavalcade3	0x8bb5d91e		95	2	False	False
+0xc29f8f4e	cavalcade3	0x0552ea55		95	2	False	False
+0xc29f8f4e	cavalcade3	0xfbdba1a6		95	2	False	False
+0xc29f8f4e	cavalcade3	0xeaeecb7b		95	2	False	False
+0xc29f8f4e	cavalcade3	0xfc0ce3f6	window_rr_mover	95	2	False	False
+0xc29f8f4e	cavalcade3	0xfc0ce3f6	window_rr_mover	95	2	False	False
+0xc29f8f4e	cavalcade3	0x031fd5fc	window_rf_mover	95	2	False	False
+0xc29f8f4e	cavalcade3	0x031fd5fc	window_rf_mover	95	2	False	False
+0xc29f8f4e	cavalcade3	0x66ec13b0		95	2	False	False
+0x16186345	chavosxs	0x86d36840	window_lf_mover	83	6	False	False
+0x16186345	chavosxs	0x86d36840	window_lf_mover	83	6	False	False
+0x16186345	chavosxs	0x6ec686bf	window_lr_mover	83	6	False	False
+0x16186345	chavosxs	0xfbdba1a6		83	6	False	False
+0x16186345	chavosxs	0x8bb5d91e		83	6	False	False
+0x16186345	chavosxs	0x0552ea55		83	6	False	False
+0x16186345	chavosxs	0x031fd5fc	window_rf_mover	83	6	False	False
+0x16186345	chavosxs	0x031fd5fc	window_rf_mover	83	6	False	False
+0x16186345	chavosxs	0xfc0ce3f6	window_rr_mover	83	6	False	False
+0x0d4e5f4d	cheetah2	0x86d36840	window_lf_mover	67	4	False	False
+0x0d4e5f4d	cheetah2	0x86d36840	window_lf_mover	67	4	False	False
+0x0d4e5f4d	cheetah2	0x031fd5fc	window_rf_mover	67	4	False	False
+0x0d4e5f4d	cheetah2	0x031fd5fc	window_rf_mover	67	4	False	False
+0x0d4e5f4d	cheetah2	0xfbdba1a6		67	4	False	False
+0x0d4e5f4d	cheetah2	0xeaeecb7b		67	4	False	False
+0x0d4e5f4d	cheetah2	0x8bb5d91e		67	4	False	False
+0x0d4e5f4d	cheetah2	0x0552ea55		67	4	False	False
+0x14d69010	chino	0x8bb5d91e		53	1	False	False
+0x14d69010	chino	0x0552ea55		53	1	False	False
+0x14d69010	chino	0xfbdba1a6		53	1	False	False
+0x14d69010	chino	0xeaeecb7b		53	1	False	False
+0x14d69010	chino	0x86d36840	window_lf_mover	53	1	False	False
+0x14d69010	chino	0x86d36840	window_lf_mover	53	1	False	False
+0x14d69010	chino	0x031fd5fc	window_rf_mover	53	1	False	False
+0x14d69010	chino	0x031fd5fc	window_rf_mover	53	1	False	False
+0x84718d34	coach	0xfbdba1a6		35	2	False	False
+0x84718d34	coach	0xeaeecb7b		35	2	False	False
+0x84718d34	coach	0x8bb5d91e		35	2	False	False
+0x84718d34	coach	0x0552ea55		35	2	False	False
+0x440851d8	comet7	0x8bb5d91e		85	3	False	False
+0x440851d8	comet7	0x0552ea55		85	3	False	False
+0x440851d8	comet7	0xfbdba1a6		85	3	False	False
+0x440851d8	comet7	0xeaeecb7b		85	3	False	False
+0x440851d8	comet7	0x86d36840	window_lf_mover	85	3	False	False
+0x440851d8	comet7	0x86d36840	window_lf_mover	85	3	False	False
+0x440851d8	comet7	0x031fd5fc	window_rf_mover	85	3	False	False
+0x440851d8	comet7	0x031fd5fc	window_rf_mover	85	3	False	False
+0x440851d8	comet7	0x6ec686bf	window_lr_mover	85	3	False	False
+0x440851d8	comet7	0x6ec686bf	window_lr_mover	85	3	False	False
+0x440851d8	comet7	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x440851d8	comet7	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xc189e231	cometretro	0x87d29d26		81	3	False	False
+0xc189e231	cometretro	0xfbdba1a6		81	3	False	False
+0xc189e231	cometretro	0xeaeecb7b		81	3	False	False
+0xc189e231	cometretro	0x8bb5d91e		81	3	False	False
+0xc189e231	cometretro	0x0552ea55		81	3	False	False
+0xc189e231	cometretro	0x86d36840	window_lf_mover	81	3	False	False
+0xc189e231	cometretro	0x86d36840	window_lf_mover	81	3	False	False
+0xc189e231	cometretro	0x031fd5fc	window_rf_mover	81	3	False	False
+0xc189e231	cometretro	0x031fd5fc	window_rf_mover	81	3	False	False
+0xc189e231	cometretro	0x90a8e326		81	3	False	False
+0xc189e231	cometretro	0xbedef31f		81	3	False	False
+0x28b67aca	contender	0xfbdba1a6		95	2	False	False
+0x28b67aca	contender	0xeaeecb7b		95	2	False	False
+0x28b67aca	contender	0x8bb5d91e		95	2	False	False
+0x28b67aca	contender	0x0552ea55		95	2	False	False
+0x28b67aca	contender	0x86d36840	window_lf_mover	95	2	False	False
+0x28b67aca	contender	0x86d36840	window_lf_mover	95	2	False	False
+0x28b67aca	contender	0x6ec686bf	window_lr_mover	95	2	False	False
+0x28b67aca	contender	0x6ec686bf	window_lr_mover	95	2	False	False
+0x28b67aca	contender	0x031fd5fc	window_rf_mover	95	2	False	False
+0x28b67aca	contender	0x031fd5fc	window_rf_mover	95	2	False	False
+0x28b67aca	contender	0xfc0ce3f6	window_rr_mover	95	2	False	False
+0x28b67aca	contender	0xfc0ce3f6	window_rr_mover	95	2	False	False
+0x28b67aca	contender	0x5a323121		95	2	False	False
+0x28b67aca	contender	0x70e8de62		95	2	False	False
+0x067bc037	coquette	0xfbdba1a6		65	3	False	False
+0x067bc037	coquette	0xeaeecb7b		65	3	False	False
+0x067bc037	coquette	0x8bb5d91e		65	3	False	False
+0x067bc037	coquette	0x0552ea55		65	3	False	False
+0x067bc037	coquette	0x86d36840	window_lf_mover	65	3	False	False
+0x067bc037	coquette	0x86d36840	window_lf_mover	65	3	False	False
+0x067bc037	coquette	0x031fd5fc	window_rf_mover	65	3	False	False
+0x067bc037	coquette	0x031fd5fc	window_rf_mover	65	3	False	False
+0x3c4e2113	coquette2	0xfbdba1a6		53	5	False	False
+0x3c4e2113	coquette2	0xeaeecb7b		53	5	False	False
+0x3c4e2113	coquette2	0x8bb5d91e		53	5	False	False
+0x3c4e2113	coquette2	0x0552ea55		53	5	False	False
+0x3c4e2113	coquette2	0x86d36840	window_lf_mover	53	5	False	False
+0x3c4e2113	coquette2	0x031fd5fc	window_rf_mover	53	5	False	False
+0x98f65a5e	coquette4	0xfbdba1a6		67	4	False	False
+0x98f65a5e	coquette4	0xeaeecb7b		67	4	False	False
+0x98f65a5e	coquette4	0x8bb5d91e		67	4	False	False
+0x98f65a5e	coquette4	0x0552ea55		67	4	False	False
+0x98f65a5e	coquette4	0x86d36840	window_lf_mover	67	4	False	False
+0x98f65a5e	coquette4	0x86d36840	window_lf_mover	67	4	False	False
+0x98f65a5e	coquette4	0x031fd5fc	window_rf_mover	67	4	False	False
+0x98f65a5e	coquette4	0x031fd5fc	window_rf_mover	67	4	False	False
+0xaae49679	crake	0x8bb5d91e		73	13	False	False
+0xaae49679	crake	0x0552ea55		73	13	False	False
+0xaae49679	crake	0xfbdba1a6		73	13	False	False
+0xcf37bcc3	crawler	0xfbdba1a6		51	6	False	False
+0xcf37bcc3	crawler	0xeaeecb7b		51	6	False	False
+0xcf37bcc3	crawler	0x8bb5d91e		51	6	False	False
+0xcf37bcc3	crawler	0x0552ea55		51	6	False	False
+0x68a5d1ef	cypher	0xfbdba1a6		67	4	False	False
+0x68a5d1ef	cypher	0xeaeecb7b		67	4	False	False
+0x68a5d1ef	cypher	0x8bb5d91e		67	4	False	False
+0x68a5d1ef	cypher	0x0552ea55		67	4	False	False
+0x68a5d1ef	cypher	0x86d36840	window_lf_mover	67	4	False	False
+0x68a5d1ef	cypher	0x86d36840	window_lf_mover	67	4	False	False
+0x68a5d1ef	cypher	0x031fd5fc	window_rf_mover	67	4	False	False
+0x68a5d1ef	cypher	0x031fd5fc	window_rf_mover	67	4	False	False
+0x0443b4f4	declasse500	0xfbdba1a6		61	5	False	False
+0x0443b4f4	declasse500	0xeaeecb7b		61	5	False	False
+0x0443b4f4	declasse500	0x8bb5d91e		61	5	False	False
+0x0443b4f4	declasse500	0x0552ea55		61	5	False	False
+0x0443b4f4	declasse500	0x86d36840	window_lf_mover	61	5	False	False
+0x0443b4f4	declasse500	0x031fd5fc	window_rf_mover	61	5	False	False
+0x27640d71		0x90a8e326		127	26	False	False
+0x27640d71		0xbedef31f		127	26	False	False
+0x039a68b9		0x2e71c225		59	8	False	False
+0xd714bd54		0x90a8e326		87	16	False	False
+0xd714bd54		0xbedef31f		87	16	False	False
+0x4266e537		0x90a8e326		191	36	False	False
+0x4266e537		0xbedef31f		191	36	False	False
+0xa94dc8ff		0x5843187f		91	14	False	False
+0xa94dc8ff		0x90a8e326		91	14	False	False
+0xa94dc8ff		0xbedef31f		91	14	False	False
+0xfa9d4065	devanity	0xfbdba1a6		55	8	False	False
+0xfa9d4065	devanity	0xeaeecb7b		55	8	False	False
+0xfa9d4065	devanity	0x8bb5d91e		55	8	False	False
+0xfa9d4065	devanity	0x0552ea55		55	8	False	False
+0x4c3fff49	deviant	0xfbdba1a6		75	6	False	False
+0x4c3fff49	deviant	0xeaeecb7b		75	6	False	False
+0x4c3fff49	deviant	0x8bb5d91e		75	6	False	False
+0x4c3fff49	deviant	0x0552ea55		75	6	False	False
+0x4c3fff49	deviant	0x86d36840	window_lf_mover	75	6	False	False
+0x4c3fff49	deviant	0x86d36840	window_lf_mover	75	6	False	False
+0x4c3fff49	deviant	0x031fd5fc	window_rf_mover	75	6	False	False
+0x4c3fff49	deviant	0x031fd5fc	window_rf_mover	75	6	False	False
+0x50f2d941	dibnah	0x03a85156		37	1	False	False
+0x50f2d941	dibnah	0x96cde9ee		37	1	False	False
+0x50f2d941	dibnah	0x8bb5d91e		37	1	False	False
+0x50f2d941	dibnah	0x0552ea55		37	1	False	False
+0x50f2d941	dibnah	0xfbdba1a6		37	1	False	False
+0x50f2d941	dibnah	0xeaeecb7b		37	1	False	False
+0x0bee388d	digger	0x90a8e326		61	7	False	False
+0x0bee388d	digger	0xea82ac04		61	7	False	False
+0x0bee388d	digger	0xfbdba1a6		61	7	False	False
+0x0bee388d	digger	0xeaeecb7b		61	7	False	False
+0xca495705	dodo	0x5843187f		75	16	False	False
+0x04ce68ac	dominator	0xfbdba1a6		67	4	False	False
+0x04ce68ac	dominator	0xeaeecb7b		67	4	False	False
+0x04ce68ac	dominator	0x8bb5d91e		67	4	False	False
+0x04ce68ac	dominator	0x0552ea55		67	4	False	False
+0x04ce68ac	dominator	0x86d36840	window_lf_mover	67	4	False	False
+0x04ce68ac	dominator	0x86d36840	window_lf_mover	67	4	False	False
+0x04ce68ac	dominator	0x031fd5fc	window_rf_mover	67	4	False	False
+0x04ce68ac	dominator	0x031fd5fc	window_rf_mover	67	4	False	False
+0xc52c6b93	dominator3	0x031fd5fc	window_rf_mover	47	0	False	False
+0xc52c6b93	dominator3	0x031fd5fc	window_rf_mover	47	0	False	False
+0xc52c6b93	dominator3	0x86d36840	window_lf_mover	47	0	False	False
+0xc52c6b93	dominator3	0x86d36840	window_lf_mover	47	0	False	False
+0xc52c6b93	dominator3	0xfbdba1a6		47	0	False	False
+0xc52c6b93	dominator3	0xeaeecb7b		47	0	False	False
+0xc52c6b93	dominator3	0x8bb5d91e		47	0	False	False
+0xc52c6b93	dominator3	0x0552ea55		47	0	False	False
+0x196f9418	dominator7	0xfbdba1a6		53	1	False	False
+0x196f9418	dominator7	0xeaeecb7b		53	1	False	False
+0x196f9418	dominator7	0x8bb5d91e		53	1	False	False
+0x196f9418	dominator7	0x0552ea55		53	1	False	False
+0x196f9418	dominator7	0x86d36840	window_lf_mover	53	1	False	False
+0x196f9418	dominator7	0x86d36840	window_lf_mover	53	1	False	False
+0x196f9418	dominator7	0x031fd5fc	window_rf_mover	53	1	False	False
+0x196f9418	dominator7	0x031fd5fc	window_rf_mover	53	1	False	False
+0xe5b3aca1	dominator9	0xfbdba1a6		77	7	False	False
+0xe5b3aca1	dominator9	0xeaeecb7b		77	7	False	False
+0xe5b3aca1	dominator9	0x8bb5d91e		77	7	False	False
+0xe5b3aca1	dominator9	0x0552ea55		77	7	False	False
+0xe5b3aca1	dominator9	0x86d36840	window_lf_mover	77	7	False	False
+0xe5b3aca1	dominator9	0x86d36840	window_lf_mover	77	7	False	False
+0xe5b3aca1	dominator9	0x031fd5fc	window_rf_mover	77	7	False	False
+0xe5b3aca1	dominator9	0x031fd5fc	window_rf_mover	77	7	False	False
+0xfe6d9e0b	dominatorbuggy	0x8bb5d91e		23	0	False	False
+0xfe6d9e0b	dominatorbuggy	0x0552ea55		23	0	False	False
+0xfe6d9e0b	dominatorbuggy	0xfbdba1a6		23	0	False	False
+0xfe6d9e0b	dominatorbuggy	0xeaeecb7b		23	0	False	False
+0xe2234987	dominatorclassic	0xfbdba1a6		75	6	False	False
+0xe2234987	dominatorclassic	0xeaeecb7b		75	6	False	False
+0xe2234987	dominatorclassic	0x8bb5d91e		75	6	False	False
+0xe2234987	dominatorclassic	0x86d36840	window_lf_mover	75	6	False	False
+0xe2234987	dominatorclassic	0x86d36840	window_lf_mover	75	6	False	False
+0xe2234987	dominatorclassic	0x031fd5fc	window_rf_mover	75	6	False	False
+0xe2234987	dominatorclassic	0x031fd5fc	window_rf_mover	75	6	False	False
+0xe2234987	dominatorclassic	0x6ec686bf	window_lr_mover	75	6	False	False
+0xe2234987	dominatorclassic	0xfc0ce3f6	window_rr_mover	75	6	False	False
+0xd2389392	dorado	0x87d29d26		91	2	False	False
+0xd2389392	dorado	0x8f951f70		91	2	False	False
+0xd2389392	dorado	0xfbdba1a6		91	2	False	False
+0xd2389392	dorado	0xeaeecb7b		91	2	False	False
+0xd2389392	dorado	0x8bb5d91e		91	2	False	False
+0xd2389392	dorado	0x0552ea55		91	2	False	False
+0xd2389392	dorado	0x6ec686bf	window_lr_mover	91	2	False	False
+0xd2389392	dorado	0x6ec686bf	window_lr_mover	91	2	False	False
+0xd2389392	dorado	0x86d36840	window_lf_mover	91	2	False	False
+0xd2389392	dorado	0x86d36840	window_lf_mover	91	2	False	False
+0xd2389392	dorado	0xfc0ce3f6	window_rr_mover	91	2	False	False
+0xd2389392	dorado	0xfc0ce3f6	window_rr_mover	91	2	False	False
+0xd2389392	dorado	0x031fd5fc	window_rf_mover	91	2	False	False
+0xd2389392	dorado	0x031fd5fc	window_rf_mover	91	2	False	False
+0x28eab80f	drafter	0x86d36840	window_lf_mover	67	4	False	False
+0x28eab80f	drafter	0x86d36840	window_lf_mover	67	4	False	False
+0x28eab80f	drafter	0x031fd5fc	window_rf_mover	67	4	False	False
+0x28eab80f	drafter	0x031fd5fc	window_rf_mover	67	4	False	False
+0x28eab80f	drafter	0xfbdba1a6		67	4	False	False
+0x28eab80f	drafter	0xeaeecb7b		67	4	False	False
+0x28eab80f	drafter	0x8bb5d91e		67	4	False	False
+0x28eab80f	drafter	0x0552ea55		67	4	False	False
+0x462fe277	dubsta	0x86d36840	window_lf_mover	77	7	False	False
+0x462fe277	dubsta	0x031fd5fc	window_rf_mover	77	7	False	False
+0x462fe277	dubsta	0x8bb5d91e		77	7	False	False
+0x462fe277	dubsta	0x0552ea55		77	7	False	False
+0x462fe277	dubsta	0xfbdba1a6		77	7	False	False
+0x462fe277	dubsta	0xeaeecb7b		77	7	False	False
+0x462fe277	dubsta	0x87d29d26		77	7	False	False
+0x810369e2	dump	0xfbdba1a6		21	1	False	False
+0x810369e2	dump	0xeaeecb7b		21	1	False	False
+0x05071b2d	duster2	0x5843187f		49	5	False	False
+0x05071b2d	duster2	0xfbdba1a6		49	5	False	False
+0x05071b2d	duster2	0xeaeecb7b		49	5	False	False
+0x39d6779e	duster	0x5843187f		35	6	False	False
+0x39d6779e	duster	0xb4d801c7		35	6	False	False
+0x0bba2261	elegy	0x8bb5d91e		61	3	False	False
+0x0bba2261	elegy	0x0552ea55		61	3	False	False
+0x0bba2261	elegy	0xfbdba1a6		61	3	False	False
+0x0bba2261	elegy	0xeaeecb7b		61	3	False	False
+0x0bba2261	elegy	0x86d36840	window_lf_mover	61	3	False	False
+0x0bba2261	elegy	0x86d36840	window_lf_mover	61	3	False	False
+0x0bba2261	elegy	0x031fd5fc	window_rf_mover	61	3	False	False
+0x0bba2261	elegy	0x031fd5fc	window_rf_mover	61	3	False	False
+0x4ee74355	emerus	0xfbdba1a6		55	2	False	False
+0x4ee74355	emerus	0xeaeecb7b		55	2	False	False
+0x4ee74355	emerus	0x8bb5d91e		55	2	False	False
+0x4ee74355	emerus	0x0552ea55		55	2	False	False
+0x4ee74355	emerus	0x86d36840	window_lf_mover	55	2	False	False
+0x4ee74355	emerus	0x86d36840	window_lf_mover	55	2	False	False
+0x4ee74355	emerus	0x031fd5fc	window_rf_mover	55	2	False	False
+0x4ee74355	emerus	0x031fd5fc	window_rf_mover	55	2	False	False
+0xd7278283	emperor	0xfbdba1a6		73	3	False	False
+0xd7278283	emperor	0xeaeecb7b		73	3	False	False
+0xd7278283	emperor	0x8bb5d91e		73	3	False	False
+0xd7278283	emperor	0x0552ea55		73	3	False	False
+0xd7278283	emperor	0x86d36840	window_lf_mover	73	3	False	False
+0xd7278283	emperor	0x86d36840	window_lf_mover	73	3	False	False
+0xd7278283	emperor	0x6ec686bf	window_lr_mover	73	3	False	False
+0xd7278283	emperor	0x031fd5fc	window_rf_mover	73	3	False	False
+0xd7278283	emperor	0x031fd5fc	window_rf_mover	73	3	False	False
+0xd7278283	emperor	0xfc0ce3f6	window_rr_mover	73	3	False	False
+0x97553c28	everon	0xfbdba1a6		23	0	False	False
+0x97553c28	everon	0xeaeecb7b		23	0	False	False
+0x97553c28	everon	0x8bb5d91e		23	0	False	False
+0x97553c28	everon	0x0552ea55		23	0	False	False
+0x3a196cea	feroci	0x6ec686bf	window_lr_mover	97	3	False	False
+0x3a196cea	feroci	0x6ec686bf	window_lr_mover	97	3	False	False
+0x3a196cea	feroci	0x86d36840	window_lf_mover	97	3	False	False
+0x3a196cea	feroci	0x86d36840	window_lf_mover	97	3	False	False
+0x3a196cea	feroci	0xfc0ce3f6	window_rr_mover	97	3	False	False
+0x3a196cea	feroci	0xfc0ce3f6	window_rr_mover	97	3	False	False
+0x3a196cea	feroci	0x031fd5fc	window_rf_mover	97	3	False	False
+0x3a196cea	feroci	0x031fd5fc	window_rf_mover	97	3	False	False
+0x3a196cea	feroci	0xfbdba1a6		97	3	False	False
+0x3a196cea	feroci	0xeaeecb7b		97	3	False	False
+0x3a196cea	feroci	0x8bb5d91e		97	3	False	False
+0x3a196cea	feroci	0x0552ea55		97	3	False	False
+0x3a196cea	feroci	0x66ec13b0		97	3	False	False
+0x3a196cea	feroci	0x66ec13b0		97	3	False	False
+0x73920f8e	firetruk	0xfbdba1a6		47	4	False	False
+0x73920f8e	firetruk	0xeaeecb7b		47	4	False	False
+0x73920f8e	firetruk	0x8bb5d91e		47	4	False	False
+0x73920f8e	firetruk	0x0552ea55		47	4	False	False
+0x65bca221	firetruk2	0x8bb5d91e		53	5	False	False
+0x65bca221	firetruk2	0x0552ea55		53	5	False	False
+0x65bca221	firetruk2	0xfbdba1a6		53	5	False	False
+0x65bca221	firetruk2	0xeaeecb7b		53	5	False	False
+0x0273c534	flatdeck	0xfbdba1a6		55	4	False	False
+0x0273c534	flatdeck	0xeaeecb7b		55	4	False	False
+0x0273c534	flatdeck	0x03a85156		55	4	False	False
+0x0273c534	flatdeck	0x96cde9ee		55	4	False	False
+0x0273c534	flatdeck	0x8bb5d91e		55	4	False	False
+0x0273c534	flatdeck	0x0552ea55		55	4	False	False
+0xe43c11e5	fr36	0x86d36840	window_lf_mover	57	5	False	False
+0xe43c11e5	fr36	0x8bb5d91e		57	5	False	False
+0xe43c11e5	fr36	0x0552ea55		57	5	False	False
+0xe43c11e5	fr36	0xfbdba1a6		57	5	False	False
+0xe43c11e5	fr36	0xeaeecb7b		57	5	False	False
+0xe43c11e5	fr36	0x031fd5fc	window_rf_mover	57	5	False	False
+0x3d6aaa9b	freight	0xfbdba1a6		33	3	False	False
+0x3d6aaa9b	freight	0xeaeecb7b		33	3	False	False
+0x3d6aaa9b	freight	0x26b1d1d5		33	3	False	False
+0x3d6aaa9b	freight	0x03a85156		33	3	False	False
+0x3944d5a0	furia	0xfbdba1a6		65	5	False	False
+0x3944d5a0	furia	0xeaeecb7b		65	5	False	False
+0x3944d5a0	furia	0x8bb5d91e		65	5	False	False
+0x3944d5a0	furia	0x86d36840	window_lf_mover	65	5	False	False
+0x3944d5a0	furia	0x86d36840	window_lf_mover	65	5	False	False
+0x3944d5a0	furia	0x031fd5fc	window_rf_mover	65	5	False	False
+0x3944d5a0	furia	0x031fd5fc	window_rf_mover	65	5	False	False
+0x7bbdbe95		0x86d36840	window_lf_mover	55	0	False	False
+0x7bbdbe95		0x86d36840	window_lf_mover	55	0	False	False
+0x7bbdbe95		0x031fd5fc	window_rf_mover	55	0	False	False
+0x7bbdbe95		0x031fd5fc	window_rf_mover	55	0	False	False
+0x7bbdbe95		0x8bb5d91e		55	0	False	False
+0x7bbdbe95		0x8bb5d91e		55	0	False	False
+0x7bbdbe95		0x0552ea55		55	0	False	False
+0x7bbdbe95		0x0552ea55		55	0	False	False
+0x7bbdbe95		0xfbdba1a6		55	0	False	False
+0x7bbdbe95		0xeaeecb7b		55	0	False	False
+0x7836ce2f	futo	0xfbdba1a6		59	2	False	False
+0x7836ce2f	futo	0xeaeecb7b		59	2	False	False
+0x7836ce2f	futo	0x8bb5d91e		59	2	False	False
+0x7836ce2f	futo	0x0552ea55		59	2	False	False
+0x7836ce2f	futo	0x86d36840	window_lf_mover	59	2	False	False
+0x7836ce2f	futo	0x86d36840	window_lf_mover	59	2	False	False
+0x7836ce2f	futo	0x031fd5fc	window_rf_mover	59	2	False	False
+0x7836ce2f	futo	0x031fd5fc	window_rf_mover	59	2	False	False
+0xcb84df29	ganado	0x86d36840	window_lf_mover	53	5	False	False
+0xcb84df29	ganado	0x031fd5fc	window_rf_mover	53	5	False	False
+0xcb84df29	ganado	0x8bb5d91e		53	5	False	False
+0xcb84df29	ganado	0x0552ea55		53	5	False	False
+0xcb84df29	ganado	0xfbdba1a6		53	5	False	False
+0xcb84df29	ganado	0xeaeecb7b		53	5	False	False
+0x734c5e50	gauntlet4	0x86d36840	window_lf_mover	53	1	False	False
+0x734c5e50	gauntlet4	0x86d36840	window_lf_mover	53	1	False	False
+0x734c5e50	gauntlet4	0xfbdba1a6		53	1	False	False
+0x734c5e50	gauntlet4	0xeaeecb7b		53	1	False	False
+0x734c5e50	gauntlet4	0x8bb5d91e		53	1	False	False
+0x734c5e50	gauntlet4	0x0552ea55		53	1	False	False
+0x734c5e50	gauntlet4	0x031fd5fc	window_rf_mover	53	1	False	False
+0x734c5e50	gauntlet4	0x031fd5fc	window_rf_mover	53	1	False	False
+0x817afaad	gauntlet5	0x86d36840	window_lf_mover	71	6	False	False
+0x817afaad	gauntlet5	0x86d36840	window_lf_mover	71	6	False	False
+0x817afaad	gauntlet5	0x031fd5fc	window_rf_mover	71	6	False	False
+0x817afaad	gauntlet5	0x031fd5fc	window_rf_mover	71	6	False	False
+0x817afaad	gauntlet5	0xfbdba1a6		71	6	False	False
+0x817afaad	gauntlet5	0xeaeecb7b		71	6	False	False
+0x817afaad	gauntlet5	0x8bb5d91e		71	6	False	False
+0x817afaad	gauntlet5	0x0552ea55		71	6	False	False
+0x047a6bc1	glendale	0xfbdba1a6		23	0	False	False
+0x047a6bc1	glendale	0xeaeecb7b		23	0	False	False
+0x047a6bc1	glendale	0x8bb5d91e		23	0	False	False
+0x047a6bc1	glendale	0x0552ea55		23	0	False	False
+0x9628879c	granger	0x86d36840	window_lf_mover	85	1	False	False
+0x9628879c	granger	0x86d36840	window_lf_mover	85	1	False	False
+0x9628879c	granger	0x6ec686bf	window_lr_mover	85	1	False	False
+0x9628879c	granger	0x6ec686bf	window_lr_mover	85	1	False	False
+0x9628879c	granger	0x87d29d26		85	1	False	False
+0x9628879c	granger	0x8f951f70		85	1	False	False
+0x9628879c	granger	0xfbdba1a6		85	1	False	False
+0x9628879c	granger	0xeaeecb7b		85	1	False	False
+0x9628879c	granger	0x8bb5d91e		85	1	False	False
+0x9628879c	granger	0x0552ea55		85	1	False	False
+0x9628879c	granger	0x031fd5fc	window_rf_mover	85	1	False	False
+0x9628879c	granger	0x031fd5fc	window_rf_mover	85	1	False	False
+0x9628879c	granger	0xfc0ce3f6	window_rr_mover	85	1	False	False
+0x9628879c	granger	0xfc0ce3f6	window_rr_mover	85	1	False	False
+0x1677cbb9	granger3600lx	0x87d29d26		93	3	False	False
+0x1677cbb9	granger3600lx	0x8f951f70		93	3	False	False
+0x1677cbb9	granger3600lx	0xfbdba1a6		93	3	False	False
+0x1677cbb9	granger3600lx	0xeaeecb7b		93	3	False	False
+0x1677cbb9	granger3600lx	0x8bb5d91e		93	3	False	False
+0x1677cbb9	granger3600lx	0x0552ea55		93	3	False	False
+0x1677cbb9	granger3600lx	0x6ec686bf	window_lr_mover	93	3	False	False
+0x1677cbb9	granger3600lx	0x6ec686bf	window_lr_mover	93	3	False	False
+0x1677cbb9	granger3600lx	0x86d36840	window_lf_mover	93	3	False	False
+0x1677cbb9	granger3600lx	0x86d36840	window_lf_mover	93	3	False	False
+0x1677cbb9	granger3600lx	0xfc0ce3f6	window_rr_mover	93	3	False	False
+0x1677cbb9	granger3600lx	0xfc0ce3f6	window_rr_mover	93	3	False	False
+0x1677cbb9	granger3600lx	0x031fd5fc	window_rf_mover	93	3	False	False
+0x1677cbb9	granger3600lx	0x031fd5fc	window_rf_mover	93	3	False	False
+0xd7c7b446	gresleyxt	0x87d29d26		97	3	False	False
+0xd7c7b446	gresleyxt	0x8bb5d91e		97	3	False	False
+0xd7c7b446	gresleyxt	0x0552ea55		97	3	False	False
+0xd7c7b446	gresleyxt	0xfbdba1a6		97	3	False	False
+0xd7c7b446	gresleyxt	0xeaeecb7b		97	3	False	False
+0xd7c7b446	gresleyxt	0x86d36840	window_lf_mover	97	3	False	False
+0xd7c7b446	gresleyxt	0x86d36840	window_lf_mover	97	3	False	False
+0xd7c7b446	gresleyxt	0x6ec686bf	window_lr_mover	97	3	False	False
+0xd7c7b446	gresleyxt	0x6ec686bf	window_lr_mover	97	3	False	False
+0xd7c7b446	gresleyxt	0x031fd5fc	window_rf_mover	97	3	False	False
+0xd7c7b446	gresleyxt	0x031fd5fc	window_rf_mover	97	3	False	False
+0xd7c7b446	gresleyxt	0xfc0ce3f6	window_rr_mover	97	3	False	False
+0xd7c7b446	gresleyxt	0xfc0ce3f6	window_rr_mover	97	3	False	False
+0xd7c7b446	gresleyxt	0x66ec13b0		97	3	False	False
+0xedb3aebd	greta	0x86d36840	window_lf_mover	85	3	False	False
+0xedb3aebd	greta	0x86d36840	window_lf_mover	85	3	False	False
+0xedb3aebd	greta	0x6ec686bf	window_lr_mover	85	3	False	False
+0xedb3aebd	greta	0x6ec686bf	window_lr_mover	85	3	False	False
+0xedb3aebd	greta	0x031fd5fc	window_rf_mover	85	3	False	False
+0xedb3aebd	greta	0x031fd5fc	window_rf_mover	85	3	False	False
+0xedb3aebd	greta	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xedb3aebd	greta	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xedb3aebd	greta	0x8bb5d91e		85	3	False	False
+0xedb3aebd	greta	0x0552ea55		85	3	False	False
+0xedb3aebd	greta	0xfbdba1a6		85	3	False	False
+0xedb3aebd	greta	0xeaeecb7b		85	3	False	False
+0x7eaac5f4	grouse	0x8bb5d91e		77	1	False	False
+0x7eaac5f4	grouse	0x0552ea55		77	1	False	False
+0x7eaac5f4	grouse	0xfbdba1a6		77	1	False	False
+0x7eaac5f4	grouse	0xeaeecb7b		77	1	False	False
+0x7eaac5f4	grouse	0x6ec686bf	window_lr_mover	77	1	False	False
+0x7eaac5f4	grouse	0x6ec686bf	window_lr_mover	77	1	False	False
+0x7eaac5f4	grouse	0x86d36840	window_lf_mover	77	1	False	False
+0x7eaac5f4	grouse	0x86d36840	window_lf_mover	77	1	False	False
+0x7eaac5f4	grouse	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0x7eaac5f4	grouse	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0x7eaac5f4	grouse	0x031fd5fc	window_rf_mover	77	1	False	False
+0x7eaac5f4	grouse	0x031fd5fc	window_rf_mover	77	1	False	False
+0x4dc079d7	growler	0xfbdba1a6		59	4	False	False
+0x4dc079d7	growler	0xeaeecb7b		59	4	False	False
+0x4dc079d7	growler	0x8bb5d91e		59	4	False	False
+0x4dc079d7	growler	0x0552ea55		59	4	False	False
+0x4dc079d7	growler	0x86d36840	window_lf_mover	59	4	False	False
+0x4dc079d7	growler	0x031fd5fc	window_rf_mover	59	4	False	False
+0x70cb15b3	guardiantx2	0x6ec686bf	window_lr_mover	81	7	False	False
+0x70cb15b3	guardiantx2	0x86d36840	window_lf_mover	81	7	False	False
+0x70cb15b3	guardiantx2	0xfbdba1a6		81	7	False	False
+0x70cb15b3	guardiantx2	0xeaeecb7b		81	7	False	False
+0x70cb15b3	guardiantx2	0x8bb5d91e		81	7	False	False
+0x70cb15b3	guardiantx2	0x0552ea55		81	7	False	False
+0x70cb15b3	guardiantx2	0xfc0ce3f6	window_rr_mover	81	7	False	False
+0x70cb15b3	guardiantx2	0x031fd5fc	window_rf_mover	81	7	False	False
+0x5a82f9ae	hauler	0x8bb5d91e		35	2	False	False
+0x5a82f9ae	hauler	0x0552ea55		35	2	False	False
+0x5a82f9ae	hauler	0xfbdba1a6		35	2	False	False
+0x5a82f9ae	hauler	0xeaeecb7b		35	2	False	False
+0xea6a047f	hellion	0xfbdba1a6		59	2	False	False
+0xea6a047f	hellion	0xeaeecb7b		59	2	False	False
+0xea6a047f	hellion	0x8bb5d91e		59	2	False	False
+0xea6a047f	hellion	0x0552ea55		59	2	False	False
+0xea6a047f	hellion	0x86d36840	window_lf_mover	59	2	False	False
+0xea6a047f	hellion	0x86d36840	window_lf_mover	59	2	False	False
+0xea6a047f	hellion	0x031fd5fc	window_rf_mover	59	2	False	False
+0xea6a047f	hellion	0x031fd5fc	window_rf_mover	59	2	False	False
+0x4912da6a	hemming	0x96cde9ee		27	2	False	False
+0x4912da6a	hemming	0xeaeecb7b		27	2	False	False
+0x4912da6a	hemming	0x8bb5d91e		27	2	False	False
+0x4912da6a	hemming	0x0552ea55		27	2	False	False
+0x00e83c17	hermes	0x86d36840	window_lf_mover	55	4	False	False
+0x00e83c17	hermes	0xfbdba1a6		55	4	False	False
+0x00e83c17	hermes	0xeaeecb7b		55	4	False	False
+0x00e83c17	hermes	0x8bb5d91e		55	4	False	False
+0x00e83c17	hermes	0x0552ea55		55	4	False	False
+0x00e83c17	hermes	0x031fd5fc	window_rf_mover	55	4	False	False
+0x23ca25f2	hustler	0xfbdba1a6		37	5	False	False
+0x23ca25f2	hustler	0xeaeecb7b		37	5	False	False
+0xe3788bb1	impaler5	0x6ec686bf	window_lr_mover	77	1	False	False
+0xe3788bb1	impaler5	0x6ec686bf	window_lr_mover	77	1	False	False
+0xe3788bb1	impaler5	0x86d36840	window_lf_mover	77	1	False	False
+0xe3788bb1	impaler5	0x86d36840	window_lf_mover	77	1	False	False
+0xe3788bb1	impaler5	0xfbdba1a6		77	1	False	False
+0xe3788bb1	impaler5	0xeaeecb7b		77	1	False	False
+0xe3788bb1	impaler5	0x8bb5d91e		77	1	False	False
+0xe3788bb1	impaler5	0x0552ea55		77	1	False	False
+0xe3788bb1	impaler5	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0xe3788bb1	impaler5	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0xe3788bb1	impaler5	0x031fd5fc	window_rf_mover	77	1	False	False
+0xe3788bb1	impaler5	0x031fd5fc	window_rf_mover	77	1	False	False
+0xf55d2f7a	impaler6	0x8bb5d91e		83	4	False	False
+0xf55d2f7a	impaler6	0xfbdba1a6		83	4	False	False
+0xf55d2f7a	impaler6	0xeaeecb7b		83	4	False	False
+0xf55d2f7a	impaler6	0x86d36840	window_lf_mover	83	4	False	False
+0xf55d2f7a	impaler6	0x86d36840	window_lf_mover	83	4	False	False
+0xf55d2f7a	impaler6	0x6ec686bf	window_lr_mover	83	4	False	False
+0xf55d2f7a	impaler6	0x6ec686bf	window_lr_mover	83	4	False	False
+0xf55d2f7a	impaler6	0x031fd5fc	window_rf_mover	83	4	False	False
+0xf55d2f7a	impaler6	0x031fd5fc	window_rf_mover	83	4	False	False
+0xf55d2f7a	impaler6	0xfc0ce3f6	window_rr_mover	83	4	False	False
+0xf55d2f7a	impaler6	0xfc0ce3f6	window_rr_mover	83	4	False	False
+0xac33179c	infernus2	0x86d36840	window_lf_mover	71	6	False	False
+0xac33179c	infernus2	0x86d36840	window_lf_mover	71	6	False	False
+0xac33179c	infernus2	0xfbdba1a6		71	6	False	False
+0xac33179c	infernus2	0x0552ea55		71	6	False	False
+0xac33179c	infernus2	0x031fd5fc	window_rf_mover	71	6	False	False
+0xac33179c	infernus2	0x031fd5fc	window_rf_mover	71	6	False	False
+0x34dd8aa1	intruder	0x6ec686bf	window_lr_mover	97	5	False	False
+0x34dd8aa1	intruder	0x6ec686bf	window_lr_mover	97	5	False	False
+0x34dd8aa1	intruder	0x86d36840	window_lf_mover	97	5	False	False
+0x34dd8aa1	intruder	0x86d36840	window_lf_mover	97	5	False	False
+0x34dd8aa1	intruder	0xfc0ce3f6	window_rr_mover	97	5	False	False
+0x34dd8aa1	intruder	0xfc0ce3f6	window_rr_mover	97	5	False	False
+0x34dd8aa1	intruder	0x031fd5fc	window_rf_mover	97	5	False	False
+0x34dd8aa1	intruder	0x031fd5fc	window_rf_mover	97	5	False	False
+0x34dd8aa1	intruder	0x8bb5d91e		97	5	False	False
+0x34dd8aa1	intruder	0x0552ea55		97	5	False	False
+0x34dd8aa1	intruder	0xfbdba1a6		97	5	False	False
+0x34dd8aa1	intruder	0xeaeecb7b		97	5	False	False
+0x2954a08a	iota	0x86d36840	window_lf_mover	51	6	False	False
+0x2954a08a	iota	0xfbdba1a6		51	6	False	False
+0x2954a08a	iota	0xeaeecb7b		51	6	False	False
+0x2954a08a	iota	0x8bb5d91e		51	6	False	False
+0x2954a08a	iota	0x031fd5fc	window_rf_mover	51	6	False	False
+0xec3e3404	italigto	0x86d36840	window_lf_mover	47	0	False	False
+0xec3e3404	italigto	0x86d36840	window_lf_mover	47	0	False	False
+0xec3e3404	italigto	0x8bb5d91e		47	0	False	False
+0xec3e3404	italigto	0x0552ea55		47	0	False	False
+0xec3e3404	italigto	0xfbdba1a6		47	0	False	False
+0xec3e3404	italigto	0xeaeecb7b		47	0	False	False
+0xec3e3404	italigto	0x031fd5fc	window_rf_mover	47	0	False	False
+0xec3e3404	italigto	0x031fd5fc	window_rf_mover	47	0	False	False
+0xbb78956a	italirsx	0x86d36840	window_lf_mover	81	7	False	False
+0xbb78956a	italirsx	0x86d36840	window_lf_mover	81	7	False	False
+0xbb78956a	italirsx	0x8bb5d91e		81	7	False	False
+0xbb78956a	italirsx	0x0552ea55		81	7	False	False
+0xbb78956a	italirsx	0xfbdba1a6		81	7	False	False
+0xbb78956a	italirsx	0xeaeecb7b		81	7	False	False
+0xbb78956a	italirsx	0x031fd5fc	window_rf_mover	81	7	False	False
+0xbb78956a	italirsx	0x031fd5fc	window_rf_mover	81	7	False	False
+0x3f119114	jet	0x90a8e326		93	11	False	False
+0x3f119114	jet	0xbedef31f		93	11	False	False
+0x3f119114	jet	0xfbdba1a6		93	11	False	False
+0x3f119114	jet	0xeaeecb7b		93	11	False	False
+0x3f119114	jet	0x8bb5d91e		93	11	False	False
+0x3f119114	jet	0x0552ea55		93	11	False	False
+0x8e6971d3	jet2	0xfbdba1a6		43	4	False	False
+0x8e6971d3	jet2	0xeaeecb7b		43	4	False	False
+0x8e6971d3	jet2	0x8bb5d91e		43	4	False	False
+0x8e6971d3	jet2	0x0552ea55		43	4	False	False
+0xf8d48e7a	journey	0xfbdba1a6		39	4	False	False
+0xf8d48e7a	journey	0x86d36840	window_lf_mover	39	4	False	False
+0xf8d48e7a	journey	0x031fd5fc	window_rf_mover	39	4	False	False
+0x1b8165d3	jubilee	0x86d36840	window_lf_mover	105	5	False	False
+0x1b8165d3	jubilee	0x86d36840	window_lf_mover	105	5	False	False
+0x1b8165d3	jubilee	0x6ec686bf	window_lr_mover	105	5	False	False
+0x1b8165d3	jubilee	0x6ec686bf	window_lr_mover	105	5	False	False
+0x1b8165d3	jubilee	0xfbdba1a6		105	5	False	False
+0x1b8165d3	jubilee	0xeaeecb7b		105	5	False	False
+0x1b8165d3	jubilee	0x8bb5d91e		105	5	False	False
+0x1b8165d3	jubilee	0x0552ea55		105	5	False	False
+0x1b8165d3	jubilee	0x031fd5fc	window_rf_mover	105	5	False	False
+0x1b8165d3	jubilee	0x031fd5fc	window_rf_mover	105	5	False	False
+0x1b8165d3	jubilee	0xfc0ce3f6	window_rr_mover	105	5	False	False
+0x1b8165d3	jubilee	0xfc0ce3f6	window_rr_mover	105	5	False	False
+0x1b8165d3	jubilee	0xd5bb8320		105	5	False	False
+0x1b8165d3	jubilee	0x9e2a302a		105	5	False	False
+0xf38c4245	jugular	0x86d36840	window_lf_mover	85	3	False	False
+0xf38c4245	jugular	0x86d36840	window_lf_mover	85	3	False	False
+0xf38c4245	jugular	0x6ec686bf	window_lr_mover	85	3	False	False
+0xf38c4245	jugular	0x6ec686bf	window_lr_mover	85	3	False	False
+0xf38c4245	jugular	0x8bb5d91e		85	3	False	False
+0xf38c4245	jugular	0x0552ea55		85	3	False	False
+0xf38c4245	jugular	0xfbdba1a6		85	3	False	False
+0xf38c4245	jugular	0xeaeecb7b		85	3	False	False
+0xf38c4245	jugular	0x031fd5fc	window_rf_mover	85	3	False	False
+0xf38c4245	jugular	0x031fd5fc	window_rf_mover	85	3	False	False
+0xf38c4245	jugular	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xf38c4245	jugular	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0xf8c2e0e7	kamacho	0xfbdba1a6		37	3	False	False
+0xf8c2e0e7	kamacho	0xeaeecb7b		37	3	False	False
+0xf8c2e0e7	kamacho	0x8bb5d91e		37	3	False	False
+0xf8c2e0e7	kamacho	0x0552ea55		37	3	False	False
+0xce0b9f22	landstalker2	0x86d36840	window_lf_mover	103	4	False	False
+0xce0b9f22	landstalker2	0x86d36840	window_lf_mover	103	4	False	False
+0xce0b9f22	landstalker2	0x6ec686bf	window_lr_mover	103	4	False	False
+0xce0b9f22	landstalker2	0x6ec686bf	window_lr_mover	103	4	False	False
+0xce0b9f22	landstalker2	0xfbdba1a6		103	4	False	False
+0xce0b9f22	landstalker2	0xeaeecb7b		103	4	False	False
+0xce0b9f22	landstalker2	0x8bb5d91e		103	4	False	False
+0xce0b9f22	landstalker2	0x0552ea55		103	4	False	False
+0xce0b9f22	landstalker2	0x87d29d26		103	4	False	False
+0xce0b9f22	landstalker2	0x031fd5fc	window_rf_mover	103	4	False	False
+0xce0b9f22	landstalker2	0x031fd5fc	window_rf_mover	103	4	False	False
+0xce0b9f22	landstalker2	0xfc0ce3f6	window_rr_mover	103	4	False	False
+0xce0b9f22	landstalker2	0xfc0ce3f6	window_rr_mover	103	4	False	False
+0xce0b9f22	landstalker2	0x66ec13b0		103	4	False	False
+0xce0b9f22	landstalker2	0x66ec13b0		103	4	False	False
+0x2a083060	lasso	0xfbdba1a6		65	5	False	False
+0x2a083060	lasso	0x8bb5d91e		65	5	False	False
+0x2a083060	lasso	0x0552ea55		65	5	False	False
+0x2a083060	lasso	0x86d36840	window_lf_mover	65	5	False	False
+0x2a083060	lasso	0x86d36840	window_lf_mover	65	5	False	False
+0x2a083060	lasso	0x031fd5fc	window_rf_mover	65	5	False	False
+0x2a083060	lasso	0x031fd5fc	window_rf_mover	65	5	False	False
+0xb39b0ae6	lazer	0x8dc892dd		37	5	False	False
+0x57a536c6	lowline	0xfbdba1a6		85	3	False	False
+0x57a536c6	lowline	0xeaeecb7b		85	3	False	False
+0x57a536c6	lowline	0x8bb5d91e		85	3	False	False
+0x57a536c6	lowline	0x0552ea55		85	3	False	False
+0x57a536c6	lowline	0x86d36840	window_lf_mover	85	3	False	False
+0x57a536c6	lowline	0x86d36840	window_lf_mover	85	3	False	False
+0x57a536c6	lowline	0x6ec686bf	window_lr_mover	85	3	False	False
+0x57a536c6	lowline	0x6ec686bf	window_lr_mover	85	3	False	False
+0x57a536c6	lowline	0x031fd5fc	window_rf_mover	85	3	False	False
+0x57a536c6	lowline	0x031fd5fc	window_rf_mover	85	3	False	False
+0x57a536c6	lowline	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x57a536c6	lowline	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x5dca7c9a		0x8bb5d91e		47	0	False	False
+0x5dca7c9a		0x0552ea55		47	0	False	False
+0x5dca7c9a		0xfbdba1a6		47	0	False	False
+0x5dca7c9a		0xeaeecb7b		47	0	False	False
+0x5dca7c9a		0x86d36840	window_lf_mover	47	0	False	False
+0x5dca7c9a		0x86d36840	window_lf_mover	47	0	False	False
+0x5dca7c9a		0x031fd5fc	window_rf_mover	47	0	False	False
+0x5dca7c9a		0x031fd5fc	window_rf_mover	47	0	False	False
+0x63171d46	mambagt	0x8bb5d91e		59	2	False	False
+0x63171d46	mambagt	0x0552ea55		59	2	False	False
+0x63171d46	mambagt	0xfbdba1a6		59	2	False	False
+0x63171d46	mambagt	0xeaeecb7b		59	2	False	False
+0x63171d46	mambagt	0x86d36840	window_lf_mover	59	2	False	False
+0x63171d46	mambagt	0x86d36840	window_lf_mover	59	2	False	False
+0x63171d46	mambagt	0x031fd5fc	window_rf_mover	59	2	False	False
+0x63171d46	mambagt	0x031fd5fc	window_rf_mover	59	2	False	False
+0x81634188	manana	0xfbdba1a6		59	2	False	False
+0x81634188	manana	0xeaeecb7b		59	2	False	False
+0x81634188	manana	0x8bb5d91e		59	2	False	False
+0x81634188	manana	0x0552ea55		59	2	False	False
+0x81634188	manana	0x86d36840	window_lf_mover	59	2	False	False
+0x81634188	manana	0x86d36840	window_lf_mover	59	2	False	False
+0x81634188	manana	0x031fd5fc	window_rf_mover	59	2	False	False
+0x81634188	manana	0x031fd5fc	window_rf_mover	59	2	False	False
+0x49863e9c	marshall	0x6ec686bf	window_lr_mover	89	5	False	False
+0x49863e9c	marshall	0x6ec686bf	window_lr_mover	89	5	False	False
+0x49863e9c	marshall	0x86d36840	window_lf_mover	89	5	False	False
+0x49863e9c	marshall	0x8bb5d91e		89	5	False	False
+0x49863e9c	marshall	0x0552ea55		89	5	False	False
+0x49863e9c	marshall	0xfbdba1a6		89	5	False	False
+0x49863e9c	marshall	0xeaeecb7b		89	5	False	False
+0x49863e9c	marshall	0xfc0ce3f6	window_rr_mover	89	5	False	False
+0x49863e9c	marshall	0xfc0ce3f6	window_rr_mover	89	5	False	False
+0x49863e9c	marshall	0x031fd5fc	window_rf_mover	89	5	False	False
+0x49863e9c	marshall	0x66ec13b0		89	5	False	False
+0x9c46d824	mb210	0x86d36840	window_lf_mover	65	3	False	False
+0x9c46d824	mb210	0x86d36840	window_lf_mover	65	3	False	False
+0x9c46d824	mb210	0xfbdba1a6		65	3	False	False
+0x9c46d824	mb210	0xeaeecb7b		65	3	False	False
+0x9c46d824	mb210	0x8bb5d91e		65	3	False	False
+0x9c46d824	mb210	0x0552ea55		65	3	False	False
+0x9c46d824	mb210	0x031fd5fc	window_rf_mover	65	3	False	False
+0x9c46d824	mb210	0x031fd5fc	window_rf_mover	65	3	False	False
+0x8a6354b8	meritlx	0x6ec686bf	window_lr_mover	85	3	False	False
+0x8a6354b8	meritlx	0x6ec686bf	window_lr_mover	85	3	False	False
+0x8a6354b8	meritlx	0x86d36840	window_lf_mover	85	3	False	False
+0x8a6354b8	meritlx	0x86d36840	window_lf_mover	85	3	False	False
+0x8a6354b8	meritlx	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x8a6354b8	meritlx	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x8a6354b8	meritlx	0x031fd5fc	window_rf_mover	85	3	False	False
+0x8a6354b8	meritlx	0x031fd5fc	window_rf_mover	85	3	False	False
+0x8a6354b8	meritlx	0xfbdba1a6		85	3	False	False
+0x8a6354b8	meritlx	0xeaeecb7b		85	3	False	False
+0x8a6354b8	meritlx	0x8bb5d91e		85	3	False	False
+0x8a6354b8	meritlx	0x0552ea55		85	3	False	False
+0x36848602	mesa	0x8bb5d91e		79	4	False	False
+0x36848602	mesa	0x0552ea55		79	4	False	False
+0x36848602	mesa	0xfbdba1a6		79	4	False	False
+0x36848602	mesa	0xeaeecb7b		79	4	False	False
+0x36848602	mesa	0x6ec686bf	window_lr_mover	79	4	False	False
+0x36848602	mesa	0x86d36840	window_lf_mover	79	4	False	False
+0x36848602	mesa	0x86d36840	window_lf_mover	79	4	False	False
+0x36848602	mesa	0xfc0ce3f6	window_rr_mover	79	4	False	False
+0x36848602	mesa	0x031fd5fc	window_rf_mover	79	4	False	False
+0x36848602	mesa	0x031fd5fc	window_rf_mover	79	4	False	False
+0x7c034b63	metromule	0xfbdba1a6		55	8	False	False
+0x7c034b63	metromule	0xeaeecb7b		55	8	False	False
+0x7c034b63	metromule	0x87d29d26		55	8	False	False
+0x7c034b63	metromule	0x8f951f70		55	8	False	False
+0x42cb66d8	metrotrain2	0xfbdba1a6		63	12	False	False
+0x42cb66d8	metrotrain2	0xeaeecb7b		63	12	False	False
+0xed7eada4	minivan	0x87d29d26		111	6	False	False
+0xed7eada4	minivan	0x8f951f70		111	6	False	False
+0xed7eada4	minivan	0xfbdba1a6		111	6	False	False
+0xed7eada4	minivan	0xeaeecb7b		111	6	False	False
+0xed7eada4	minivan	0x8bb5d91e		111	6	False	False
+0xed7eada4	minivan	0x0552ea55		111	6	False	False
+0xed7eada4	minivan	0x6ec686bf	window_lr_mover	111	6	False	False
+0xed7eada4	minivan	0x86d36840	window_lf_mover	111	6	False	False
+0xed7eada4	minivan	0x86d36840	window_lf_mover	111	6	False	False
+0xed7eada4	minivan	0xfc0ce3f6	window_rr_mover	111	6	False	False
+0xed7eada4	minivan	0x031fd5fc	window_rf_mover	111	6	False	False
+0xed7eada4	minivan	0x031fd5fc	window_rf_mover	111	6	False	False
+0xed7eada4	minivan	0xe179bcee	door_dside_r	111	6	False	False
+0xed7eada4	minivan	0x41628d75	door_pside_r	111	6	False	False
+0x1c534995	mixer2	0x8bb5d91e		35	2	False	False
+0x1c534995	mixer2	0x0552ea55		35	2	False	False
+0x1c534995	mixer2	0xfbdba1a6		35	2	False	False
+0x1c534995	mixer2	0xeaeecb7b		35	2	False	False
+0x43e09655		0x86d36840	window_lf_mover	39	0	False	False
+0x43e09655		0x86d36840	window_lf_mover	39	0	False	False
+0x43e09655		0xfbdba1a6		39	0	False	False
+0x43e09655		0xeaeecb7b		39	0	False	False
+0x43e09655		0x031fd5fc	window_rf_mover	39	0	False	False
+0x43e09655		0x031fd5fc	window_rf_mover	39	0	False	False
+0xe1b7c320	montagne	0x87d29d26		109	5	False	False
+0xe1b7c320	montagne	0x8f951f70		109	5	False	False
+0xe1b7c320	montagne	0xfbdba1a6		109	5	False	False
+0xe1b7c320	montagne	0xeaeecb7b		109	5	False	False
+0xe1b7c320	montagne	0x8bb5d91e		109	5	False	False
+0xe1b7c320	montagne	0x0552ea55		109	5	False	False
+0xe1b7c320	montagne	0x86d36840	window_lf_mover	109	5	False	False
+0xe1b7c320	montagne	0x86d36840	window_lf_mover	109	5	False	False
+0xe1b7c320	montagne	0x6ec686bf	window_lr_mover	109	5	False	False
+0xe1b7c320	montagne	0x6ec686bf	window_lr_mover	109	5	False	False
+0xe1b7c320	montagne	0x031fd5fc	window_rf_mover	109	5	False	False
+0xe1b7c320	montagne	0x031fd5fc	window_rf_mover	109	5	False	False
+0xe1b7c320	montagne	0xfc0ce3f6	window_rr_mover	109	5	False	False
+0xe1b7c320	montagne	0xfc0ce3f6	window_rr_mover	109	5	False	False
+0x4e393796	montagnepu	0xfbdba1a6		73	3	False	False
+0x4e393796	montagnepu	0xeaeecb7b		73	3	False	False
+0x4e393796	montagnepu	0x8bb5d91e		73	3	False	False
+0x4e393796	montagnepu	0x0552ea55		73	3	False	False
+0x4e393796	montagnepu	0x6ec686bf	window_lr_mover	73	3	False	False
+0x4e393796	montagnepu	0x6ec686bf	window_lr_mover	73	3	False	False
+0x4e393796	montagnepu	0x86d36840	window_lf_mover	73	3	False	False
+0x4e393796	montagnepu	0xfc0ce3f6	window_rr_mover	73	3	False	False
+0x4e393796	montagnepu	0xfc0ce3f6	window_rr_mover	73	3	False	False
+0x4e393796	montagnepu	0x031fd5fc	window_rf_mover	73	3	False	False
+0x16c43d15	montagnexl	0xfbdba1a6		85	1	False	False
+0x16c43d15	montagnexl	0xeaeecb7b		85	1	False	False
+0x16c43d15	montagnexl	0x8bb5d91e		85	1	False	False
+0x16c43d15	montagnexl	0x0552ea55		85	1	False	False
+0x16c43d15	montagnexl	0x87d29d26		85	1	False	False
+0x16c43d15	montagnexl	0x8f951f70		85	1	False	False
+0x16c43d15	montagnexl	0x6ec686bf	window_lr_mover	85	1	False	False
+0x16c43d15	montagnexl	0x6ec686bf	window_lr_mover	85	1	False	False
+0x16c43d15	montagnexl	0x86d36840	window_lf_mover	85	1	False	False
+0x16c43d15	montagnexl	0x86d36840	window_lf_mover	85	1	False	False
+0x16c43d15	montagnexl	0xfc0ce3f6	window_rr_mover	85	1	False	False
+0x16c43d15	montagnexl	0xfc0ce3f6	window_rr_mover	85	1	False	False
+0x16c43d15	montagnexl	0x031fd5fc	window_rf_mover	85	1	False	False
+0x16c43d15	montagnexl	0x031fd5fc	window_rf_mover	85	1	False	False
+0x3e5dc117	moocher	0xfbdba1a6		35	2	False	False
+0x3e5dc117	moocher	0xeaeecb7b		35	2	False	False
+0x3e5dc117	moocher	0x8bb5d91e		35	2	False	False
+0x3e5dc117	moocher	0x0552ea55		35	2	False	False
+0xb0fa08f4	mrtastyrobbery	0xfbdba1a6		35	2	False	False
+0xb0fa08f4	mrtastyrobbery	0xeaeecb7b		35	2	False	False
+0xb0fa08f4	mrtastyrobbery	0x8bb5d91e		35	2	False	False
+0xb0fa08f4	mrtastyrobbery	0x0552ea55		35	2	False	False
+0x35ed670b	mule	0xfbdba1a6		65	7	False	False
+0x35ed670b	mule	0xeaeecb7b		65	7	False	False
+0x35ed670b	mule	0x8bb5d91e		65	7	False	False
+0x35ed670b	mule	0x0552ea55		65	7	False	False
+0x35ed670b	mule	0x86d36840	window_lf_mover	65	7	False	False
+0x35ed670b	mule	0x031fd5fc	window_rf_mover	65	7	False	False
+0x91ca96ee	neon	0x6ec686bf	window_lr_mover	85	3	False	False
+0x91ca96ee	neon	0x6ec686bf	window_lr_mover	85	3	False	False
+0x91ca96ee	neon	0x86d36840	window_lf_mover	85	3	False	False
+0x91ca96ee	neon	0x86d36840	window_lf_mover	85	3	False	False
+0x91ca96ee	neon	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x91ca96ee	neon	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x91ca96ee	neon	0x031fd5fc	window_rf_mover	85	3	False	False
+0x91ca96ee	neon	0x031fd5fc	window_rf_mover	85	3	False	False
+0x91ca96ee	neon	0xfbdba1a6		85	3	False	False
+0x91ca96ee	neon	0xeaeecb7b		85	3	False	False
+0x91ca96ee	neon	0x8bb5d91e		85	3	False	False
+0x91ca96ee	neon	0x0552ea55		85	3	False	False
+0xb2cf7250	nimbus	0xfbdba1a6		29	1	False	False
+0xb2cf7250	nimbus	0xeaeecb7b		29	1	False	False
+0xb2cf7250	nimbus	0x8bb5d91e		29	1	False	False
+0xb2cf7250	nimbus	0x0552ea55		29	1	False	False
+0x21eee87d	packer	0xfbdba1a6		63	10	False	False
+0x21eee87d	packer	0x8bb5d91e		63	10	False	False
+0x21eee87d	packer	0x0552ea55		63	10	False	False
+0xe550775b	paragon	0xfbdba1a6		67	4	False	False
+0xe550775b	paragon	0xeaeecb7b		67	4	False	False
+0xe550775b	paragon	0x8bb5d91e		67	4	False	False
+0xe550775b	paragon	0x0552ea55		67	4	False	False
+0xe550775b	paragon	0x86d36840	window_lf_mover	67	4	False	False
+0xe550775b	paragon	0x86d36840	window_lf_mover	67	4	False	False
+0xe550775b	paragon	0x031fd5fc	window_rf_mover	67	4	False	False
+0xe550775b	paragon	0x031fd5fc	window_rf_mover	67	4	False	False
+0x615872f5	parkland	0x8bb5d91e		89	3	False	False
+0x615872f5	parkland	0x0552ea55		89	3	False	False
+0x615872f5	parkland	0xfbdba1a6		89	3	False	False
+0x615872f5	parkland	0xeaeecb7b		89	3	False	False
+0x615872f5	parkland	0x6ec686bf	window_lr_mover	89	3	False	False
+0x615872f5	parkland	0x6ec686bf	window_lr_mover	89	3	False	False
+0x615872f5	parkland	0x031fd5fc	window_rf_mover	89	3	False	False
+0x615872f5	parkland	0x031fd5fc	window_rf_mover	89	3	False	False
+0x615872f5	parkland	0xfc0ce3f6	window_rr_mover	89	3	False	False
+0x615872f5	parkland	0xfc0ce3f6	window_rr_mover	89	3	False	False
+0x615872f5	parkland	0x86d36840	window_lf_mover	89	3	False	False
+0x615872f5	parkland	0x86d36840	window_lf_mover	89	3	False	False
+0xd80f4a44	patriot3	0x6ec686bf	window_lr_mover	95	2	False	False
+0xd80f4a44	patriot3	0x6ec686bf	window_lr_mover	95	2	False	False
+0xd80f4a44	patriot3	0x86d36840	window_lf_mover	95	2	False	False
+0xd80f4a44	patriot3	0x86d36840	window_lf_mover	95	2	False	False
+0xd80f4a44	patriot3	0xfbdba1a6		95	2	False	False
+0xd80f4a44	patriot3	0xeaeecb7b		95	2	False	False
+0xd80f4a44	patriot3	0x8bb5d91e		95	2	False	False
+0xd80f4a44	patriot3	0x0552ea55		95	2	False	False
+0xd80f4a44	patriot3	0xfc0ce3f6	window_rr_mover	95	2	False	False
+0xd80f4a44	patriot3	0xfc0ce3f6	window_rr_mover	95	2	False	False
+0xd80f4a44	patriot3	0x031fd5fc	window_rf_mover	95	2	False	False
+0xd80f4a44	patriot3	0x031fd5fc	window_rf_mover	95	2	False	False
+0xd80f4a44	patriot3	0x5a323121		95	2	False	False
+0xd80f4a44	patriot3	0x70e8de62		95	2	False	False
+0xe9805550	penumbra	0x86d36840	window_lf_mover	65	5	False	False
+0xe9805550	penumbra	0x86d36840	window_lf_mover	65	5	False	False
+0xe9805550	penumbra	0xfbdba1a6		65	5	False	False
+0xe9805550	penumbra	0xeaeecb7b		65	5	False	False
+0xe9805550	penumbra	0x8bb5d91e		65	5	False	False
+0xe9805550	penumbra	0x031fd5fc	window_rf_mover	65	5	False	False
+0xe9805550	penumbra	0x031fd5fc	window_rf_mover	65	5	False	False
+0xd3be5f0c	penumbraff	0xfbdba1a6		61	3	False	False
+0xd3be5f0c	penumbraff	0xeaeecb7b		61	3	False	False
+0xd3be5f0c	penumbraff	0x8bb5d91e		61	3	False	False
+0xd3be5f0c	penumbraff	0x0552ea55		61	3	False	False
+0xd3be5f0c	penumbraff	0x86d36840	window_lf_mover	61	3	False	False
+0xd3be5f0c	penumbraff	0x86d36840	window_lf_mover	61	3	False	False
+0xd3be5f0c	penumbraff	0x031fd5fc	window_rf_mover	61	3	False	False
+0xd3be5f0c	penumbraff	0x031fd5fc	window_rf_mover	61	3	False	False
+0x0a90ed5c	phantom3	0xfbdba1a6		57	7	False	False
+0x0a90ed5c	phantom3	0xeaeecb7b		57	7	False	False
+0x0a90ed5c	phantom3	0x8bb5d91e		57	7	False	False
+0x0a90ed5c	phantom3	0x0552ea55		57	7	False	False
+0x831a21d5	phoenix	0x8bb5d91e		63	4	False	False
+0x831a21d5	phoenix	0x0552ea55		63	4	False	False
+0x831a21d5	phoenix	0xfbdba1a6		63	4	False	False
+0x831a21d5	phoenix	0xeaeecb7b		63	4	False	False
+0x831a21d5	phoenix	0x86d36840	window_lf_mover	63	4	False	False
+0x831a21d5	phoenix	0x86d36840	window_lf_mover	63	4	False	False
+0x831a21d5	phoenix	0x031fd5fc	window_rf_mover	63	4	False	False
+0x831a21d5	phoenix	0x031fd5fc	window_rf_mover	63	4	False	False
+0x59e0fbf3	picador	0xfbdba1a6		57	3	False	False
+0x59e0fbf3	picador	0xeaeecb7b		57	3	False	False
+0x59e0fbf3	picador	0x8bb5d91e		57	3	False	False
+0x59e0fbf3	picador	0x0552ea55		57	3	False	False
+0x59e0fbf3	picador	0x86d36840	window_lf_mover	57	3	False	False
+0x59e0fbf3	picador	0x86d36840	window_lf_mover	57	3	False	False
+0x59e0fbf3	picador	0x031fd5fc	window_rf_mover	57	3	False	False
+0x59e0fbf3	picador	0x031fd5fc	window_rf_mover	57	3	False	False
+0x20fe4623	pmp700	0x8bb5d91e		91	4	False	False
+0x20fe4623	pmp700	0x0552ea55		91	4	False	False
+0x20fe4623	pmp700	0xfbdba1a6		91	4	False	False
+0x20fe4623	pmp700	0xeaeecb7b		91	4	False	False
+0x20fe4623	pmp700	0x86d36840	window_lf_mover	91	4	False	False
+0x20fe4623	pmp700	0x86d36840	window_lf_mover	91	4	False	False
+0x20fe4623	pmp700	0x6ec686bf	window_lr_mover	91	4	False	False
+0x20fe4623	pmp700	0x6ec686bf	window_lr_mover	91	4	False	False
+0x20fe4623	pmp700	0x031fd5fc	window_rf_mover	91	4	False	False
+0x20fe4623	pmp700	0x031fd5fc	window_rf_mover	91	4	False	False
+0x20fe4623	pmp700	0xfc0ce3f6	window_rr_mover	91	4	False	False
+0x20fe4623	pmp700	0xfc0ce3f6	window_rr_mover	91	4	False	False
+0x79fbb0c5	police	0xfbdba1a6		83	2	False	False
+0x79fbb0c5	police	0xeaeecb7b		83	2	False	False
+0x79fbb0c5	police	0x8bb5d91e		83	2	False	False
+0x79fbb0c5	police	0x0552ea55		83	2	False	False
+0x79fbb0c5	police	0x86d36840	window_lf_mover	83	2	False	False
+0x79fbb0c5	police	0x86d36840	window_lf_mover	83	2	False	False
+0x79fbb0c5	police	0x6ec686bf	window_lr_mover	83	2	False	False
+0x79fbb0c5	police	0x6ec686bf	window_lr_mover	83	2	False	False
+0x79fbb0c5	police	0x031fd5fc	window_rf_mover	83	2	False	False
+0x79fbb0c5	police	0x031fd5fc	window_rf_mover	83	2	False	False
+0x79fbb0c5	police	0xfc0ce3f6	window_rr_mover	83	2	False	False
+0x79fbb0c5	police	0xfc0ce3f6	window_rr_mover	83	2	False	False
+0x71fa16ea	police3	0x8bb5d91e		95	4	False	False
+0x71fa16ea	police3	0x0552ea55		95	4	False	False
+0x71fa16ea	police3	0xfbdba1a6		95	4	False	False
+0x71fa16ea	police3	0xeaeecb7b		95	4	False	False
+0x71fa16ea	police3	0x6ec686bf	window_lr_mover	95	4	False	False
+0x71fa16ea	police3	0x6ec686bf	window_lr_mover	95	4	False	False
+0x71fa16ea	police3	0x86d36840	window_lf_mover	95	4	False	False
+0x71fa16ea	police3	0x86d36840	window_lf_mover	95	4	False	False
+0x71fa16ea	police3	0xfc0ce3f6	window_rr_mover	95	4	False	False
+0x71fa16ea	police3	0xfc0ce3f6	window_rr_mover	95	4	False	False
+0x71fa16ea	police3	0x031fd5fc	window_rf_mover	95	4	False	False
+0x71fa16ea	police3	0x031fd5fc	window_rf_mover	95	4	False	False
+0x1517d4d9	polmav	0xfbdba1a6		35	2	False	False
+0x1517d4d9	polmav	0xeaeecb7b		35	2	False	False
+0x1517d4d9	polmav	0x8bb5d91e		35	2	False	False
+0x1517d4d9	polmav	0x0552ea55		35	2	False	False
+0x220b7718	pontoon	0xfbdba1a6		23	0	False	False
+0x220b7718	pontoon	0xeaeecb7b		23	0	False	False
+0x220b7718	pontoon	0x8bb5d91e		23	0	False	False
+0x220b7718	pontoon	0x0552ea55		23	0	False	False
+0xbb6b404f	primo	0xfbdba1a6		83	2	False	False
+0xbb6b404f	primo	0xeaeecb7b		83	2	False	False
+0xbb6b404f	primo	0x8bb5d91e		83	2	False	False
+0xbb6b404f	primo	0x0552ea55		83	2	False	False
+0xbb6b404f	primo	0x6ec686bf	window_lr_mover	83	2	False	False
+0xbb6b404f	primo	0x6ec686bf	window_lr_mover	83	2	False	False
+0xbb6b404f	primo	0x86d36840	window_lf_mover	83	2	False	False
+0xbb6b404f	primo	0x86d36840	window_lf_mover	83	2	False	False
+0xbb6b404f	primo	0xfc0ce3f6	window_rr_mover	83	2	False	False
+0xbb6b404f	primo	0xfc0ce3f6	window_rr_mover	83	2	False	False
+0xbb6b404f	primo	0x031fd5fc	window_rf_mover	83	2	False	False
+0xbb6b404f	primo	0x031fd5fc	window_rf_mover	83	2	False	False
+0xa4d99b7d	raiden	0x6ec686bf	window_lr_mover	141	13	False	False
+0xa4d99b7d	raiden	0x86d36840	window_lf_mover	141	13	False	False
+0xa4d99b7d	raiden	0x86d36840	window_lf_mover	141	13	False	False
+0xa4d99b7d	raiden	0xfbdba1a6		141	13	False	False
+0xa4d99b7d	raiden	0xeaeecb7b		141	13	False	False
+0xa4d99b7d	raiden	0x8bb5d91e		141	13	False	False
+0xa4d99b7d	raiden	0x0552ea55		141	13	False	False
+0xa4d99b7d	raiden	0xfc0ce3f6	window_rr_mover	141	13	False	False
+0xa4d99b7d	raiden	0x031fd5fc	window_rf_mover	141	13	False	False
+0xa4d99b7d	raiden	0x031fd5fc	window_rf_mover	141	13	False	False
+0xa4d99b7d	raiden	0x66ec13b0		141	13	False	False
+0xa4d99b7d	raiden	0x66ec13b0		141	13	False	False
+0x952fe31d		0xfbdba1a6		71	0	False	False
+0x952fe31d		0xeaeecb7b		71	0	False	False
+0x952fe31d		0x8bb5d91e		71	0	False	False
+0x952fe31d		0x0552ea55		71	0	False	False
+0x952fe31d		0x86d36840	window_lf_mover	71	0	False	False
+0x952fe31d		0x86d36840	window_lf_mover	71	0	False	False
+0x952fe31d		0x6ec686bf	window_lr_mover	71	0	False	False
+0x952fe31d		0x6ec686bf	window_lr_mover	71	0	False	False
+0x952fe31d		0x031fd5fc	window_rf_mover	71	0	False	False
+0x952fe31d		0x031fd5fc	window_rf_mover	71	0	False	False
+0x952fe31d		0xfc0ce3f6	window_rr_mover	71	0	False	False
+0x952fe31d		0xfc0ce3f6	window_rr_mover	71	0	False	False
+0x52db01e0	rancher	0xfbdba1a6		61	5	False	False
+0x52db01e0	rancher	0xeaeecb7b		61	5	False	False
+0x52db01e0	rancher	0x8bb5d91e		61	5	False	False
+0x52db01e0	rancher	0x86d36840	window_lf_mover	61	5	False	False
+0x52db01e0	rancher	0x86d36840	window_lf_mover	61	5	False	False
+0x52db01e0	rancher	0x031fd5fc	window_rf_mover	61	5	False	False
+0x52db01e0	rancher	0x031fd5fc	window_rf_mover	61	5	False	False
+0xb802dd46	rebel	0x8bb5d91e		65	3	False	False
+0xb802dd46	rebel	0x0552ea55		65	3	False	False
+0xb802dd46	rebel	0xfbdba1a6		65	3	False	False
+0xb802dd46	rebel	0xeaeecb7b		65	3	False	False
+0xb802dd46	rebel	0x86d36840	window_lf_mover	65	3	False	False
+0xb802dd46	rebel	0x86d36840	window_lf_mover	65	3	False	False
+0xb802dd46	rebel	0x031fd5fc	window_rf_mover	65	3	False	False
+0xb802dd46	rebel	0x031fd5fc	window_rf_mover	65	3	False	False
+0xd77e5276	reblagts	0x87d29d26		99	6	False	False
+0xd77e5276	reblagts	0xfbdba1a6		99	6	False	False
+0xd77e5276	reblagts	0xeaeecb7b		99	6	False	False
+0xd77e5276	reblagts	0x8bb5d91e		99	6	False	False
+0xd77e5276	reblagts	0x0552ea55		99	6	False	False
+0xd77e5276	reblagts	0x6ec686bf	window_lr_mover	99	6	False	False
+0xd77e5276	reblagts	0x86d36840	window_lf_mover	99	6	False	False
+0xd77e5276	reblagts	0x86d36840	window_lf_mover	99	6	False	False
+0xd77e5276	reblagts	0xfc0ce3f6	window_rr_mover	99	6	False	False
+0xd77e5276	reblagts	0x031fd5fc	window_rf_mover	99	6	False	False
+0xd77e5276	reblagts	0x031fd5fc	window_rf_mover	99	6	False	False
+0xd77e5276	reblagts	0x66ec13b0		99	6	False	False
+0xd77e5276	reblagts	0x66ec13b0		99	6	False	False
+0x39dd8bb8	reclaimer	0x86d36840	window_lf_mover	91	4	False	False
+0x39dd8bb8	reclaimer	0x86d36840	window_lf_mover	91	4	False	False
+0x39dd8bb8	reclaimer	0x6ec686bf	window_lr_mover	91	4	False	False
+0x39dd8bb8	reclaimer	0x6ec686bf	window_lr_mover	91	4	False	False
+0x39dd8bb8	reclaimer	0xfc0ce3f6	window_rr_mover	91	4	False	False
+0x39dd8bb8	reclaimer	0xfc0ce3f6	window_rr_mover	91	4	False	False
+0x39dd8bb8	reclaimer	0xfbdba1a6		91	4	False	False
+0x39dd8bb8	reclaimer	0xeaeecb7b		91	4	False	False
+0x39dd8bb8	reclaimer	0x8bb5d91e		91	4	False	False
+0x39dd8bb8	reclaimer	0x0552ea55		91	4	False	False
+0x39dd8bb8	reclaimer	0x031fd5fc	window_rf_mover	91	4	False	False
+0x39dd8bb8	reclaimer	0x031fd5fc	window_rf_mover	91	4	False	False
+0xb9ab1496	reclaimerclassic	0xfbdba1a6		57	5	False	False
+0xb9ab1496	reclaimerclassic	0xeaeecb7b		57	5	False	False
+0xb9ab1496	reclaimerclassic	0x86d36840	window_lf_mover	57	5	False	False
+0xb9ab1496	reclaimerclassic	0x86d36840	window_lf_mover	57	5	False	False
+0xb9ab1496	reclaimerclassic	0x031fd5fc	window_rf_mover	57	5	False	False
+0xb9ab1496	reclaimerclassic	0x031fd5fc	window_rf_mover	57	5	False	False
+0xbe819c63	rentalbus	0x86d36840	window_lf_mover	47	4	False	False
+0xbe819c63	rentalbus	0x86d36840	window_lf_mover	47	4	False	False
+0xbe819c63	rentalbus	0xfbdba1a6		47	4	False	False
+0xbe819c63	rentalbus	0xeaeecb7b		47	4	False	False
+0xbe819c63	rentalbus	0x8bb5d91e		47	4	False	False
+0xa4a4e453	riata	0x8bb5d91e		67	4	False	False
+0xa4a4e453	riata	0x0552ea55		67	4	False	False
+0xa4a4e453	riata	0xfbdba1a6		67	4	False	False
+0xa4a4e453	riata	0xeaeecb7b		67	4	False	False
+0xa4a4e453	riata	0x86d36840	window_lf_mover	67	4	False	False
+0xa4a4e453	riata	0x86d36840	window_lf_mover	67	4	False	False
+0xa4a4e453	riata	0x031fd5fc	window_rf_mover	67	4	False	False
+0xa4a4e453	riata	0x031fd5fc	window_rf_mover	67	4	False	False
+0x457926d1	riataclassic	0x8bb5d91e		45	5	False	False
+0x457926d1	riataclassic	0x0552ea55		45	5	False	False
+0x457926d1	riataclassic	0xfbdba1a6		45	5	False	False
+0x457926d1	riataclassic	0xeaeecb7b		45	5	False	False
+0xb822a1aa	riot	0xfbdba1a6		51	2	False	False
+0xb822a1aa	riot	0xeaeecb7b		51	2	False	False
+0xb822a1aa	riot	0x8bb5d91e		51	2	False	False
+0xb822a1aa	riot	0x0552ea55		51	2	False	False
+0xb822a1aa	riot	0x86d36840	window_lf_mover	51	2	False	False
+0xb822a1aa	riot	0x031fd5fc	window_rf_mover	51	2	False	False
+0xcd935ef9	ripley	0x03a85156		63	4	False	False
+0xcd935ef9	ripley	0x96cde9ee		63	4	False	False
+0xcd935ef9	ripley	0x26b1d1d5		63	4	False	False
+0xcd935ef9	ripley	0x6a8f02fe		63	4	False	False
+0xcd935ef9	ripley	0xfbdba1a6		63	4	False	False
+0xcd935ef9	ripley	0xeaeecb7b		63	4	False	False
+0xcd935ef9	ripley	0x8bb5d91e		63	4	False	False
+0xcd935ef9	ripley	0x0552ea55		63	4	False	False
+0x9a5b1dcc	rubble	0xfbdba1a6		57	3	False	False
+0x9a5b1dcc	rubble	0xeaeecb7b		57	3	False	False
+0x9a5b1dcc	rubble	0x8bb5d91e		57	3	False	False
+0x9a5b1dcc	rubble	0x0552ea55		57	3	False	False
+0x9a5b1dcc	rubble	0x86d36840	window_lf_mover	57	3	False	False
+0x9a5b1dcc	rubble	0x86d36840	window_lf_mover	57	3	False	False
+0x9a5b1dcc	rubble	0x031fd5fc	window_rf_mover	57	3	False	False
+0x9a5b1dcc	rubble	0x031fd5fc	window_rf_mover	57	3	False	False
+0xf26ceff9	ruiner	0xfbdba1a6		71	6	False	False
+0xf26ceff9	ruiner	0xeaeecb7b		71	6	False	False
+0xf26ceff9	ruiner	0x8bb5d91e		71	6	False	False
+0xf26ceff9	ruiner	0x0552ea55		71	6	False	False
+0xf26ceff9	ruiner	0x86d36840	window_lf_mover	71	6	False	False
+0xf26ceff9	ruiner	0x86d36840	window_lf_mover	71	6	False	False
+0xf26ceff9	ruiner	0x031fd5fc	window_rf_mover	71	6	False	False
+0xf26ceff9	ruiner	0x031fd5fc	window_rf_mover	71	6	False	False
+0x4543b74d	rumpo	0x8bb5d91e		61	5	False	False
+0x4543b74d	rumpo	0xfbdba1a6		61	5	False	False
+0x4543b74d	rumpo	0xeaeecb7b		61	5	False	False
+0x4543b74d	rumpo	0x86d36840	window_lf_mover	61	5	False	False
+0x4543b74d	rumpo	0x86d36840	window_lf_mover	61	5	False	False
+0x4543b74d	rumpo	0x031fd5fc	window_rf_mover	61	5	False	False
+0x4543b74d	rumpo	0x031fd5fc	window_rf_mover	61	5	False	False
+0x57f682af	rumpo3	0xfbdba1a6		47	0	False	False
+0x57f682af	rumpo3	0xeaeecb7b		47	0	False	False
+0x57f682af	rumpo3	0x8bb5d91e		47	0	False	False
+0x57f682af	rumpo3	0x0552ea55		47	0	False	False
+0x57f682af	rumpo3	0x86d36840	window_lf_mover	47	0	False	False
+0x57f682af	rumpo3	0x86d36840	window_lf_mover	47	0	False	False
+0x57f682af	rumpo3	0x031fd5fc	window_rf_mover	47	0	False	False
+0x57f682af	rumpo3	0x031fd5fc	window_rf_mover	47	0	False	False
+0xdc434e51	sadler	0xfbdba1a6		69	1	False	False
+0xdc434e51	sadler	0xeaeecb7b		69	1	False	False
+0xdc434e51	sadler	0x8bb5d91e		69	1	False	False
+0xdc434e51	sadler	0x86d36840	window_lf_mover	69	1	False	False
+0xdc434e51	sadler	0x86d36840	window_lf_mover	69	1	False	False
+0xdc434e51	sadler	0x6ec686bf	window_lr_mover	69	1	False	False
+0xdc434e51	sadler	0x6ec686bf	window_lr_mover	69	1	False	False
+0xdc434e51	sadler	0x031fd5fc	window_rf_mover	69	1	False	False
+0xdc434e51	sadler	0x031fd5fc	window_rf_mover	69	1	False	False
+0xdc434e51	sadler	0xfc0ce3f6	window_rr_mover	69	1	False	False
+0xdc434e51	sadler	0xfc0ce3f6	window_rr_mover	69	1	False	False
+0xddc0337e	sandking_4dr	0x6ec686bf	window_lr_mover	73	5	False	False
+0xddc0337e	sandking_4dr	0x86d36840	window_lf_mover	73	5	False	False
+0xddc0337e	sandking_4dr	0x86d36840	window_lf_mover	73	5	False	False
+0xddc0337e	sandking_4dr	0xfbdba1a6		73	5	False	False
+0xddc0337e	sandking_4dr	0x8bb5d91e		73	5	False	False
+0xddc0337e	sandking_4dr	0x0552ea55		73	5	False	False
+0xddc0337e	sandking_4dr	0xfc0ce3f6	window_rr_mover	73	5	False	False
+0xddc0337e	sandking_4dr	0x031fd5fc	window_rf_mover	73	5	False	False
+0xddc0337e	sandking_4dr	0x031fd5fc	window_rf_mover	73	5	False	False
+0x5255a737	sandkingxt	0x6ec686bf	window_lr_mover	97	7	False	False
+0x5255a737	sandkingxt	0x6ec686bf	window_lr_mover	97	7	False	False
+0x5255a737	sandkingxt	0x86d36840	window_lf_mover	97	7	False	False
+0x5255a737	sandkingxt	0xfbdba1a6		97	7	False	False
+0x5255a737	sandkingxt	0xeaeecb7b		97	7	False	False
+0x5255a737	sandkingxt	0x8bb5d91e		97	7	False	False
+0x5255a737	sandkingxt	0x0552ea55		97	7	False	False
+0x5255a737	sandkingxt	0xfc0ce3f6	window_rr_mover	97	7	False	False
+0x5255a737	sandkingxt	0xfc0ce3f6	window_rr_mover	97	7	False	False
+0x5255a737	sandkingxt	0x031fd5fc	window_rf_mover	97	7	False	False
+0x5255a737	sandkingxt	0x66ec13b0		97	7	False	False
+0xa774b5a6	schafter3	0xfbdba1a6		91	4	False	False
+0xa774b5a6	schafter3	0xeaeecb7b		91	4	False	False
+0xa774b5a6	schafter3	0x8bb5d91e		91	4	False	False
+0xa774b5a6	schafter3	0x0552ea55		91	4	False	False
+0xa774b5a6	schafter3	0x6ec686bf	window_lr_mover	91	4	False	False
+0xa774b5a6	schafter3	0x6ec686bf	window_lr_mover	91	4	False	False
+0xa774b5a6	schafter3	0x86d36840	window_lf_mover	91	4	False	False
+0xa774b5a6	schafter3	0x86d36840	window_lf_mover	91	4	False	False
+0xa774b5a6	schafter3	0xfc0ce3f6	window_rr_mover	91	4	False	False
+0xa774b5a6	schafter3	0xfc0ce3f6	window_rr_mover	91	4	False	False
+0xa774b5a6	schafter3	0x031fd5fc	window_rf_mover	91	4	False	False
+0xa774b5a6	schafter3	0x031fd5fc	window_rf_mover	91	4	False	False
+0xcff986eb	schafters	0x6ec686bf	window_lr_mover	81	5	False	False
+0xcff986eb	schafters	0x6ec686bf	window_lr_mover	81	5	False	False
+0xcff986eb	schafters	0x86d36840	window_lf_mover	81	5	False	False
+0xcff986eb	schafters	0xfc0ce3f6	window_rr_mover	81	5	False	False
+0xcff986eb	schafters	0xfc0ce3f6	window_rr_mover	81	5	False	False
+0xcff986eb	schafters	0x031fd5fc	window_rf_mover	81	5	False	False
+0xcff986eb	schafters	0xfbdba1a6		81	5	False	False
+0xcff986eb	schafters	0xeaeecb7b		81	5	False	False
+0xcff986eb	schafters	0x8bb5d91e		81	5	False	False
+0xcff986eb	schafters	0x0552ea55		81	5	False	False
+0x34cfa6fa	schutzen	0x86d36840	window_lf_mover	81	7	False	False
+0x34cfa6fa	schutzen	0x6ec686bf	window_lr_mover	81	7	False	False
+0x34cfa6fa	schutzen	0x031fd5fc	window_rf_mover	81	7	False	False
+0x34cfa6fa	schutzen	0xfc0ce3f6	window_rr_mover	81	7	False	False
+0x34cfa6fa	schutzen	0xfbdba1a6		81	7	False	False
+0x34cfa6fa	schutzen	0xfbdba1a6		81	7	False	False
+0x34cfa6fa	schutzen	0xeaeecb7b		81	7	False	False
+0x34cfa6fa	schutzen	0x8bb5d91e		81	7	False	False
+0x34cfa6fa	schutzen	0x0552ea55		81	7	False	False
+0xd4ae63d9	seasparrow	0xb478d1ba		27	2	False	False
+0xd4ae63d9	seasparrow	0x18c7013e		27	2	False	False
+0xfc878c91	sentinelclassic2	0x86d36840	window_lf_mover	79	4	False	False
+0xfc878c91	sentinelclassic2	0x86d36840	window_lf_mover	79	4	False	False
+0xfc878c91	sentinelclassic2	0x031fd5fc	window_rf_mover	79	4	False	False
+0xfc878c91	sentinelclassic2	0x031fd5fc	window_rf_mover	79	4	False	False
+0xfc878c91	sentinelclassic2	0x6ec686bf	window_lr_mover	79	4	False	False
+0xfc878c91	sentinelclassic2	0xfc0ce3f6	window_rr_mover	79	4	False	False
+0xfc878c91	sentinelclassic2	0xfbdba1a6		79	4	False	False
+0xfc878c91	sentinelclassic2	0xeaeecb7b		79	4	False	False
+0xfc878c91	sentinelclassic2	0x8bb5d91e		79	4	False	False
+0xfc878c91	sentinelclassic2	0x0552ea55		79	4	False	False
+0xb79c1bf5	shamal	0x8bb5d91e		41	3	False	False
+0xb79c1bf5	shamal	0x0552ea55		41	3	False	False
+0xb79c1bf5	shamal	0xfbdba1a6		41	3	False	False
+0xb79c1bf5	shamal	0xeaeecb7b		41	3	False	False
+0x5f677ec0	shasa	0xfbdba1a6		23	0	False	False
+0x5f677ec0	shasa	0xeaeecb7b		23	0	False	False
+0x5f677ec0	shasa	0x8bb5d91e		23	0	False	False
+0x5f677ec0	shasa	0x0552ea55		23	0	False	False
+0x72935408	sheriff2	0x86d36840	window_lf_mover	71	0	False	False
+0x72935408	sheriff2	0x86d36840	window_lf_mover	71	0	False	False
+0x72935408	sheriff2	0x6ec686bf	window_lr_mover	71	0	False	False
+0x72935408	sheriff2	0x6ec686bf	window_lr_mover	71	0	False	False
+0x72935408	sheriff2	0xfbdba1a6		71	0	False	False
+0x72935408	sheriff2	0xeaeecb7b		71	0	False	False
+0x72935408	sheriff2	0x8bb5d91e		71	0	False	False
+0x72935408	sheriff2	0x0552ea55		71	0	False	False
+0x72935408	sheriff2	0x031fd5fc	window_rf_mover	71	0	False	False
+0x72935408	sheriff2	0x031fd5fc	window_rf_mover	71	0	False	False
+0x72935408	sheriff2	0xfc0ce3f6	window_rr_mover	71	0	False	False
+0x72935408	sheriff2	0xfc0ce3f6	window_rr_mover	71	0	False	False
+0xae679517	shifter	0x33ed7287		89	3	False	False
+0xae679517	shifter	0x6ec686bf	window_lr_mover	89	3	False	False
+0xae679517	shifter	0x6ec686bf	window_lr_mover	89	3	False	False
+0xae679517	shifter	0xfbdba1a6		89	3	False	False
+0xae679517	shifter	0xeaeecb7b		89	3	False	False
+0xae679517	shifter	0x8bb5d91e		89	3	False	False
+0xae679517	shifter	0xfc0ce3f6	window_rr_mover	89	3	False	False
+0xae679517	shifter	0xfc0ce3f6	window_rr_mover	89	3	False	False
+0xae679517	shifter	0x86d36840	window_lf_mover	89	3	False	False
+0xae679517	shifter	0x86d36840	window_lf_mover	89	3	False	False
+0xae679517	shifter	0x031fd5fc	window_rf_mover	89	3	False	False
+0xae679517	shifter	0x031fd5fc	window_rf_mover	89	3	False	False
+0x875550ce	shuttle	0x87d29d26		87	8	False	False
+0x875550ce	shuttle	0x8f951f70		87	8	False	False
+0x875550ce	shuttle	0xfbdba1a6		87	8	False	False
+0x875550ce	shuttle	0xeaeecb7b		87	8	False	False
+0x875550ce	shuttle	0x8bb5d91e		87	8	False	False
+0x875550ce	shuttle	0x0552ea55		87	8	False	False
+0x875550ce	shuttle	0x86d36840	window_lf_mover	87	8	False	False
+0x875550ce	shuttle	0x031fd5fc	window_rf_mover	87	8	False	False
+0x2b7f9de3	slamvan	0x86d36840	window_lf_mover	63	4	False	False
+0x2b7f9de3	slamvan	0x86d36840	window_lf_mover	63	4	False	False
+0x2b7f9de3	slamvan	0xfbdba1a6		63	4	False	False
+0x2b7f9de3	slamvan	0xeaeecb7b		63	4	False	False
+0x2b7f9de3	slamvan	0x8bb5d91e		63	4	False	False
+0x2b7f9de3	slamvan	0x0552ea55		63	4	False	False
+0x2b7f9de3	slamvan	0x031fd5fc	window_rf_mover	63	4	False	False
+0x2b7f9de3	slamvan	0x031fd5fc	window_rf_mover	63	4	False	False
+0xcfb3870c	speedo	0x86d36840	window_lf_mover	61	5	False	False
+0xcfb3870c	speedo	0x86d36840	window_lf_mover	61	5	False	False
+0xcfb3870c	speedo	0x031fd5fc	window_rf_mover	61	5	False	False
+0xcfb3870c	speedo	0x031fd5fc	window_rf_mover	61	5	False	False
+0xcfb3870c	speedo	0x8bb5d91e		61	5	False	False
+0xcfb3870c	speedo	0xfbdba1a6		61	5	False	False
+0xcfb3870c	speedo	0xeaeecb7b		61	5	False	False
+0x5f1cde43	spritz	0x86d36840	window_lf_mover	85	5	False	False
+0x5f1cde43	spritz	0x86d36840	window_lf_mover	85	5	False	False
+0x5f1cde43	spritz	0xfbdba1a6		85	5	False	False
+0x5f1cde43	spritz	0xeaeecb7b		85	5	False	False
+0x5f1cde43	spritz	0x8bb5d91e		85	5	False	False
+0x5f1cde43	spritz	0x0552ea55		85	5	False	False
+0x5f1cde43	spritz	0x031fd5fc	window_rf_mover	85	5	False	False
+0x5f1cde43	spritz	0x031fd5fc	window_rf_mover	85	5	False	False
+0x5f1cde43	spritz	0x33ed7287		85	5	False	False
+0x17df5ec2	squalo	0x8bb5d91e		15	0	False	False
+0x17df5ec2	squalo	0x0552ea55		15	0	False	False
+0xa42ece8c		0x86d36840	window_lf_mover	51	2	False	False
+0xa42ece8c		0x86d36840	window_lf_mover	51	2	False	False
+0xa42ece8c		0xfbdba1a6		51	2	False	False
+0xa42ece8c		0xeaeecb7b		51	2	False	False
+0xa42ece8c		0x8bb5d91e		51	2	False	False
+0xa42ece8c		0x0552ea55		51	2	False	False
+0xa42ece8c		0x031fd5fc	window_rf_mover	51	2	False	False
+0xa42ece8c		0x031fd5fc	window_rf_mover	51	2	False	False
+0xa6a7128a	stallion	0x86d36840	window_lf_mover	63	4	False	False
+0xa6a7128a	stallion	0x86d36840	window_lf_mover	63	4	False	False
+0xa6a7128a	stallion	0xfbdba1a6		63	4	False	False
+0xa6a7128a	stallion	0xeaeecb7b		63	4	False	False
+0xa6a7128a	stallion	0x8bb5d91e		63	4	False	False
+0xa6a7128a	stallion	0x0552ea55		63	4	False	False
+0xa6a7128a	stallion	0x031fd5fc	window_rf_mover	63	4	False	False
+0xa6a7128a	stallion	0x031fd5fc	window_rf_mover	63	4	False	False
+0xa7ede74d	stanier	0xfbdba1a6		89	1	False	False
+0xa7ede74d	stanier	0xeaeecb7b		89	1	False	False
+0xa7ede74d	stanier	0x8bb5d91e		89	1	False	False
+0xa7ede74d	stanier	0x0552ea55		89	1	False	False
+0xa7ede74d	stanier	0x6ec686bf	window_lr_mover	89	1	False	False
+0xa7ede74d	stanier	0x6ec686bf	window_lr_mover	89	1	False	False
+0xa7ede74d	stanier	0x70e8de62		89	1	False	False
+0xa7ede74d	stanier	0x5a323121		89	1	False	False
+0xa7ede74d	stanier	0x86d36840	window_lf_mover	89	1	False	False
+0xa7ede74d	stanier	0x86d36840	window_lf_mover	89	1	False	False
+0xa7ede74d	stanier	0xfc0ce3f6	window_rr_mover	89	1	False	False
+0xa7ede74d	stanier	0xfc0ce3f6	window_rr_mover	89	1	False	False
+0xa7ede74d	stanier	0x031fd5fc	window_rf_mover	89	1	False	False
+0xa7ede74d	stanier	0x031fd5fc	window_rf_mover	89	1	False	False
+0x2bd3b846	stanier55	0xfbdba1a6		53	5	False	False
+0x2bd3b846	stanier55	0xeaeecb7b		53	5	False	False
+0x2bd3b846	stanier55	0x8bb5d91e		53	5	False	False
+0x2bd3b846	stanier55	0x0552ea55		53	5	False	False
+0x2bd3b846	stanier55	0x86d36840	window_lf_mover	53	5	False	False
+0x2bd3b846	stanier55	0x031fd5fc	window_rf_mover	53	5	False	False
+0x33f2dea5	stanierg2	0x8bb5d91e		85	3	False	False
+0x33f2dea5	stanierg2	0x0552ea55		85	3	False	False
+0x33f2dea5	stanierg2	0xfbdba1a6		85	3	False	False
+0x33f2dea5	stanierg2	0xeaeecb7b		85	3	False	False
+0x33f2dea5	stanierg2	0x86d36840	window_lf_mover	85	3	False	False
+0x33f2dea5	stanierg2	0x86d36840	window_lf_mover	85	3	False	False
+0x33f2dea5	stanierg2	0x6ec686bf	window_lr_mover	85	3	False	False
+0x33f2dea5	stanierg2	0x6ec686bf	window_lr_mover	85	3	False	False
+0x33f2dea5	stanierg2	0x031fd5fc	window_rf_mover	85	3	False	False
+0x33f2dea5	stanierg2	0x031fd5fc	window_rf_mover	85	3	False	False
+0x33f2dea5	stanierg2	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x33f2dea5	stanierg2	0xfc0ce3f6	window_rr_mover	85	3	False	False
+0x66b4fc45	stratum	0x031fd5fc	window_rf_mover	67	2	False	False
+0x66b4fc45	stratum	0x031fd5fc	window_rf_mover	67	2	False	False
+0x66b4fc45	stratum	0x86d36840	window_lf_mover	67	2	False	False
+0x66b4fc45	stratum	0x86d36840	window_lf_mover	67	2	False	False
+0x66b4fc45	stratum	0x6ec686bf	window_lr_mover	67	2	False	False
+0x66b4fc45	stratum	0xfc0ce3f6	window_rr_mover	67	2	False	False
+0x66b4fc45	stratum	0xfbdba1a6		67	2	False	False
+0x66b4fc45	stratum	0xeaeecb7b		67	2	False	False
+0x66b4fc45	stratum	0x8bb5d91e		67	2	False	False
+0x66b4fc45	stratum	0x0552ea55		67	2	False	False
+0x3adb9758	sugoi	0x86d36840	window_lf_mover	121	9	False	False
+0x3adb9758	sugoi	0x86d36840	window_lf_mover	121	9	False	False
+0x3adb9758	sugoi	0x6ec686bf	window_lr_mover	121	9	False	False
+0x3adb9758	sugoi	0x6ec686bf	window_lr_mover	121	9	False	False
+0x3adb9758	sugoi	0x87d29d26		121	9	False	False
+0x3adb9758	sugoi	0xfbdba1a6		121	9	False	False
+0x3adb9758	sugoi	0xeaeecb7b		121	9	False	False
+0x3adb9758	sugoi	0x8bb5d91e		121	9	False	False
+0x3adb9758	sugoi	0x0552ea55		121	9	False	False
+0x3adb9758	sugoi	0x031fd5fc	window_rf_mover	121	9	False	False
+0x3adb9758	sugoi	0x031fd5fc	window_rf_mover	121	9	False	False
+0x3adb9758	sugoi	0xfc0ce3f6	window_rr_mover	121	9	False	False
+0x3adb9758	sugoi	0xfc0ce3f6	window_rr_mover	121	9	False	False
+0x39da2754	sultan	0x8bb5d91e		77	1	False	False
+0x39da2754	sultan	0x0552ea55		77	1	False	False
+0x39da2754	sultan	0xfbdba1a6		77	1	False	False
+0x39da2754	sultan	0xeaeecb7b		77	1	False	False
+0x39da2754	sultan	0x86d36840	window_lf_mover	77	1	False	False
+0x39da2754	sultan	0x86d36840	window_lf_mover	77	1	False	False
+0x39da2754	sultan	0x6ec686bf	window_lr_mover	77	1	False	False
+0x39da2754	sultan	0x6ec686bf	window_lr_mover	77	1	False	False
+0x39da2754	sultan	0x031fd5fc	window_rf_mover	77	1	False	False
+0x39da2754	sultan	0x031fd5fc	window_rf_mover	77	1	False	False
+0x39da2754	sultan	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0x39da2754	sultan	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0xcc891feb	sungrazer	0x86d36840	window_lf_mover	53	5	False	False
+0xcc891feb	sungrazer	0x031fd5fc	window_rf_mover	53	5	False	False
+0xcc891feb	sungrazer	0x8bb5d91e		53	5	False	False
+0xcc891feb	sungrazer	0x0552ea55		53	5	False	False
+0xcc891feb	sungrazer	0xfbdba1a6		53	5	False	False
+0xcc891feb	sungrazer	0xeaeecb7b		53	5	False	False
+0x2a54c47d	supervolito	0xfbdba1a6		37	1	False	False
+0x2a54c47d	supervolito	0xeaeecb7b		37	1	False	False
+0x2a54c47d	supervolito	0x8bb5d91e		37	1	False	False
+0x2a54c47d	supervolito	0xe179bcee	door_dside_r	37	1	False	False
+0x2a54c47d	supervolito	0x41628d75	door_pside_r	37	1	False	False
+0xebc24df2	swift	0xfbdba1a6		47	4	False	False
+0xebc24df2	swift	0xeaeecb7b		47	4	False	False
+0xebc24df2	swift	0x8bb5d91e		47	4	False	False
+0xebc24df2	swift	0x0552ea55		47	4	False	False
+0x744ca80d	taco	0x86d36840	window_lf_mover	63	8	False	False
+0x744ca80d	taco	0xeaeecb7b		63	8	False	False
+0x744ca80d	taco	0x031fd5fc	window_rf_mover	63	8	False	False
+0xc3ddfdce	tailgater	0x86d36840	window_lf_mover	71	0	False	False
+0xc3ddfdce	tailgater	0x86d36840	window_lf_mover	71	0	False	False
+0xc3ddfdce	tailgater	0x031fd5fc	window_rf_mover	71	0	False	False
+0xc3ddfdce	tailgater	0x031fd5fc	window_rf_mover	71	0	False	False
+0xc3ddfdce	tailgater	0x6ec686bf	window_lr_mover	71	0	False	False
+0xc3ddfdce	tailgater	0x6ec686bf	window_lr_mover	71	0	False	False
+0xc3ddfdce	tailgater	0xfc0ce3f6	window_rr_mover	71	0	False	False
+0xc3ddfdce	tailgater	0xfc0ce3f6	window_rr_mover	71	0	False	False
+0xc3ddfdce	tailgater	0x8bb5d91e		71	0	False	False
+0xc3ddfdce	tailgater	0x0552ea55		71	0	False	False
+0xc3ddfdce	tailgater	0xfbdba1a6		71	0	False	False
+0xc3ddfdce	tailgater	0xeaeecb7b		71	0	False	False
+0xb5d306a4	tailgater2	0x86d36840	window_lf_mover	93	7	False	False
+0xb5d306a4	tailgater2	0x86d36840	window_lf_mover	93	7	False	False
+0xb5d306a4	tailgater2	0x6ec686bf	window_lr_mover	93	7	False	False
+0xb5d306a4	tailgater2	0x8bb5d91e		93	7	False	False
+0xb5d306a4	tailgater2	0x0552ea55		93	7	False	False
+0xb5d306a4	tailgater2	0xfbdba1a6		93	7	False	False
+0xb5d306a4	tailgater2	0xeaeecb7b		93	7	False	False
+0xb5d306a4	tailgater2	0x031fd5fc	window_rf_mover	93	7	False	False
+0xb5d306a4	tailgater2	0x031fd5fc	window_rf_mover	93	7	False	False
+0xb5d306a4	tailgater2	0xfc0ce3f6	window_rr_mover	93	7	False	False
+0x5dbbf4ba	telehandler	0xfbdba1a6		21	1	False	False
+0x5dbbf4ba	telehandler	0xeaeecb7b		21	1	False	False
+0x1044926f	tempesta	0x86d36840	window_lf_mover	63	6	False	False
+0x1044926f	tempesta	0x031fd5fc	window_rf_mover	63	6	False	False
+0x1044926f	tempesta	0xfbdba1a6		63	6	False	False
+0x1044926f	tempesta	0xeaeecb7b		63	6	False	False
+0x1044926f	tempesta	0x8bb5d91e		63	6	False	False
+0x1044926f	tempesta	0x0552ea55		63	6	False	False
+0x3e3d1f59	thrax	0x86d36840	window_lf_mover	59	4	False	False
+0x3e3d1f59	thrax	0x86d36840	window_lf_mover	59	4	False	False
+0x3e3d1f59	thrax	0x8bb5d91e		59	4	False	False
+0x3e3d1f59	thrax	0x0552ea55		59	4	False	False
+0x3e3d1f59	thrax	0xfbdba1a6		59	4	False	False
+0x3e3d1f59	thrax	0x031fd5fc	window_rf_mover	59	4	False	False
+0x3e3d1f59	thrax	0x031fd5fc	window_rf_mover	59	4	False	False
+0x02e19879	tiptruck	0x86d36840	window_lf_mover	57	3	False	False
+0x02e19879	tiptruck	0x86d36840	window_lf_mover	57	3	False	False
+0x02e19879	tiptruck	0xfbdba1a6		57	3	False	False
+0x02e19879	tiptruck	0xeaeecb7b		57	3	False	False
+0x02e19879	tiptruck	0x8bb5d91e		57	3	False	False
+0x02e19879	tiptruck	0x0552ea55		57	3	False	False
+0x02e19879	tiptruck	0x031fd5fc	window_rf_mover	57	3	False	False
+0x02e19879	tiptruck	0x031fd5fc	window_rf_mover	57	3	False	False
+0xaa8e730d	torlan	0xfbdba1a6		23	0	False	False
+0xaa8e730d	torlan	0xeaeecb7b		23	0	False	False
+0xaa8e730d	torlan	0x8bb5d91e		23	0	False	False
+0xaa8e730d	torlan	0x0552ea55		23	0	False	False
+0xba5334ac	toros	0x86d36840	window_lf_mover	99	12	False	False
+0xba5334ac	toros	0x6ec686bf	window_lr_mover	99	12	False	False
+0xba5334ac	toros	0xfc0ce3f6	window_rr_mover	99	12	False	False
+0xba5334ac	toros	0xfbdba1a6		99	12	False	False
+0xba5334ac	toros	0x8bb5d91e		99	12	False	False
+0xba5334ac	toros	0x0552ea55		99	12	False	False
+0xba5334ac	toros	0x031fd5fc	window_rf_mover	99	12	False	False
+0xb12314e0	towtruck	0x86d36840	window_lf_mover	57	3	False	False
+0xb12314e0	towtruck	0x86d36840	window_lf_mover	57	3	False	False
+0xb12314e0	towtruck	0x031fd5fc	window_rf_mover	57	3	False	False
+0xb12314e0	towtruck	0x031fd5fc	window_rf_mover	57	3	False	False
+0xb12314e0	towtruck	0x8bb5d91e		57	3	False	False
+0xb12314e0	towtruck	0x0552ea55		57	3	False	False
+0xb12314e0	towtruck	0xfbdba1a6		57	3	False	False
+0xb12314e0	towtruck	0xeaeecb7b		57	3	False	False
+0x843b73de	tractor2	0xfbdba1a6		27	2	False	False
+0x843b73de	tractor2	0xeaeecb7b		27	2	False	False
+0x3c8e7b9d	train	0xfbdba1a6		35	2	False	False
+0x3c8e7b9d	train	0xeaeecb7b		35	2	False	False
+0x3c8e7b9d	train	0x8bb5d91e		35	2	False	False
+0x3c8e7b9d	train	0x0552ea55		35	2	False	False
+0x59b35f0c	transgressor	0xfbdba1a6		69	7	False	False
+0x59b35f0c	transgressor	0xeaeecb7b		69	7	False	False
+0x59b35f0c	transgressor	0x8bb5d91e		69	7	False	False
+0x59b35f0c	transgressor	0x0552ea55		69	7	False	False
+0x59b35f0c	transgressor	0x86d36840	window_lf_mover	69	7	False	False
+0x59b35f0c	transgressor	0x86d36840	window_lf_mover	69	7	False	False
+0x59b35f0c	transgressor	0x031fd5fc	window_rf_mover	69	7	False	False
+0x59b35f0c	transgressor	0x031fd5fc	window_rf_mover	69	7	False	False
+0x11598105	trotter	0xfbdba1a6		29	1	False	False
+0x11598105	trotter	0xeaeecb7b		29	1	False	False
+0x11598105	trotter	0x8bb5d91e		29	1	False	False
+0x11598105	trotter	0x0552ea55		29	1	False	False
+0x56d42971	tulip	0x86d36840	window_lf_mover	103	8	False	False
+0x56d42971	tulip	0x86d36840	window_lf_mover	103	8	False	False
+0x56d42971	tulip	0x6ec686bf	window_lr_mover	103	8	False	False
+0x56d42971	tulip	0x6ec686bf	window_lr_mover	103	8	False	False
+0x56d42971	tulip	0xfbdba1a6		103	8	False	False
+0x56d42971	tulip	0xeaeecb7b		103	8	False	False
+0x56d42971	tulip	0x8bb5d91e		103	8	False	False
+0x56d42971	tulip	0x0552ea55		103	8	False	False
+0x56d42971	tulip	0x031fd5fc	window_rf_mover	103	8	False	False
+0x56d42971	tulip	0x031fd5fc	window_rf_mover	103	8	False	False
+0x56d42971	tulip	0xfc0ce3f6	window_rr_mover	103	8	False	False
+0x56d42971	tulip	0xfc0ce3f6	window_rr_mover	103	8	False	False
+0x1004eda4	tulip2	0xfbdba1a6		51	2	False	False
+0x1004eda4	tulip2	0x8bb5d91e		51	2	False	False
+0x1004eda4	tulip2	0x0552ea55		51	2	False	False
+0x1004eda4	tulip2	0x86d36840	window_lf_mover	51	2	False	False
+0x1004eda4	tulip2	0x86d36840	window_lf_mover	51	2	False	False
+0x1004eda4	tulip2	0x031fd5fc	window_rf_mover	51	2	False	False
+0x1004eda4	tulip2	0x031fd5fc	window_rf_mover	51	2	False	False
+0x2c1fea99	vagrant	0xfbdba1a6		15	0	False	False
+0x2c1fea99	vagrant	0xeaeecb7b		15	0	False	False
+0xa09e15fd	valkyrie	0x8bb5d91e		35	2	False	False
+0xa09e15fd	valkyrie	0x0552ea55		35	2	False	False
+0xa09e15fd	valkyrie	0xfbdba1a6		35	2	False	False
+0xa09e15fd	valkyrie	0xeaeecb7b		35	2	False	False
+0xfd128dfd	vamos	0x86d36840	window_lf_mover	57	3	False	False
+0xfd128dfd	vamos	0x86d36840	window_lf_mover	57	3	False	False
+0xfd128dfd	vamos	0xfbdba1a6		57	3	False	False
+0xfd128dfd	vamos	0xeaeecb7b		57	3	False	False
+0xfd128dfd	vamos	0x8bb5d91e		57	3	False	False
+0xfd128dfd	vamos	0x0552ea55		57	3	False	False
+0xfd128dfd	vamos	0x031fd5fc	window_rf_mover	57	3	False	False
+0xfd128dfd	vamos	0x031fd5fc	window_rf_mover	57	3	False	False
+0xa42fc3a5	vectre	0x86d36840	window_lf_mover	73	5	False	False
+0xa42fc3a5	vectre	0x86d36840	window_lf_mover	73	5	False	False
+0xa42fc3a5	vectre	0xfbdba1a6		73	5	False	False
+0xa42fc3a5	vectre	0xeaeecb7b		73	5	False	False
+0xa42fc3a5	vectre	0x8bb5d91e		73	5	False	False
+0xa42fc3a5	vectre	0x0552ea55		73	5	False	False
+0xa42fc3a5	vectre	0x031fd5fc	window_rf_mover	73	5	False	False
+0xa42fc3a5	vectre	0x031fd5fc	window_rf_mover	73	5	False	False
+0x1635c007	vigero3	0x86d36840	window_lf_mover	79	4	False	False
+0x1635c007	vigero3	0x86d36840	window_lf_mover	79	4	False	False
+0x1635c007	vigero3	0x6ec686bf	window_lr_mover	79	4	False	False
+0x1635c007	vigero3	0xfbdba1a6		79	4	False	False
+0x1635c007	vigero3	0xeaeecb7b		79	4	False	False
+0x1635c007	vigero3	0x8bb5d91e		79	4	False	False
+0x1635c007	vigero3	0x0552ea55		79	4	False	False
+0x1635c007	vigero3	0x031fd5fc	window_rf_mover	79	4	False	False
+0x1635c007	vigero3	0x031fd5fc	window_rf_mover	79	4	False	False
+0x1635c007	vigero3	0xfc0ce3f6	window_rr_mover	79	4	False	False
+0x78529595	vitello	0xfbdba1a6		63	6	False	False
+0x78529595	vitello	0xeaeecb7b		63	6	False	False
+0x78529595	vitello	0x8bb5d91e		63	6	False	False
+0x78529595	vitello	0x0552ea55		63	6	False	False
+0x78529595	vitello	0x86d36840	window_lf_mover	63	6	False	False
+0x78529595	vitello	0x031fd5fc	window_rf_mover	63	6	False	False
+0xae2cc02a	vivanite	0x86d36840	window_lf_mover	119	12	False	False
+0xae2cc02a	vivanite	0x86d36840	window_lf_mover	119	12	False	False
+0xae2cc02a	vivanite	0xfbdba1a6		119	12	False	False
+0xae2cc02a	vivanite	0xeaeecb7b		119	12	False	False
+0xae2cc02a	vivanite	0x8bb5d91e		119	12	False	False
+0xae2cc02a	vivanite	0x0552ea55		119	12	False	False
+0xae2cc02a	vivanite	0x87d29d26		119	12	False	False
+0xae2cc02a	vivanite	0x8f951f70		119	12	False	False
+0xae2cc02a	vivanite	0x031fd5fc	window_rf_mover	119	12	False	False
+0xae2cc02a	vivanite	0x031fd5fc	window_rf_mover	119	12	False	False
+0xae2cc02a	vivanite	0x66ec13b0		119	12	False	False
+0x920016f1	volatus	0xfbdba1a6		47	4	False	False
+0x920016f1	volatus	0xeaeecb7b		47	4	False	False
+0x920016f1	volatus	0x8bb5d91e		47	4	False	False
+0x920016f1	volatus	0x0552ea55		47	4	False	False
+0x56cdee7d	vstr	0xfbdba1a6		83	4	False	False
+0x56cdee7d	vstr	0xeaeecb7b		83	4	False	False
+0x56cdee7d	vstr	0x8bb5d91e		83	4	False	False
+0x56cdee7d	vstr	0x86d36840	window_lf_mover	83	4	False	False
+0x56cdee7d	vstr	0x86d36840	window_lf_mover	83	4	False	False
+0x56cdee7d	vstr	0x6ec686bf	window_lr_mover	83	4	False	False
+0x56cdee7d	vstr	0x6ec686bf	window_lr_mover	83	4	False	False
+0x56cdee7d	vstr	0x031fd5fc	window_rf_mover	83	4	False	False
+0x56cdee7d	vstr	0x031fd5fc	window_rf_mover	83	4	False	False
+0x56cdee7d	vstr	0xfc0ce3f6	window_rr_mover	83	4	False	False
+0x56cdee7d	vstr	0xfc0ce3f6	window_rr_mover	83	4	False	False
+0x62d848c4	walton	0xfbdba1a6		81	3	False	False
+0x62d848c4	walton	0xeaeecb7b		81	3	False	False
+0x62d848c4	walton	0x8bb5d91e		81	3	False	False
+0x62d848c4	walton	0x0552ea55		81	3	False	False
+0x62d848c4	walton	0x86d36840	window_lf_mover	81	3	False	False
+0x62d848c4	walton	0x86d36840	window_lf_mover	81	3	False	False
+0x62d848c4	walton	0x031fd5fc	window_rf_mover	81	3	False	False
+0x62d848c4	walton	0x031fd5fc	window_rf_mover	81	3	False	False
+0x62d848c4	walton	0x90a8e326		81	3	False	False
+0x62d848c4	walton	0x27ff2ddd		81	3	False	False
+0x62d848c4	walton	0xff999a2b		81	3	False	False
+0x737daec2	willard	0x8bb5d91e		77	1	False	False
+0x737daec2	willard	0x0552ea55		77	1	False	False
+0x737daec2	willard	0xfbdba1a6		77	1	False	False
+0x737daec2	willard	0xeaeecb7b		77	1	False	False
+0x737daec2	willard	0x86d36840	window_lf_mover	77	1	False	False
+0x737daec2	willard	0x86d36840	window_lf_mover	77	1	False	False
+0x737daec2	willard	0x6ec686bf	window_lr_mover	77	1	False	False
+0x737daec2	willard	0x6ec686bf	window_lr_mover	77	1	False	False
+0x737daec2	willard	0x031fd5fc	window_rf_mover	77	1	False	False
+0x737daec2	willard	0x031fd5fc	window_rf_mover	77	1	False	False
+0x737daec2	willard	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0x737daec2	willard	0xfc0ce3f6	window_rr_mover	77	1	False	False
+0x8cf5cae1	windsor2	0x86d36840	window_lf_mover	113	9	False	False
+0x8cf5cae1	windsor2	0x86d36840	window_lf_mover	113	9	False	False
+0x8cf5cae1	windsor2	0x6ec686bf	window_lr_mover	113	9	False	False
+0x8cf5cae1	windsor2	0xfbdba1a6		113	9	False	False
+0x8cf5cae1	windsor2	0xeaeecb7b		113	9	False	False
+0x8cf5cae1	windsor2	0x8bb5d91e		113	9	False	False
+0x8cf5cae1	windsor2	0x0552ea55		113	9	False	False
+0x8cf5cae1	windsor2	0x031fd5fc	window_rf_mover	113	9	False	False
+0x8cf5cae1	windsor2	0x031fd5fc	window_rf_mover	113	9	False	False
+0x8cf5cae1	windsor2	0xfc0ce3f6	window_rr_mover	113	9	False	False
+0x8cf5cae1	windsor2	0xd5bb8320		113	9	False	False
+0x8cf5cae1	windsor2	0x9e2a302a		113	9	False	False
+0xdcbe2e3f	woodland	0x86d36840	window_lf_mover	85	1	False	False
+0xdcbe2e3f	woodland	0x86d36840	window_lf_mover	85	1	False	False
+0xdcbe2e3f	woodland	0x6ec686bf	window_lr_mover	85	1	False	False
+0xdcbe2e3f	woodland	0x6ec686bf	window_lr_mover	85	1	False	False
+0xdcbe2e3f	woodland	0x87d29d26		85	1	False	False
+0xdcbe2e3f	woodland	0x8f951f70		85	1	False	False
+0xdcbe2e3f	woodland	0xfbdba1a6		85	1	False	False
+0xdcbe2e3f	woodland	0xeaeecb7b		85	1	False	False
+0xdcbe2e3f	woodland	0x8bb5d91e		85	1	False	False
+0xdcbe2e3f	woodland	0x0552ea55		85	1	False	False
+0xdcbe2e3f	woodland	0x031fd5fc	window_rf_mover	85	1	False	False
+0xdcbe2e3f	woodland	0x031fd5fc	window_rf_mover	85	1	False	False
+0xdcbe2e3f	woodland	0xfc0ce3f6	window_rr_mover	85	1	False	False
+0xdcbe2e3f	woodland	0xfc0ce3f6	window_rr_mover	85	1	False	False
+0x070da056	wymankitcar	0x86d36840	window_lf_mover	63	4	False	False
+0x070da056	wymankitcar	0x86d36840	window_lf_mover	63	4	False	False
+0x070da056	wymankitcar	0x8bb5d91e		63	4	False	False
+0x070da056	wymankitcar	0x0552ea55		63	4	False	False
+0x070da056	wymankitcar	0xfbdba1a6		63	4	False	False
+0x070da056	wymankitcar	0xeaeecb7b		63	4	False	False
+0x070da056	wymankitcar	0x031fd5fc	window_rf_mover	63	4	False	False
+0x070da056	wymankitcar	0x031fd5fc	window_rf_mover	63	4	False	False
+0x47bbcf2e	xls	0x6ec686bf	window_lr_mover	89	3	False	False
+0x47bbcf2e	xls	0x6ec686bf	window_lr_mover	89	3	False	False
+0x47bbcf2e	xls	0x86d36840	window_lf_mover	89	3	False	False
+0x47bbcf2e	xls	0x86d36840	window_lf_mover	89	3	False	False
+0x47bbcf2e	xls	0x87d29d26		89	3	False	False
+0x47bbcf2e	xls	0xfbdba1a6		89	3	False	False
+0x47bbcf2e	xls	0xeaeecb7b		89	3	False	False
+0x47bbcf2e	xls	0x8bb5d91e		89	3	False	False
+0x47bbcf2e	xls	0x0552ea55		89	3	False	False
+0x47bbcf2e	xls	0xfc0ce3f6	window_rr_mover	89	3	False	False
+0x47bbcf2e	xls	0xfc0ce3f6	window_rr_mover	89	3	False	False
+0x47bbcf2e	xls	0x031fd5fc	window_rf_mover	89	3	False	False
+0x47bbcf2e	xls	0x031fd5fc	window_rf_mover	89	3	False	False
+0xc50e1fdc	yakuruna	0x8bb5d91e		35	2	False	False
+0xc50e1fdc	yakuruna	0x0552ea55		35	2	False	False
+0xc50e1fdc	yakuruna	0xfbdba1a6		35	2	False	False
+0xc50e1fdc	yakuruna	0xeaeecb7b		35	2	False	False
+0x6f946279	yosemite	0x86d36840	window_lf_mover	63	4	False	False
+0x6f946279	yosemite	0x86d36840	window_lf_mover	63	4	False	False
+0x6f946279	yosemite	0xfbdba1a6		63	4	False	False
+0x6f946279	yosemite	0xeaeecb7b		63	4	False	False
+0x6f946279	yosemite	0x8bb5d91e		63	4	False	False
+0x6f946279	yosemite	0x0552ea55		63	4	False	False
+0x6f946279	yosemite	0x031fd5fc	window_rf_mover	63	4	False	False
+0x6f946279	yosemite	0x031fd5fc	window_rf_mover	63	4	False	False
+0x8ef5e388	yosemite1500	0x86d36840	window_lf_mover	71	4	False	False
+0x8ef5e388	yosemite1500	0x86d36840	window_lf_mover	71	4	False	False
+0x8ef5e388	yosemite1500	0x8bb5d91e		71	4	False	False
+0x8ef5e388	yosemite1500	0x0552ea55		71	4	False	False
+0x8ef5e388	yosemite1500	0xfbdba1a6		71	4	False	False
+0x8ef5e388	yosemite1500	0xeaeecb7b		71	4	False	False
+0x8ef5e388	yosemite1500	0x031fd5fc	window_rf_mover	71	4	False	False
+0x8ef5e388	yosemite1500	0x031fd5fc	window_rf_mover	71	4	False	False
+0x3d29cd2b	youga2	0x86d36840	window_lf_mover	85	5	False	False
+0x3d29cd2b	youga2	0x86d36840	window_lf_mover	85	5	False	False
+0x3d29cd2b	youga2	0xfbdba1a6		85	5	False	False
+0x3d29cd2b	youga2	0xeaeecb7b		85	5	False	False
+0x3d29cd2b	youga2	0x8bb5d91e		85	5	False	False
+0x3d29cd2b	youga2	0x0552ea55		85	5	False	False
+0x3d29cd2b	youga2	0x031fd5fc	window_rf_mover	85	5	False	False
+0x3d29cd2b	youga2	0x031fd5fc	window_rf_mover	85	5	False	False
+0x3d29cd2b	youga2	0xd549a492		85	5	False	False
+0x3d29cd2b	youga2	0x33ed7287		85	5	False	False
+0x1779bdf3	yougaxl	0x86d36840	window_lf_mover	67	2	False	False
+0x1779bdf3	yougaxl	0x86d36840	window_lf_mover	67	2	False	False
+0x1779bdf3	yougaxl	0x031fd5fc	window_rf_mover	67	2	False	False
+0x1779bdf3	yougaxl	0x031fd5fc	window_rf_mover	67	2	False	False
+0x1779bdf3	yougaxl	0xfbdba1a6		67	2	False	False
+0x1779bdf3	yougaxl	0xeaeecb7b		67	2	False	False
+0x1779bdf3	yougaxl	0x8bb5d91e		67	2	False	False
+0x1779bdf3	yougaxl	0x0552ea55		67	2	False	False
+0x1779bdf3	yougaxl	0x33ed7287		67	2	False	False
+0xb8e2ae18	zion2	0xfbdba1a6		85	7	False	False
+0xb8e2ae18	zion2	0xeaeecb7b		85	7	False	False
+0xb8e2ae18	zion2	0x8bb5d91e		85	7	False	False
+0xb8e2ae18	zion2	0x86d36840	window_lf_mover	85	7	False	False
+0xb8e2ae18	zion2	0x86d36840	window_lf_mover	85	7	False	False
+0xb8e2ae18	zion2	0x031fd5fc	window_rf_mover	85	7	False	False
+0xb8e2ae18	zion2	0x031fd5fc	window_rf_mover	85	7	False	False
+0xb8e2ae18	zion2	0x6ec686bf	window_lr_mover	85	7	False	False
+0xb8e2ae18	zion2	0xfc0ce3f6	window_rr_mover	85	7	False	False
+0xd757d97d	zorrusso	0x86d36840	window_lf_mover	55	4	False	False
+0xd757d97d	zorrusso	0xfbdba1a6		55	4	False	False
+0xd757d97d	zorrusso	0xeaeecb7b		55	4	False	False
+0xd757d97d	zorrusso	0x8bb5d91e		55	4	False	False
+0xd757d97d	zorrusso	0x0552ea55		55	4	False	False
+0xd757d97d	zorrusso	0x031fd5fc	window_rf_mover	55	4	False	False
+0x44667e71		0x86d36840	window_lf_mover	65	5	False	False
+0x44667e71		0x86d36840	window_lf_mover	65	5	False	False
+0x44667e71		0xfbdba1a6		65	5	False	False
+0x44667e71		0xeaeecb7b		65	5	False	False
+0x44667e71		0x031fd5fc	window_rf_mover	65	5	False	False
+0x44667e71		0x031fd5fc	window_rf_mover	65	5	False	False

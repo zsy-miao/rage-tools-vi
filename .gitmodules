@@ -1,0 +1,3 @@
+[submodule "rdna2-spirv"]
+	path = rdna2-spirv
+	url = https://github.com/lynxnathan/rdna2-spirv.git

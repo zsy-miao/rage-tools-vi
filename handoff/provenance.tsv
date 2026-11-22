@@ -1,0 +1,121 @@
+file	rows	columns	status	producer
+archive-inventory-summary.tsv	33	5	generated	exact name in a tool
+audio-ace1-decode.tsv	73	13	generated	exact name in a tool
+audio-awc-framing.tsv	2320	18	generated	exact name in a tool
+audio-census-totals.tsv	9	5	generated	exact name in a tool
+audio-full-census.tsv	7159	7	generated	exact name in a tool
+audio-full.tsv	95162	10	generated	exact name in a tool
+audio-gap-census.tsv	534	7	generated	exact name in a tool
+audio-opus-decode.tsv	2081	16	generated	exact name in a tool
+audio-opus-trim-model.tsv	2081	10	generated	exact name in a tool
+audio-story000-census.tsv	63325	7	generated	exact name in a tool
+audio-variant-decode.tsv	4704	9	generated	exact name in a tool
+audio-xma2-decode.tsv	166	10	generated	exact name in a tool
+bone-hash-names-curated.tsv	60	4	curated	bones confirmed by hand against geometry
+bone-hash-names.tsv	99	4	generated	exact name in a tool
+bulk-extraction-status.tsv	1	9	generated	tool name appears in the table name: tools/bulk_extract.py
+bulk-extraction-verification-summary.tsv	2	7	generated	exact name in a tool
+core-bvh4-descriptors.tsv	269106	15	generated	family: bvh4 descriptor manifests
+core-bvh4-entries.tsv	294614	10	generated	exact name in a tool
+corpus-pass.tsv	22	9	generated	exact name in a tool
+data-entries-chains.tsv	6537	8	generated	family: entry reconciliation
+data-skeleton-family-links.tsv	16	8	legacy	early skeleton-family experiment
+downloads-corpus-inventory.tsv	108	4	generated	family: inventory reports
+entry-reconciliation.tsv	22	7	generated	exact name in a tool
+extraction-coverage-summary.tsv	8	8	generated	exact name in a tool
+extraction-entry-verification.tsv	6	8	generated	exact name in a tool
+extraction-inventory-summary.tsv	127	6	generated	exact name in a tool
+header-census-full.tsv	4373	10	generated	exact name in a tool
+header-census.tsv	71	10	generated	stem in a tool: header-census
+header-words.tsv	4373	34	generated	tool name appears in the table name: tools/header_words.py
+index-coverage.tsv	22	6	generated	exact name in a tool
+name-coverage.tsv	27	7	generated	exact name in a tool
+names.tsv	36952	7	curated	JOAAT names from CodeWalker meta plus harvested corpus
+navmeshes-entries-chains.tsv	25981	8	generated	family: entry reconciliation
+navmeshes-entries.tsv	2447	8	generated	family: entry manifests (tools/corpus_pass.sh)
+pack-extents-leaves.tsv	45	6	generated	tool name appears in the table name: tools/pack_extents.py
+pack-extents-textures.tsv	21	9	generated	tool name appears in the table name: tools/pack_extents.py
+pack-model-fit.tsv	3467	7	generated	exact name in a tool
+packs-0f000080-probe.tsv	62	3	generated	exact name in a tool
+packs-4042-classes.tsv	20	5	generated	exact name in a tool
+packs-4042-probe.tsv	64	3	generated	exact name in a tool
+packs-binary-clusters.tsv	32	8	generated	exact name in a tool
+packs-label-queue.tsv	128	9	curated	work queue, not a derived result
+packs-signature-summary.tsv	8	3	generated	exact name in a tool
+psin-entries.tsv	4969	6	generated	exact name in a tool
+psin-names.tsv	544	5	generated	exact name in a tool
+psin-rows.tsv	63288	7	generated	exact name in a tool
+psin-segments.tsv	5496	5	generated	exact name in a tool
+psin-vocabulary.tsv	80	3	curated	named PSIN values grouped by hand
+remaining-archive-index-sha256.tsv	8	4	legacy	verification snapshot of the last archives
+remaining-archive-index-summary.tsv	8	10	generated	family: report summaries
+remaining-archive-index-verification.tsv	8	7	legacy	verification snapshot of the last archives
+rig-names-corpus.tsv	12	6	generated	exact name in a tool
+script-array-inventory.tsv	7960	10	generated	exact name in a tool
+script-bone-geometry.tsv	3043	20	generated	exact name in a tool
+script-bone-namespace-probe.tsv	16	13	generated	tool name appears in the table name: tools/script_bone_namespace_probe.py
+script-bone-points.tsv	15732	15	generated	exact name in a tool
+script-bone-roots-named.tsv	44	4	legacy	bone-root naming pass
+script-bone-template-families.tsv	16	11	generated	exact name in a tool
+script-bone-templates.tsv	38	5	generated	exact name in a tool
+script-bones-named.tsv	3043	17	generated	exact name in a tool
+script-bones.tsv	3043	14	generated	exact name in a tool
+script-pair-arrays.tsv	7630	9	generated	exact name in a tool
+script-quadtree-summary.tsv	44	8	generated	exact name in a tool
+script-quadtree-verification.tsv	8	3	generated	exact name in a tool
+script-sections.tsv	4901	8	generated	exact name in a tool
+script-skeleton-0x48dcbb01.tsv	34	3	legacy	one skeleton, inspected by hand
+script-vehicle-branch-relations.tsv	23	8	generated	exact name in a tool
+script-vehicle-curve-join.tsv	1935	8	generated	exact name in a tool
+script-vehicle-curve-points.tsv	6298	10	generated	exact name in a tool
+script-vehicle-curve-quantization.tsv	147	7	generated	exact name in a tool
+script-vehicle-curves.tsv	1935	12	generated	exact name in a tool
+script-vehicles.tsv	385	6	generated	exact name in a tool
+shared-minigame000-bvh4-descriptors.tsv	1233	15	generated	family: bvh4 descriptor manifests
+story000-awc-framing.tsv	245	18	generated	exact name in a tool
+story000-awc-variants.tsv	2952	14	generated	exact name in a tool
+story000-bvh4-control.tsv	4	8	generated	exact name in a tool
+struct-harvest.tsv	1590	10	generated	exact name in a tool
+struct-summary.tsv	22	12	generated	exact name in a tool
+textures-entries-chains.tsv	25	8	generated	family: entry reconciliation
+textures-entries.tsv	1349	8	generated	family: entry manifests (tools/corpus_pass.sh)
+unclassified-probe.tsv	21	9	generated	tool name appears in the table name: tools/unclassified_probe.py
+unclassified-summary.tsv	7	5	generated	exact name in a tool
+weight-hash-candidates.tsv	1	7	generated	exact name in a tool
+weight-hash-names.tsv	21	2	generated	exact name in a tool
+corpus-pass/entries-anim.tsv	5826	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-common.tsv	0	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-core_bvh4.tsv	109301	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-core_restofworld.tsv	801	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-core_restofworld001.tsv	0	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-data.tsv	2063	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-levels.tsv	29117	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-navmeshes.tsv	23530	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-packs.tsv	15983	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-shaders.tsv	0	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-shared_minigame000.tsv	210	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-shared_minigame000_bvh4.tsv	128	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-story000_restofworld.tsv	13	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/entries-textures.tsv	1326	8	generated	tools/corpus_pass.sh — per-archive entry manifests
+corpus-pass/pack-model-anim.tsv	235	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-appdata0.tsv	0	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-audio.tsv	1	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-common.tsv	1	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-core_bvh4.tsv	1261	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-core_licenses_data.tsv	1	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-core_restofworld.tsv	10	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-core_restofworld001.tsv	1	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-data.tsv	40	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-levels.tsv	2044	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-movies.tsv	0	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-navmeshes.tsv	28	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-packs.tsv	59	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-script.tsv	2	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-shaders.tsv	1	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-shared_minigame000.tsv	44	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-shared_minigame000_bvh4.tsv	8	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-story000.tsv	419	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-story000_bvh4.tsv	1	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-story000_restofworld.tsv	16	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-story000_script.tsv	1	7	generated	tools/corpus_pass.sh — per-archive model fits
+corpus-pass/pack-model-textures.tsv	20	7	generated	tools/corpus_pass.sh — per-archive model fits

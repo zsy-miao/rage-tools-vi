@@ -1,0 +1,13 @@
+hash	name	kind	root_id	index	shape
+0x8183951c	capitolo28	bone	0x074d551a	24	token+suffix
+0x5f36eb8b	vmg4	bone	0x074d551a	53	token+suffix
+0xaf6f89c0	skel_l_calf	bone	0x48dcbb01	0	token
+0x3ec3bb37	skel_l_foot	bone	0x48dcbb01	14	token
+0xd1bd2d01	skel_r_calf	bone	0x48dcbb01	17	token
+0xafce3373	skel_r_foot	bone	0x48dcbb01	31	token
+0x3e6bb300	catena29	bone	0x89a5d573	28	token+suffix
+0xba986368	veh_deadicated	bone	0x9567cdf4	127	prefix+token
+0x5115a342	mh_diaphragm	bone	0x96d8bd92	98	prefix+token
+0xa1effa0b	catena27	bone	0x96d8bd92	105	token+suffix
+0x94645ef4	catena28	bone	0x96d8bd92	106	token+suffix
+0x6686685c	skel_root	weight			prefix+token

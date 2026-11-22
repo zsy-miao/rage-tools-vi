@@ -1,0 +1,3 @@
+archive	pack	declared	streams	structs	chains	exact_models
+script.rpf	0x1000	2	42	0	1	-
+script.rpf	0xc4000	1012	1015	19	1012	chains

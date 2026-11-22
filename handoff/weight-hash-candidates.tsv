@@ -1,0 +1,2 @@
+weight_hash	name	shape	roots	pairs	evidence	verdict
+0x2875f912	ph_hat	prefix+token	2	210	every pair at index 0 in two roots; no other named weight in those roots; 0.22 expected collisions for the sweep	candidate

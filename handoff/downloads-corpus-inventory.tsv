@@ -1,0 +1,109 @@
+relative_path	stored_bytes	rpf_magic_hex	extraction_manifest
+Bink2Scarlett.dll	255488		
+Catalog000.bin	815104		
+MicrosoftGame.Config	2542		
+Update.alignmentchunk	1		
+XCurl.dll	199152		
+XboxBvhBuilder.dll	884224		
+amd_fidelityfx_loader_xbox.dll	13312		
+amd_fidelityfx_upscaler_xbox.dll	786432		
+anim.rpf	4407626384	39465052	
+appdata0.rpf	8880	39465052	output/general-extraction/appdata0.rpf/ranges.tsv
+appxmanifest.xml	3394		
+audio.rpf	28543454672	39465052	
+common.rpf	6642192	39465052	output/general-extraction/common.rpf/ranges.tsv
+concrt140.dll	298992		
+data/ttdb/graphics/ttdb_graphics.ttpf	34411776		
+data/ttdb/interiors/ttdb_interiors_0_3.ttpf	883202048		
+data/ttdb/interiors/ttdb_interiors_1_3.ttpf	898113536		
+data/ttdb/interiors/ttdb_interiors_2_3.ttpf	881431552		
+data/ttdb/interiors/ttdb_interiors_3_3.ttpf	900875008		
+data/ttdb/lighting/lighting.ttpf	151531776		
+data/ttdb/maps/ttdb_maps_0_7.ttpf	1765679616		
+data/ttdb/maps/ttdb_maps_1_7.ttpf	1746187776		
+data/ttdb/maps/ttdb_maps_2_7.ttpf	1818806528		
+data/ttdb/maps/ttdb_maps_3_7.ttpf	1787349760		
+data/ttdb/maps/ttdb_maps_4_7.ttpf	1791670784		
+data/ttdb/maps/ttdb_maps_5_7.ttpf	1840029440		
+data/ttdb/maps/ttdb_maps_6_7.ttpf	1745923072		
+data/ttdb/maps/ttdb_maps_7_7.ttpf	1755748608		
+data/ttdb/peds/decorations_0_3.ttpf	494316032		
+data/ttdb/peds/decorations_1_3.ttpf	510001152		
+data/ttdb/peds/decorations_2_3.ttpf	491507456		
+data/ttdb/peds/decorations_3_3.ttpf	497391360		
+data/ttdb/peds/peds_loose.ttpf	135676160		
+data/ttdb/peds/ttdb_peds_0_3.ttpf	953116416		
+data/ttdb/peds/ttdb_peds_1_3.ttpf	965556736		
+data/ttdb/peds/ttdb_peds_2_3.ttpf	937699072		
+data/ttdb/peds/ttdb_peds_3_3.ttpf	957291520		
+data/ttdb/props/octa_imposters.ttpf	983620352		
+data/ttdb/props/ttdb_props_0_3.ttpf	1304458240		
+data/ttdb/props/ttdb_props_1_3.ttpf	1256908800		
+data/ttdb/props/ttdb_props_2_3.ttpf	1239990784		
+data/ttdb/props/ttdb_props_3_3.ttpf	1328911616		
+data/ttdb/terrain/ttdb_terrain_0_7.ttpf	2775084288		
+data/ttdb/terrain/ttdb_terrain_1_7.ttpf	2739444480		
+data/ttdb/terrain/ttdb_terrain_2_7.ttpf	2780145920		
+data/ttdb/terrain/ttdb_terrain_3_7.ttpf	2718679808		
+data/ttdb/terrain/ttdb_terrain_4_7.ttpf	2741339648		
+data/ttdb/terrain/ttdb_terrain_5_7.ttpf	2674379008		
+data/ttdb/terrain/ttdb_terrain_6_7.ttpf	2688808960		
+data/ttdb/terrain/ttdb_terrain_7_7.ttpf	2828296704		
+data/ttdb/terrain/ttdb_terrain_image_based_0_1.ttpf	1946070528		
+data/ttdb/terrain/ttdb_terrain_image_based_1_1.ttpf	1890978048		
+data/ttdb/ui/platform.ttpf	222976		
+data/ttdb/ui/ttdb_ui.ttpf	845115648		
+data/ttdb/vehicles/ttdb_vehicles.ttpf	195418624		
+data/ttdb/vehicles/ttdb_vehicles_loose_0_1.ttpf	838474496		
+data/ttdb/vehicles/ttdb_vehicles_loose_1_1.ttpf	890206208		
+data/ttdb/vfx/ttdb_vfx.ttpf	238897664		
+data/ttdb/weapons/ttdb_weapons.ttpf	1421518080		
+data/ttdb/weapons/weapon_liveries.ttpf	739758848		
+data.rpf	481544304	39465052	output/general-extraction/data.rpf/ranges.tsv
+gameos.xvd	348069888		
+layout_3202719e-b4b4-421c-9f8f-70d1c4a7d60b_xs.xml	13698		
+levels.rpf	76155065056	39465052	
+libHttpClient.GDK.dll	975856		
+microsoft_gameconfig.bin	8192		
+movies.rpf	8832481776	39465052	
+msvcp140.dll	565232		
+msvcp140_1.dll	26104		
+msvcp140_2.dll	187888		
+msvcp140_atomic_wait.dll	57312		
+msvcp140_codecvt_ids.dll	22008		
+navmeshes.rpf	6707512496	39465052	
+pack/core_bvh4/core_bvh4.rpf	8297921520	39465052	
+pack/core_licenses/core_licenses_data.rpf	13536	39465052	output/general-extraction/core_licenses_data.rpf/ranges.tsv
+pack/core_restofworld/core_restofworld.rpf	1295760752	39465052	output/downloads-corpus/pack/core_restofworld/core_restofworld.rpf/ranges.tsv
+pack/core_restofworld/data/ttdb/peds/ttdb_peds.ttpf	24529408		
+pack/core_restofworld/data/ttdb/props/ttdb_props.ttpf	35286784		
+pack/core_restofworld/data/ttdb/textures_loose.ttpf	21081856		
+pack/core_restofworld/data/ttdb/ui/ttdb_ui.ttpf	4729600		
+pack/core_restofworld/data/ttdb/vfx/ttdb_vfx.ttpf	3129600		
+pack/core_restofworld001/core_restofworld001.rpf	791984	39465052	output/downloads-corpus/pack/core_restofworld001/core_restofworld001.rpf/ranges.tsv
+pack/core_restofworld001/data/ttdb/ui/ttdb_ui.ttpf	38656		
+pack/shared_minigame000/data/ttdb/maps/ttdb_maps.ttpf	193522176		
+pack/shared_minigame000/data/ttdb/terrain/ttdb_terrain_image_based.ttpf	1427712		
+pack/shared_minigame000/shared_minigame000.rpf	810581008	39465052	output/downloads-corpus/pack/shared_minigame000/shared_minigame000.rpf/ranges.tsv
+pack/shared_minigame000_bvh4/shared_minigame000_bvh4.rpf	61987040	39465052	output/downloads-corpus/pack/shared_minigame000_bvh4/shared_minigame000_bvh4.rpf/ranges.tsv
+pack/story000/data/ttdb/maps/ttdb_maps.ttpf	697378560		
+pack/story000/data/ttdb/terrain/ttdb_terrain_image_based.ttpf	222333440		
+pack/story000/data/ttdb/vfx/ttdb_vfx.ttpf	3357184		
+pack/story000/story000.rpf	20022508672	39465052	
+pack/story000/story000_script.rpf	78023728	39465052	output/downloads-corpus/pack/story000/story000_script.rpf/ranges.tsv
+pack/story000_bvh4/story000_bvh4.rpf	5632	39465052	output/general-extraction/story000_bvh4.rpf/ranges.tsv
+pack/story000_restofworld/story000_restofworld.rpf	198354992	39465052	output/downloads-corpus/pack/story000_restofworld/story000_restofworld.rpf/ranges.tsv
+packs.rpf	4798213264	39465052	
+resources.pri	1152		
+script.rpf	4358960	39465052	output/general-extraction/script.rpf/ranges.tsv
+shaders.rpf	411695600	39465052	output/general-extraction/shaders.rpf/ranges.tsv
+textures.rpf	192585024	39465052	output/general-extraction/textures.rpf/ranges.tsv
+vccorlib140.dll	336888		
+vcomp140.dll	72176		
+vcruntime140.dll	97776		
+vcruntime140_1.dll	37848		
+xbs_logo_150.png	54536		
+xbs_logo_44.png	7102		
+xbs_logo_480.png	404663		
+xbs_logo_store.png	29356		
+xbs_splash.png	2507194		

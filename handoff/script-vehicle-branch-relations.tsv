@@ -1,0 +1,24 @@
+root_name	key_hash	key_name	array_record	points	t_end	y_end	z_end
+216cstreamer	0x0552ea55		12752	4	1	-0.357	1.396
+216cstreamer	0x8bb5d91e		12748	4	1	0.033	-1.396
+216cstreamer	0xeaeecb7b		12744	4	1	-0.357	1.396
+216cstreamer	0xfbdba1a6		12740	4	1	0.033	-1.396
+airbus	0x0552ea55		12793	3	1	0.023	-1.431
+airbus	0x8bb5d91e		12789	3	1	-0.026	1.396
+airbus	0xeaeecb7b		12785	3	1	0.016	1.431
+airbus	0xfbdba1a6		12781	3	1	-0.016	-1.396
+astron	0x031fd5fc	window_rf_mover	13729	3	1	0.104	-0.398
+astron	0x031fd5fc	window_rf_mover	13733	3	1	0.111	0.011
+astron	0x0552ea55		13765	3	1	-0.047	0
+astron	0x66ec13b0		13811	4	1	-0.596	-0.016
+astron	0x6ec686bf	window_lr_mover	13717	3	1	0.044	-0.283
+astron	0x6ec686bf	window_lr_mover	13721	3	1	-0.082	-0.009
+astron	0x86d36840	window_lf_mover	13705	3	1	0.104	-0.398
+astron	0x86d36840	window_lf_mover	13709	3	1	-0.111	-0.011
+astron	0x87d29d26		13769	3	1	0	2.81
+astron	0x8bb5d91e		13761	3	1	-0.007	-1.047
+astron	0x8f951f70		13773	3	1	0.018	0
+astron	0xeaeecb7b		13757	4	1	-0.034	0
+astron	0xfbdba1a6		13753	4	1	0.015	-1.431
+astron	0xfc0ce3f6	window_rr_mover	13741	3	1	0.044	-0.283
+astron	0xfc0ce3f6	window_rr_mover	13745	3	1	0.082	0.009
