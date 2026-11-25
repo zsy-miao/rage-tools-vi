@@ -1,0 +1,9 @@
+metric	value	status
+roots	44	PASS
+items	3007	PASS
+excluded_placeholders	36	PASS
+flat_extents	412	PASS
+duplicates	0	PASS
+missing	0	PASS
+extra	0	PASS
+structural_failures	0	PASS

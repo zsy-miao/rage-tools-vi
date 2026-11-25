@@ -1,0 +1,539 @@
+diff --git a/src/System/Threading/XTaskQueue.cpp b/src/System/Threading/XTaskQueue.cpp
+index d4da943..abc25bf 100644
+--- a/src/System/Threading/XTaskQueue.cpp
++++ b/src/System/Threading/XTaskQueue.cpp
+@@ -254,6 +254,26 @@ HRESULT TaskQueuePortImpl::QueueItem(
+ ) {
+     RETURN_IF_FAILED(VerifyNotTerminated(portContext));
+ 
++    /* A manual port queues work that only XTaskQueueDispatch would run, and titles that create
++     * a manual queue and never dispatch it wait forever on the completion (measured: the image
++     * waits INFINITE on a semaphore, 67 times, with no worker threads at all). Running the
++     * callback here makes the queue behave as "Immediate" for such titles, which is what the
++     * console runtime effectively does for work nothing else pumps. Opt out with
++     * XGAMERUNTIME_MANUAL_QUEUE=queue. */
++    if ( m_dispatchMode == XTaskQueueDispatchMode::Manual && callback )
++    {
++        const char *mode = getenv( "XGAMERUNTIME_MANUAL_QUEUE" );
++        if ( !mode || strcmp( mode, "queue" ) != 0 )
++        {
++            TRACE( "manual port: running the callback inline (%p).\n", callback );
++            if ( waitMs == 0 )
++            {
++                callback( callbackContext, false );
++                return S_OK;
++            }
++        }
++    }
++
+     QueueEntry entry;
+     referenced_ptr<ITaskQueuePortContext> portContextHolder(portContext);
+ 
+diff --git a/src/main.cpp b/src/main.cpp
+index c51613d..99a2506 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -20,6 +20,11 @@
+ 
+ #include <initguid.h>
+ #include "private.h"
++#include <xgame.h>
++#include <xnetworking.h>
++#include <xuser.h>
++#include <xpersistentlocalstorage.h>
++#include <xpackage.h>
+ 
+ #ifdef __cplusplus
+ extern "C" {
+@@ -70,6 +75,405 @@ HRESULT WINAPI InitializeApiImpl( ULONG gdkVer, ULONG gsVer )
+     return InitializeApiImplEx2( gdkVer, gsVer, 0, NULL );
+ }
+ 
++/* A class this runtime does not implement yet gets an object with numbered slots instead of
++ * REGDB_E_CLASSNOTREG: the image then names the methods it expects, in order, by calling
++ * them. That is how the interface order is recovered (see the note in QueryApiImpl). */
++#define PROBE_SLOT(n) \
++    static long long WINAPI probe_##n( void *self, unsigned long long a, unsigned long long b, \
++                                       unsigned long long c ) \
++    { \
++        TRACE( "probe slot %d caller=%p args=%llx,%llx,%llx\n", n, \
++               __builtin_return_address( 0 ), a, b, c ); \
++        return 0; \
++    }
++PROBE_SLOT(0) PROBE_SLOT(1) PROBE_SLOT(2) PROBE_SLOT(3) PROBE_SLOT(4) PROBE_SLOT(5)
++PROBE_SLOT(6) PROBE_SLOT(7) PROBE_SLOT(8) PROBE_SLOT(9) PROBE_SLOT(10) PROBE_SLOT(11)
++PROBE_SLOT(12) PROBE_SLOT(13) PROBE_SLOT(14) PROBE_SLOT(15) PROBE_SLOT(16) PROBE_SLOT(17)
++PROBE_SLOT(18) PROBE_SLOT(19) PROBE_SLOT(20) PROBE_SLOT(21) PROBE_SLOT(22) PROBE_SLOT(23)
++
++static void *probe_vtable[512];
++
++static void *probe_object( void )
++{
++    unsigned i;
++    if ( !probe_vtable[0] )
++    {
++        for ( i = 0; i < sizeof(probe_vtable) / sizeof(probe_vtable[0]); i++ )
++            probe_vtable[i] = ( void * )probe_0;
++#define PROBE_SET( n ) probe_vtable[n] = ( void * )probe_##n
++        PROBE_SET( 0 ); PROBE_SET( 1 ); PROBE_SET( 2 ); PROBE_SET( 3 ); PROBE_SET( 4 );
++        PROBE_SET( 5 ); PROBE_SET( 6 ); PROBE_SET( 7 ); PROBE_SET( 8 ); PROBE_SET( 9 );
++        PROBE_SET( 10 ); PROBE_SET( 11 ); PROBE_SET( 12 ); PROBE_SET( 13 ); PROBE_SET( 14 );
++        PROBE_SET( 15 ); PROBE_SET( 16 ); PROBE_SET( 17 ); PROBE_SET( 18 ); PROBE_SET( 19 );
++        PROBE_SET( 20 ); PROBE_SET( 21 ); PROBE_SET( 22 ); PROBE_SET( 23 );
++#undef PROBE_SET
++    }
++    return probe_vtable;
++}
++
++/* XSystem: the console's own identity. The interface order comes from include/xsystem.idl
++ * (IXSystemImpl5), so the object answers with real strings instead of E_NOINTERFACE. */
++static void write_string( char *buffer, INT32 size, SIZE_T *used, const char *text )
++{
++    SIZE_T length = strlen( text );
++    SIZE_T copy = length;
++
++    if ( buffer && size > 0 )
++    {
++        if ( copy > ( SIZE_T )size - 1 ) copy = ( SIZE_T )size - 1;
++        memcpy( buffer, text, copy );
++        buffer[copy] = 0;
++    }
++    if ( used ) *used = length;
++}
++
++class XSystemObject : public IXSystemImpl5
++{
++public:
++    HRESULT STDMETHODCALLTYPE QueryInterface( REFIID iid, void **out ) override
++    {
++        if ( !out ) return E_POINTER;
++        if ( IsEqualIID( iid, IID_IUnknown ) || IsEqualIID( iid, IID_IXSystemImpl5 )
++             || IsEqualIID( iid, IID_IXSystemImpl4 ) || IsEqualIID( iid, IID_IXSystemImpl3 )
++             || IsEqualIID( iid, IID_IXSystemImpl2 ) || IsEqualIID( iid, IID_IXSystemImpl ) )
++        {
++            *out = static_cast<IXSystemImpl5 *>( this );
++            return S_OK;
++        }
++        *out = NULL;
++        return E_NOINTERFACE;
++    }
++    ULONG STDMETHODCALLTYPE AddRef() override { return 1; }
++    ULONG STDMETHODCALLTYPE Release() override { return 1; }
++
++    HRESULT STDMETHODCALLTYPE XSystemGetConsoleId( INT32 size, char *id, SIZE_T *used ) override
++    {
++        write_string( id, size, used, "7B6A2C5E1F3D4A8B9C0D1E2F3A4B5C6D" );
++        return S_OK;
++    }
++    HRESULT STDMETHODCALLTYPE XSystemGetXboxLiveSandboxId( INT32 size, char *id, SIZE_T *used ) override
++    {
++        write_string( id, size, used, "RETRIAL" );
++        return S_OK;
++    }
++    HRESULT STDMETHODCALLTYPE XSystemGetAppSpecificDeviceId( INT32 size, char *id, SIZE_T *used ) override
++    {
++        write_string( id, size, used, "4b1f8a52-0d76-4c61-9b0d-2f0a5c1e77aa" );
++        return S_OK;
++    }
++    HRESULT STDMETHODCALLTYPE XSystemHandleTrack( XSystemHandleCallback *callback, void *context ) override
++    {
++        (void)callback; (void)context;
++        return S_OK;
++    }
++    BOOLEAN STDMETHODCALLTYPE XSystemIsHandleValid( XSystemHandle handle ) override
++    {
++        (void)handle;
++        return TRUE;
++    }
++    void STDMETHODCALLTYPE XSystemAllowFullDownloadBandwidth( BOOLEAN enable ) override
++    {
++        (void)enable;
++    }
++};
++
++static XSystemObject system_object;
++
++/* XGame: the title id. From the package's own MicrosoftGame.Config (TitleId 7952987A), which
++ * is what the console's service would report. */
++/* XPersistentLocalStorage: the title's own storage. The package declares 2048 MB of it, and
++ * the engine wants a path it can mount; without this class the query fails and the engine has
++ * no storage device of its own. */
++class XPersistentLocalStorageObject : public IXPersistentLocalStorageImpl3
++{
++public:
++    HRESULT STDMETHODCALLTYPE QueryInterface( REFIID iid, void **out ) override
++    {
++        if ( !out ) return E_POINTER;
++        if ( IsEqualIID( iid, IID_IUnknown ) || IsEqualIID( iid, IID_IXPersistentLocalStorageImpl3 )
++             || IsEqualIID( iid, IID_IXPersistentLocalStorageImpl2 )
++             || IsEqualIID( iid, IID_IXPersistentLocalStorageImpl ) )
++        {
++            *out = static_cast<IXPersistentLocalStorageImpl3 *>( this );
++            return S_OK;
++        }
++        *out = NULL;
++        return E_NOINTERFACE;
++    }
++    ULONG STDMETHODCALLTYPE AddRef() override { return 1; }
++    ULONG STDMETHODCALLTYPE Release() override { return 1; }
++
++    HRESULT STDMETHODCALLTYPE XPersistentLocalStorageGetPathSize( SIZE_T *pathSize ) override
++    {
++        if ( pathSize ) *pathSize = 4;
++        return S_OK;
++    }
++    HRESULT STDMETHODCALLTYPE XPersistentLocalStorageGetPath( SIZE_T size, char *path,
++                                                              SIZE_T *pathUsed ) override
++    {
++        write_string( path, ( INT32 )size, pathUsed, "G:\\" );
++        return S_OK;
++    }
++    HRESULT STDMETHODCALLTYPE XPersistentLocalStorageGetSpaceInfo(
++        XPersistentLocalStorageSpaceInfo *info ) override
++    {
++        if ( info )
++        {
++            info->totalBytes = 2048ull * 1024 * 1024;
++            info->usedBytes = 0;
++            info->totalFreeBytes = info->totalBytes;
++            info->availableFreeBytes = info->totalBytes;
++        }
++        return S_OK;
++    }
++    HRESULT STDMETHODCALLTYPE XPersistentLocalStoragePromptUserForSpaceAsync(
++        UINT64 bytes, XAsyncBlock *async ) override
++    {
++        (void)bytes; (void)async;
++        return E_NOTIMPL;
++    }
++    HRESULT STDMETHODCALLTYPE XPersistentLocalStoragePromptUserForSpaceResult(
++        XAsyncBlock *async ) override
++    {
++        (void)async;
++        return E_NOTIMPL;
++    }
++    HRESULT STDMETHODCALLTYPE XPersistentLocalStorageMountForPackage(
++        const char *packageIdentifier, XPackageMountHandle *mountHandle ) override
++    {
++        (void)packageIdentifier;
++        if ( mountHandle ) *mountHandle = ( XPackageMountHandle )( uintptr_t )1;
++        return S_OK;
++    }
++};
++
++static XPersistentLocalStorageObject storage_object;
++
++/* XNetworking: the image asks for this class early. Every method answers without a game
++ * service behind it: a preferred port, an empty connectivity hint, and settings it can read
++ * back, so the engine's networking bring-up does not fail on a missing interface. */
++class XUserObject : public IXUserImpl6
++{
++public:
++    HRESULT STDMETHODCALLTYPE QueryInterface( REFIID iid, void **out ) override
++    {
++        if ( !out ) return E_POINTER;
++        if ( IsEqualIID( iid, IID_IUnknown ) || IsEqualIID( iid, IID_IXUserImpl6 )
++             || IsEqualIID( iid, IID_IXUserImpl5 ) || IsEqualIID( iid, IID_IXUserImpl4 )
++             || IsEqualIID( iid, IID_IXUserImpl3 ) || IsEqualIID( iid, IID_IXUserImpl2 )
++             || IsEqualIID( iid, IID_IXUserImpl ) )
++        {
++            *out = static_cast<IXUserImpl6 *>( this );
++            return S_OK;
++        }
++        *out = NULL;
++        return E_NOINTERFACE;
++    }
++    ULONG STDMETHODCALLTYPE AddRef() override { return 1; }
++    ULONG STDMETHODCALLTYPE Release() override { return 1; }
++    HRESULT STDMETHODCALLTYPE XUserAddByIdWithUiAsync( UINT64 id, XAsyncBlock *async ) override { (void)id; (void)async; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserAddByIdWithUiResult( XAsyncBlock *async, XUser **user ) override { (void)async; if (user) *user = NULL; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserGetMsaTokenSilentlyAsync( XUserHandle handle, XUserGetMsaTokenSilentlyOptions options, const char *scope, XAsyncBlock *async ) override { (void)handle; (void)options; (void)scope; (void)async; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserGetMsaTokenSilentlyResult( XAsyncBlock *async, SIZE_T size, char *buffer, SIZE_T *used ) override { (void)async; (void)size; (void)buffer; if (used) *used = 0; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserGetMsaTokenSilentlyResultSize( XAsyncBlock *async, SIZE_T *size ) override { (void)async; if (size) *size = 0; return E_NOTIMPL; }
++    BOOLEAN STDMETHODCALLTYPE XUserIsStoreUser( XUserHandle handle ) override { (void)handle; return FALSE; }
++    HRESULT STDMETHODCALLTYPE XUserPlatformRemoteConnectSetEventHandlers( XTaskQueueHandle queue, XUserPlatformRemoteConnectEventHandlers *handlers ) override { (void)queue; (void)handlers; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserPlatformRemoteConnectCancelPrompt( XUserPlatformOperation operation ) override { (void)operation; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserPlatformSpopPromptSetEventHandlers( XTaskQueueHandle queue, void (*callback)(void *, UINT32, XUserPlatformOperation, const char *, const char *), void *context ) override { (void)queue; (void)callback; (void)context; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserPlatformSpopPromptComplete( XUserPlatformOperation operation, XUserPlatformOperationResult result ) override { (void)operation; (void)result; return E_NOTIMPL; }
++    BOOLEAN STDMETHODCALLTYPE XUserIsSignOutPresent() override { return FALSE; }
++    HRESULT STDMETHODCALLTYPE XUserSignOutAsync( XUserHandle handle, XAsyncBlock *async ) override { (void)handle; (void)async; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserSignOutResult( XAsyncBlock *async ) override { (void)async; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XUserDuplicateHandle( XUserHandle handle, XUserHandle *duplicatedHandle ) override { (void)this; return 0; }
++    void STDMETHODCALLTYPE XUserCloseHandle( XUserHandle user ) override { }
++    INT32 STDMETHODCALLTYPE XUserCompare( XUserHandle user1, XUserHandle user2 ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetMaxUsers( UINT32 *maxUsers ) override { if ( maxUsers ) *maxUsers = 4; return S_OK; }
++    HRESULT STDMETHODCALLTYPE XUserAddAsync( XUserAddOptions options, XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserAddResult( XAsyncBlock *async, XUserHandle *newUser ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetLocalId( XUserHandle user, XUserLocalId *userLocalId ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserFindUserByLocalId( XUserLocalId userLocalId, XUserHandle *handle ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetId( XUserHandle user, UINT64 *userId ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserFindUserById( UINT64 userId, XUserHandle *handle ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetIsGuest( XUserHandle user, BOOLEAN *isGuest ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetState( XUserHandle user, XUserState *state ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE __PADDING__(  ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetGamerPictureAsync( XUserHandle user, XUserGamerPictureSize pictureSize, XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetGamerPictureResultSize( XAsyncBlock *async, SIZE_T *bufferSize ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetGamerPictureResult( XAsyncBlock *async, SIZE_T bufferSize, void *buffer, SIZE_T *bufferUsed ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetAgeGroup( XUserHandle user, XUserAgeGroup *ageGroup ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserCheckPrivilege( XUserHandle user, XUserPrivilegeOptions options, XUserPrivilege privilege, BOOLEAN *hasPrivilege, XUserPrivilegeDenyReason *reason ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserResolvePrivilegeWithUiAsync( XUserHandle user, XUserPrivilegeOptions options, XUserPrivilege privilege, XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserResolvePrivilegeWithUiResult( XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetTokenAndSignatureAsync( XUserHandle user, XUserGetTokenAndSignatureOptions options, const char *method, const char *url, SIZE_T headerCount, const XUserGetTokenAndSignatureHttpHeader headers[], SIZE_T bodySize, const void *bodyBuffer, XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetTokenAndSignatureResultSize( XAsyncBlock *async, SIZE_T *bufferSize ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetTokenAndSignatureResult( XAsyncBlock *async, SIZE_T bufferSize, void *buffer, XUserGetTokenAndSignatureData **ptrToBuffer, SIZE_T *bufferUsed ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetTokenAndSignatureUtf16Async( XUserHandle user, XUserGetTokenAndSignatureOptions options, const WCHAR *method, const WCHAR *url, SIZE_T headerCount, const XUserGetTokenAndSignatureUtf16HttpHeader headers[], SIZE_T bodySize, const void *bodyBuffer, XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetTokenAndSignatureUtf16ResultSize( XAsyncBlock *async, SIZE_T *bufferSize ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetTokenAndSignatureUtf16Result( XAsyncBlock *async, SIZE_T bufferSize, void *buffer, XUserGetTokenAndSignatureUtf16Data **ptrToBuffer, SIZE_T *bufferUsed ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserResolveIssueWithUiAsync( XUserHandle user, const char *url, XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserResolveIssueWithUiResult( XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserResolveIssueWithUiUtf16Async( XUserHandle user, const WCHAR *url, XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserResolveIssueWithUiUtf16Result( XAsyncBlock *async ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserRegisterForChangeEvent( XTaskQueueHandle queue, void *context, XUserChangeEventCallback *callback, XTaskQueueRegistrationToken *token ) override { (void)this; return 0; }
++    BOOLEAN STDMETHODCALLTYPE XUserUnregisterForChangeEvent( XTaskQueueRegistrationToken token, BOOLEAN wait ) override { (void)this; return 0; }
++    HRESULT STDMETHODCALLTYPE XUserGetSignOutDeferral( XUserSignOutDeferralHandle *deferral ) override { (void)this; return 0; }
++    void STDMETHODCALLTYPE XUserCloseSignOutDeferralHandle( XUserSignOutDeferralHandle deferral ) override { }
++};
++
++static XUserObject user_object;
++
++struct ConnectivityDelivery { void *context; XNetworkingConnectivityHintChangedCallback *callback; };
++static ConnectivityDelivery connectivity_delivery;
++
++class XNetworkingObject : public IXNetworkingImpl2
++{
++public:
++    HRESULT STDMETHODCALLTYPE QueryInterface( REFIID iid, void **out ) override
++    {
++        if ( !out ) return E_POINTER;
++        if ( IsEqualIID( iid, IID_IUnknown ) || IsEqualIID( iid, IID_IXNetworkingImpl2 )
++             || IsEqualIID( iid, IID_IXNetworkingImpl ) )
++        {
++            *out = static_cast<IXNetworkingImpl2 *>( this );
++            return S_OK;
++        }
++        *out = NULL;
++        return E_NOINTERFACE;
++    }
++    ULONG STDMETHODCALLTYPE AddRef() override { return 1; }
++    ULONG STDMETHODCALLTYPE Release() override { return 1; }
++
++    HRESULT STDMETHODCALLTYPE XNetworkingQueryPreferredLocalUdpMultiplayerPort( UINT16 *port ) override
++    {
++        if ( port ) *port = 3074;
++        return S_OK;
++    }
++    HRESULT STDMETHODCALLTYPE XNetworkingQueryPreferredLocalUdpMultiplayerPortAsync( XAsyncBlock *async ) override
++    {
++        /* Answering S_OK without ever completing the block leaves a caller waiting for a
++         * completion that never comes; E_NOTIMPL sends it down its synchronous path. */
++        if ( async && async->callback )
++            async->callback( async );
++        return E_NOTIMPL;
++    }
++    HRESULT STDMETHODCALLTYPE XNetworkingQueryPreferredLocalUdpMultiplayerPortAsyncResult(
++        XAsyncBlock *async, UINT16 *port ) override
++    { (void)async; if ( port ) *port = 3074; return S_OK; }
++    HRESULT STDMETHODCALLTYPE XNetworkingRegisterPreferredLocalUdpMultiplayerPortChanged(
++        XTaskQueueHandle queue, void *context, XNetworkingPreferredLocalUdpMultiplayerPortChangedCallback *callback,
++        XTaskQueueRegistrationToken *token ) override
++    { (void)queue; (void)context; (void)callback; if ( token ) token->token = 1; return S_OK; }
++    HRESULT STDMETHODCALLTYPE XNetworkingQuerySecurityInformationForUrlAsync( const char *url,
++                                                                             XAsyncBlock *async ) override
++    { (void)url; (void)async; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XNetworkingQuerySecurityInformationForUrlAsyncResultSize(
++        XAsyncBlock *async, SIZE_T *size ) override
++    { (void)async; if ( size ) *size = 0; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XNetworkingQuerySecurityInformationForUrlAsyncResult(
++        XAsyncBlock *async, SIZE_T size, SIZE_T *used, UINT8 *buffer,
++        XNetworkingSecurityInformation **information ) override
++    { (void)async; (void)size; (void)buffer; if ( used ) *used = 0;
++      if ( information ) *information = NULL; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XNetworkingQuerySecurityInformationForUrlUtf16Async( const WCHAR *url,
++                                                                                   XAsyncBlock *async ) override
++    { (void)url; (void)async; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XNetworkingQuerySecurityInformationForUrlUtf16AsyncResultSize(
++        XAsyncBlock *async, SIZE_T *size ) override
++    { (void)async; if ( size ) *size = 0; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XNetworkingQuerySecurityInformationForUrlUtf16AsyncResult(
++        XAsyncBlock *async, SIZE_T size, SIZE_T *used, UINT8 *buffer,
++        XNetworkingSecurityInformation **information ) override
++    { (void)async; (void)size; (void)buffer; if ( used ) *used = 0;
++      if ( information ) *information = NULL; return E_NOTIMPL; }
++    HRESULT STDMETHODCALLTYPE XNetworkingVerifyServerCertificate(
++        void *request, const XNetworkingSecurityInformation *information ) override
++    { (void)request; (void)information; return S_OK; }
++    HRESULT STDMETHODCALLTYPE XNetworkingGetConnectivityHint(
++        XNetworkingConnectivityHint *hint ) override
++    {
++        if ( hint ) memset( hint, 0, sizeof( *hint ) );
++        return S_OK;
++    }
++    /* The image registers for connectivity-hint changes and then waits on an event until the
++     * callback arrives: measured, that wait is the whole startup barrier. The callback is
++     * therefore delivered once, shortly after registration, with the hint a wired console
++     * would report. */
++
++    static DWORD WINAPI deliver( LPVOID parameter )
++    {
++        ConnectivityDelivery copy = *(ConnectivityDelivery *)parameter;
++        XNetworkingConnectivityHint hint;
++        Sleep( 500 );
++        memset( &hint, 0, sizeof( hint ) );
++        hint.connectivityLevel = XNetworkingConnectivityLevelHint::InternetAccess;
++        hint.connectivityCost = XNetworkingConnectivityCostHint::Unrestricted;
++        hint.ianaInterfaceType = 6;   /* ethernet */
++        hint.networkInitialized = TRUE;
++        hint.connectivityLevel = XNetworkingConnectivityLevelHint::InternetAccess;
++        if ( copy.callback )
++        {
++            TRACE( "delivering the connectivity hint to %p.\n", copy.callback );
++            copy.callback( copy.context, &hint );
++        }
++        return 0;
++    }
++
++    HRESULT STDMETHODCALLTYPE XNetworkingRegisterConnectivityHintChanged(
++        XTaskQueueHandle queue, void *context, XNetworkingConnectivityHintChangedCallback *callback,
++        XTaskQueueRegistrationToken *token ) override
++    {
++        (void)queue;
++        connectivity_delivery.context = context;
++        connectivity_delivery.callback = callback;
++        if ( token ) token->token = 1;
++        CloseHandle( CreateThread( NULL, 0, deliver, &connectivity_delivery, 0, NULL ) );
++        return S_OK;
++    }
++    HRESULT STDMETHODCALLTYPE XNetworkingQueryConfigurationSetting(
++        XNetworkingConfigurationSetting setting, UINT64 *value ) override
++    { (void)setting; if ( value ) *value = 0; return S_OK; }
++    HRESULT STDMETHODCALLTYPE XNetworkingSetConfigurationSetting(
++        XNetworkingConfigurationSetting setting, UINT64 value ) override
++    { (void)setting; (void)value; return S_OK; }
++    BOOLEAN STDMETHODCALLTYPE XNetworkingUnregisterPreferredLocalUdpMultiplayerPortChanged(
++        XTaskQueueRegistrationToken token, BOOLEAN wait ) override
++    { (void)token; (void)wait; return TRUE; }
++    BOOLEAN STDMETHODCALLTYPE XNetworkingUnregisterConnectivityHintChanged(
++        XTaskQueueRegistrationToken token, BOOLEAN wait ) override
++    { (void)token; (void)wait; return TRUE; }
++    HRESULT STDMETHODCALLTYPE XNetworkingQueryStatistics( XNetworkingStatisticsType type,
++                                                          XNetworkingStatisticsBuffer *buffer ) override
++    { (void)type; if ( buffer ) memset( buffer, 0, sizeof( *buffer ) ); return S_OK; }
++};
++
++static XNetworkingObject networking_object;
++
++class XGameObject : public IXGameImpl
++{
++public:
++    HRESULT STDMETHODCALLTYPE QueryInterface( REFIID iid, void **out ) override
++    {
++        if ( !out ) return E_POINTER;
++        if ( IsEqualIID( iid, IID_IUnknown ) || IsEqualIID( iid, IID_IXGameImpl ) )
++        {
++            *out = static_cast<IXGameImpl *>( this );
++            return S_OK;
++        }
++        *out = NULL;
++        return E_NOINTERFACE;
++    }
++    ULONG STDMETHODCALLTYPE AddRef() override { return 1; }
++    ULONG STDMETHODCALLTYPE Release() override { return 1; }
++
++    HRESULT STDMETHODCALLTYPE XGameGetXboxTitleId( UINT32 *titleId ) override
++    {
++        if ( titleId ) *titleId = 0x7952987A;
++        return S_OK;
++    }
++};
++
++static XGameObject game_object;
++
+ HRESULT WINAPI QueryApiImpl( REFCLSID clsid, REFIID iid, void **out )
+ {
+     // ------------ FOR FUTURE REFERENCES ------------
+@@ -103,10 +507,70 @@ HRESULT WINAPI QueryApiImpl( REFCLSID clsid, REFIID iid, void **out )
+         return x_threading_impl->QueryInterface( iid, out );
+     }
+ 
++    if ( IsEqualGUID( clsid, CLSID_XUserImpl ) )
++    {
++        return user_object.QueryInterface( iid, out );
++    }
++
++    if ( IsEqualGUID( clsid, CLSID_XNetworkingImpl ) )
++    {
++        return networking_object.QueryInterface( iid, out );
++    }
++
++    if ( IsEqualGUID( clsid, CLSID_XSystemImpl ) )
++    {
++        return system_object.QueryInterface( iid, out );
++    }
++
++    if ( IsEqualGUID( clsid, CLSID_XGameImpl ) )
++    {
++        return game_object.QueryInterface( iid, out );
++    }
++
++    if ( IsEqualGUID( clsid, CLSID_XPersistentLocalStorageImpl ) )
++    {
++        return storage_object.QueryInterface( iid, out );
++    }
++
++    /* Probing is opt-in: a class handed back as numbered slots tells the image's callers
++     * nothing about the real interface, and at least one of them dereferences a field it
++     * expected instead of calling a method (measured: image+0x5A2090 reading -1). */
++    if ( getenv( "XGAMERUNTIME_PROBE" ) )
++    {
++        FIXME( "%s not implemented; returning the numbered probe object.\n",
++               debugstr_guid( &clsid ) );
++        if ( out )
++            *out = probe_object();
++        return S_OK;
++    }
++
+     FIXME( "%s not implemented, returning E_NOINTERFACE.\n", debugstr_guid( &clsid ) );
+     return REGDB_E_CLASSNOTREG;
+ }
+ 
++/* Two names the image resolves by name, which the runtime did not export at all: the title
++ * looks up XGameRuntimeInitialize and XSystemGetConsoleId directly (their strings are in the
++ * binary), so a GetProcAddress for them has to succeed. */
++extern "C" HRESULT WINAPI XGameRuntimeInitialize( void )
++{
++    return InitializeApiImplEx2( 10002, 7874, 0, NULL );
++}
++
++extern "C" HRESULT WINAPI XSystemGetConsoleId( UINT32 size, char *consoleId, SIZE_T *used )
++{
++    return system_object.XSystemGetConsoleId( ( INT32 )size, consoleId, used );
++}
++
++extern "C" HRESULT WINAPI XSystemGetXboxLiveSandboxId( UINT32 size, char *sandboxId, SIZE_T *used )
++{
++    return system_object.XSystemGetXboxLiveSandboxId( ( INT32 )size, sandboxId, used );
++}
++
++extern "C" HRESULT WINAPI XSystemGetAppSpecificDeviceId( UINT32 size, char *deviceId, SIZE_T *used )
++{
++    return system_object.XSystemGetAppSpecificDeviceId( ( INT32 )size, deviceId, used );
++}
++
+ HRESULT WINAPI UninitializeApiImpl()
+ {
+     TRACE("stub!\n");
+diff --git a/src/xgameruntime.def b/src/xgameruntime.def
+index 043f790..0b52524 100644
+--- a/src/xgameruntime.def
++++ b/src/xgameruntime.def
+@@ -6,4 +6,8 @@ EXPORTS
+     InitializeApiImplEx
+     InitializeApiImplEx2
+     UninitializeApiImpl
+-    XErrorReport
+\ No newline at end of file
++    XErrorReport
++    XGameRuntimeInitialize
++    XSystemGetConsoleId
++    XSystemGetXboxLiveSandboxId
++    XSystemGetAppSpecificDeviceId

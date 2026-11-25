@@ -1,0 +1,5 @@
+start	end	stored_bytes	decoded_bytes	sha256	xml_root	xml_id	payload
+0x340	0x4f1	433	800	e20f1cc642fbd0cc83ef6dd1f5251d947c9793956e663ffa3cf48c1a332be57f	CDataFileMgr__ContentChangeSetDef	story000_environment_bvh	output/story000-bvh4-control/payload/00/0000000000000340.bin
+0x1000	0x1291	657	14426	e3ce4547f1336d7b6435f5f62a5724cbf12d1f2c10a27cc7e7dc8b71177b3675	CDataFileMgr__ContentChangeSetDef	story000_terrain_bvh	output/story000-bvh4-control/payload/00/0000000000001000.bin
+0x12a0	0x13bd	285	622	4788072c0f7d5001b7fb796906b744808e9d1cfd3e9263630fe957eab50ab4c6	CDataFileMgr__ContentDef		output/story000-bvh4-control/payload/00/00000000000012a0.bin
+0x13c0	0x1564	420	829	24d6b96ab07341b2ed93bac2e99239d1afd9897d043323176bd98f3282fb4245	SSetupData		output/story000-bvh4-control/payload/00/00000000000013c0.bin

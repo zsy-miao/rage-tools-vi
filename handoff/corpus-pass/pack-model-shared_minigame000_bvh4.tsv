@@ -1,0 +1,9 @@
+archive	pack	declared	streams	structs	chains	exact_models
+shared_minigame000_bvh4.rpf	0x1000	167	324	167	324	pairs
+shared_minigame000_bvh4.rpf	0x1130000	468	925	468	925	pairs
+shared_minigame000_bvh4.rpf	0x2c7b000	158	300	158	300	pairs
+shared_minigame000_bvh4.rpf	0x3128000	108	200	108	200	pairs
+shared_minigame000_bvh4.rpf	0x32f2000	90	167	90	167	pairs
+shared_minigame000_bvh4.rpf	0x3476000	102	189	102	189	pairs
+shared_minigame000_bvh4.rpf	0x3969000	128	256	128	256	pairs,data_streams,pos-pairs
+shared_minigame000_bvh4.rpf	0x3a9a000	97	199	102	199	data_streams

@@ -1,0 +1,17 @@
+archive	pack	declared	streams	structs	chains	exact_models
+story000_restofworld.rpf	0x1000	3	3	3	3	single,pairs,chains
+story000_restofworld.rpf	0x8000	21	42	3	41	pos-pairs
+story000_restofworld.rpf	0xf7000	4	8	5	4	chains,structs-1,pos-pairs
+story000_restofworld.rpf	0x109000	84	97	70	94	-
+story000_restofworld.rpf	0x57f000	65	77	52	73	-
+story000_restofworld.rpf	0x9a4000	152	173	119	165	-
+story000_restofworld.rpf	0x110a000	8	16	6	12	pos-pairs
+story000_restofworld.rpf	0x1146000	7	14	5	9	pos-pairs
+story000_restofworld.rpf	0x1176000	32	56	29	34	-
+story000_restofworld.rpf	0x121a000	41	77	11	75	-
+story000_restofworld.rpf	0x3a5d000	2	4	0	4	pos-pairs
+story000_restofworld.rpf	0x3af5000	2	6	1	2	chains
+story000_restofworld.rpf	0x439b000	4	4	1	4	single,chains
+story000_restofworld.rpf	0x439d000	1	2	2	2	structs-1,pos-pairs
+story000_restofworld.rpf	0x43aa000	1	4	0	3	-
+story000_restofworld.rpf	0x43b4000	26	41	13	41	-

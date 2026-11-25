@@ -1,0 +1,2 @@
+archive	streams	stored_bytes	decoded_bytes	workers	wall_s	rss_kb	output	status
+packs.rpf	144366	4583737753	9735393283	16	576.72	5332044	output/extracted/packs	PASS
