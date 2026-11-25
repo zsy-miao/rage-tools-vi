@@ -1,0 +1,8 @@
+archive	ranges	bytes	largest_span	largest_start
+appdata0.rpf	2	5216	4720	0x1000
+common.rpf	117	210272	9440	0xa5000
+core_licenses_data.rpf	2	4976	3664	0x2000
+data.rpf	673	19130746	1131248	0x1a8a01e0
+script.rpf	5	431696	331728	0x2010
+shaders.rpf	5253	273959915	1483917	0xcb27d00
+textures.rpf	59	136021963	27997847	0x53d3240

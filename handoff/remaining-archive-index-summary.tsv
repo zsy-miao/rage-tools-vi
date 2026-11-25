@@ -1,0 +1,9 @@
+archive	stored_bytes	spans	zlib	decoded_bytes	unclassified	gt16MiB	wall_s	rss_kb	index
+anim.rpf	4407626384	258152	130510	11593461732	256	1	29.08	333272	output/downloads-corpus/index/anim.tsv
+packs.rpf	4798213264	285069	144366	9735393283	1261	4	35.83	925508	output/downloads-corpus/index/packs.tsv
+navmeshes.rpf	6707512496	178941	90305	20551068944	30	0	59.44	781556	output/downloads-corpus/index/navmeshes.tsv
+pack/core_bvh4/core_bvh4.rpf	8297921520	1113186	565596	129929580001	1262	38	316.80	363260	output/downloads-corpus/index/core_bvh4.tsv
+movies.rpf	8832481776	3	0	0	1	0	18.04	8108508	output/downloads-corpus/index/movies.tsv
+pack/story000/story000.rpf	20022508672	279306	141163	13766986233	838	13	87.05	8155768	output/downloads-corpus/index/story000.tsv
+audio.rpf	28543454672	1629	838	54143545	3	0	73.14	15913864	output/downloads-corpus/index/audio.tsv
+levels.rpf	76155065056	2199213	1117857	174941755029	22421	40	819.07	1207776	output/downloads-corpus/index/levels.tsv

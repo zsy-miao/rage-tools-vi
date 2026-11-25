@@ -1,0 +1,10 @@
+archive	containers	streams	data_bytes	data_gb
+full	7159	1606237	22469942310	22.47
+story000	63325	213579	6058672128	6.06
+total	70484	1819816	28528614438	28.53
+
+codec	streams
+opus	1795416
+xma2	1818
+ace1	227
+0x00	19
